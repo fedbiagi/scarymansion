@@ -1,1 +1,0 @@
-Gli assets del gioco
