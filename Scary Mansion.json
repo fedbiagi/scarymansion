@@ -917,6 +917,22 @@
         "name": "Linea5",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -948,7 +964,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 1.5,
+        "zoomFactor": 1.4510694588773045,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -962,6 +978,11 @@
           "name": "GiocatoreY",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "path",
+          "type": "array",
+          "children": []
         }
       ],
       "instances": [
@@ -1656,6 +1677,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 9,
+          "layer": "",
+          "name": "Muro",
+          "persistentUuid": "9e5eed8b-8450-4039-8ce8-f0facdcaf899",
+          "width": 1,
+          "x": 84,
+          "y": 72,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -1665,10 +1702,42 @@
           "name": "SegnaPosto",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "pathJson",
+              "type": "string",
+              "value": "\"\""
+            },
+            {
+              "name": "pathStep",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "pathLength",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "targetX",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "targetY",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "isMoving",
+              "type": "boolean",
+              "value": false
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
+              "isFolded": true,
               "name": "Pathfinding",
               "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 40,
@@ -3997,6 +4066,78 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 168,
+          "name": "Grid",
+          "texture": "NewTiledSprite",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 320,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Target",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 2,
+                            "y": 0
+                          },
+                          {
+                            "x": 2,
+                            "y": 2
+                          },
+                          {
+                            "x": 0,
+                            "y": 2
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -4010,6 +4151,9 @@
               },
               {
                 "objectName": "Muro"
+              },
+              {
+                "objectName": "Grid"
               },
               {
                 "objectName": "Muro_casa"
@@ -4045,6 +4189,9 @@
               },
               {
                 "objectName": "SegnaPosto"
+              },
+              {
+                "objectName": "Target"
               }
             ]
           },
@@ -4241,6 +4388,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4275,6 +4423,275 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "function getGridPos(x, y, cellSize) {",
+                "  return [Math.floor(x / cellSize), Math.floor(y / cellSize)];",
+                "}",
+                "",
+                "function findPath(grid, start, goal, w, h) {",
+                "  const rows = grid.length;",
+                "  if (rows === 0) return [];",
+                "  const cols = grid[0].length;",
+                "",
+                "  const dirs = [",
+                "    { x: 0, y: -1, name: \"up\" },",
+                "    { x: 1, y: 0, name: \"right\" },",
+                "    { x: 0, y: 1, name: \"down\" },",
+                "    { x: -1, y: 0, name: \"left\" }",
+                "  ];",
+                "",
+                "  function isInside(x, y) {",
+                "    return x >= 0 && y >= 0 && x < cols && y < rows;",
+                "  }",
+                "",
+                "  function isValid(x, y) {",
+                "    if (!isInside(x, y) || !isInside(x + w - 1, y + h - 1)) return false;",
+                "    for (let dy = 0; dy < h; dy++) {",
+                "      for (let dx = 0; dx < w; dx++) {",
+                "        if (grid[y + dy][x + dx] === 1) return false;",
+                "      }",
+                "    }",
+                "    return true;",
+                "  }",
+                "",
+                "  function idealStart(goalX, goalY) {",
+                "    let x = goalX - Math.floor(w / 2);",
+                "    let y = goalY - Math.floor(h / 2);",
+                "    x = Math.max(0, Math.min(cols - w, x));",
+                "    y = Math.max(0, Math.min(rows - h, y));",
+                "    return { x, y };",
+                "  }",
+                "",
+                "  const target = idealStart(goal.x, goal.y);",
+                "",
+                "  function heuristic(x, y) {",
+                "    return Math.abs(x - target.x) + Math.abs(y - target.y);",
+                "  }",
+                "",
+                "  function keyOf(x, y, dir) {",
+                "    return `${x},${y},${dir === null ? 'N' : dir}`;",
+                "  }",
+                "",
+                "  if (!isValid(start.x, start.y)) {",
+                "    console.warn(\"Start non valido: rettangolo esce dalla griglia o sovrappone muro\");",
+                "    return [];",
+                "  }",
+                "",
+                "  const open = [];",
+                "  const gScore = new Map();",
+                "  const cameFrom = new Map();",
+                "  const visited = new Set();",
+                "",
+                "  const startKey = keyOf(start.x, start.y, null);",
+                "  gScore.set(startKey, 0);",
+                "  open.push({ x: start.x, y: start.y, dir: null, f: heuristic(start.x, start.y) });",
+                "  cameFrom.set(startKey, null);",
+                "",
+                "  while (open.length > 0) {",
+                "    open.sort((a, b) => a.f - b.f);",
+                "    const current = open.shift();",
+                "    const curKey = keyOf(current.x, current.y, current.dir);",
+                "    if (visited.has(curKey)) continue;",
+                "    visited.add(curKey);",
+                "",
+                "    if (current.x === target.x && current.y === target.y) {",
+                "      return reconstructPath(cameFrom, curKey);",
+                "    }",
+                "",
+                "    for (const d of dirs) {",
+                "      const nx = current.x + d.x;",
+                "      const ny = current.y + d.y;",
+                "      const ndir = d.name;",
+                "      if (!isValid(nx, ny)) continue;",
+                "",
+                "      const neighborKey = keyOf(nx, ny, ndir);",
+                "      const changeDir = (current.dir && current.dir !== ndir) ? 1 : 0;",
+                "      const gCurrent = gScore.get(curKey) !== undefined ? gScore.get(curKey) : Infinity;",
+                "      const tentativeG = gCurrent + 1 + changeDir * 5;",
+                "",
+                "      const gNeighbor = gScore.get(neighborKey) !== undefined ? gScore.get(neighborKey) : Infinity;",
+                "",
+                "      if (tentativeG < gNeighbor) {",
+                "        cameFrom.set(neighborKey, curKey);",
+                "        gScore.set(neighborKey, tentativeG);",
+                "        const f = tentativeG + heuristic(nx, ny);",
+                "        open.push({ x: nx, y: ny, dir: ndir, f });",
+                "      }",
+                "    }",
+                "  }",
+                "",
+                "  return [];",
+                "}",
+                "",
+                "function reconstructPath(cameFrom, endKey) {",
+                "  const path = [];",
+                "  let k = endKey;",
+                "  while (k !== null) {",
+                "    const parts = k.split(',');",
+                "    path.push({ x: parseInt(parts[0], 10), y: parseInt(parts[1], 10) });",
+                "    k = cameFrom.get(k) !== undefined ? cameFrom.get(k) : null;",
+                "",
+                "  }",
+                "  return path.reverse();",
+                "}",
+                "",
+                "const cellSize = 1; // your cell size",
+                "",
+                "// video",
+                "",
+                "const layer = runtimeScene.getLayer(\"Layer base\"); // il layer seguito dalla telecamera",
+                "const camX = layer.getCameraX();",
+                "const camY = layer.getCameraY();",
+                "const camWidth = layer.getWidth();",
+                "const camHeight = layer.getHeight();",
+                "",
+                "//alert(camX);",
+                "",
+                "",
+                "",
+                "const mx = runtimeScene.getGame().getInputManager().getMouseX();",
+                "const my = runtimeScene.getGame().getInputManager().getMouseY();",
+                "const clickedCell = getGridPos(mx, my, cellSize);",
+                "",
+                "const goal = { x: clickedCell[0], y: clickedCell[1] };",
+                "",
+                "// create or move Target to clicked cell (avoid it being a physical collider)",
+                "const target = runtimeScene.createObject(\"Target\", \"Layer base\");",
+                "target.setZOrder(100000);",
+                "target.setPosition(90 + (clickedCell[0] * cellSize), clickedCell[1] * cellSize);",
+                "",
+                "//alert(mx + \" - \" + (camX + (clickedCell[0] * cellSize)));",
+                "",
+                "// TEMP grid object for bounds (you can skip creating a visible Grid object if not needed)",
+                "/*const map = runtimeScene.createObject(\"Grid\");",
+                "map.setPosition(0, 72);",
+                "map.setHeight(96);",
+                "map.setWidth(320);",
+                "map.setZOrder(1);",
+                "",
+                "const mapX = map.getX();",
+                "const mapY = map.getY();",
+                "const mapWidth = map.getWidth();",
+                "const mapHeight = map.getHeight();*/",
+                "",
+                "const mapX = 0;",
+                "const mapY = 72;",
+                "const mapWidth = 320;",
+                "const mapHeight = 96;",
+                "",
+                "const cols = mapWidth / cellSize;  ",
+                "const rows = mapHeight / cellSize;",
+                "",
+                "// Crea una griglia vuota (0 = cella libera)",
+                "const grid = [];",
+                "for (let y = 0; y < rows; y++) {",
+                "  const row = [];",
+                "  for (let x = 0; x < cols; x++) row.push(0);",
+                "  grid.push(row);",
+                "}",
+                "",
+                "// mark walls (0-indexed grid)",
+                "const walls = runtimeScene.getObjects(\"Muro\");",
+                "if (!walls) {",
+                "  map.deleteFromScene();",
+                "  runtimeScene.getObjects(\"SegnaPosto\")[0].getVariables().get(\"pathJson\").setString(\"[]\");",
+                "  runtimeScene.getObjects(\"SegnaPosto\")[0].getVariables().get(\"pathLength\").setNumber(0);",
+                "  return;",
+                "}",
+                "",
+                "for (const wall of walls) {",
+                "  const wx = wall.getX();",
+                "  const wy = wall.getY();",
+                "  const wWidth = wall.getWidth();",
+                "  const wHeight = wall.getHeight();",
+                "",
+                "  // skip fully outside",
+                "  if (wx + wWidth < mapX || wy + wHeight < mapY || wx > mapX + mapWidth || wy > mapY + mapHeight) continue;",
+                "",
+                "  // compute inclusive bounds, clamped",
+                "  const startCol = Math.max(0, Math.floor((wx - mapX) / cellSize));",
+                "  const endCol = Math.min(cols - 1, Math.floor((wx + wWidth - mapX) / cellSize));",
+                "  const startRow = Math.max(0, Math.floor((wy - mapY) / cellSize));",
+                "  const endRow = Math.min(rows - 1, Math.floor((wy + wHeight - mapY) / cellSize));",
+                "",
+                "  for (let y = startRow; y <= endRow; y++) {",
+                "    for (let x = startCol; x <= endCol; x++) {",
+                "      grid[y][x] = 1;",
+                "    }",
+                "  }",
+                "}",
+                "",
+                "const player = runtimeScene.getObjects(\"SegnaPosto\")[0];",
+                "if (!player) {",
+                "  map.deleteFromScene();",
+                "  return;",
+                "}",
+                "",
+                "const playerWidth = player.getWidth();",
+                "const playerHeight = player.getHeight();",
+                "const playerCellWidth = Math.ceil(playerWidth / cellSize);",
+                "const playerCellHeight = Math.ceil(playerHeight / cellSize);",
+                "",
+                "const playerStart = getGridPos(player.getX(), player.getY(), cellSize);",
+                "",
+                "const start = { x: playerStart[0], y: playerStart[1] };",
+                "",
+                "const path = findPath(grid, start, goal, playerCellWidth, playerCellHeight);",
+                "",
+                "//alert(path);",
+                "",
+                "if (!path || path.length === 0) {",
+                "  player.getVariables().get(\"pathJson\").setString(\"[]\");",
+                "  player.getVariables().get(\"pathStep\").setNumber(0);",
+                "  player.getVariables().get(\"pathLength\").setNumber(0);",
+                "  // optional alert:",
+                "  // alert(\"No path found\");",
+                "  return;",
+                "}",
+                "",
+                "const pathInPixels = path.map(pos => ({",
+                "  x: pos.x * cellSize,",
+                "  y: pos.y * cellSize",
+                "}));",
+                "",
+                "",
+                "//alert(JSON.stringify(pathInPixels))",
+                "// save path into player variables",
+                "player.getVariables().get(\"pathJson\").setString(JSON.stringify(pathInPixels));",
+                "player.getVariables().get(\"pathStep\").setNumber(0);",
+                "player.getVariables().get(\"pathLength\").setNumber(pathInPixels.length);"
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4539,6 +4956,8 @@
           ]
         },
         {
+          "disabled": true,
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4687,6 +5106,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4715,6 +5135,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -4741,6 +5162,145 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "SegnaPosto",
+                "pathJson",
+                "!=",
+                "\"\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "JSONToVariableStructure2"
+              },
+              "parameters": [
+                "SegnaPosto.pathJson",
+                "path"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "SegnaPosto",
+                "pathStep",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "SegnaPosto",
+                "pathJson",
+                "=",
+                "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "SegnaPosto",
+                "isMoving",
+                "True",
+                "\"\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "SegnaPosto",
+                "pathStep",
+                "<",
+                "SegnaPosto.pathLength"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "SegnaPosto",
+                "isMoving",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "SegnaPosto",
+                "targetX",
+                "=",
+                "path[SegnaPosto.pathStep].x"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "SegnaPosto",
+                "targetY",
+                "=",
+                "path[SegnaPosto.pathStep].y"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "SegnaPosto",
+                "=",
+                "SegnaPosto.targetX",
+                "=",
+                "SegnaPosto.targetY"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "SegnaPosto",
+                "pathStep",
+                "=",
+                "SegnaPosto.pathStep + 1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -5033,7 +5593,7 @@
           "isLocked": false,
           "name": "Azioni",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
