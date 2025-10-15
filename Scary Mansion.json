@@ -949,6 +949,14 @@
         "name": "NewSprite8",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -980,7 +988,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 1.4510694588773045,
+        "zoomFactor": 4,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -1697,22 +1705,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 9,
-          "layer": "",
-          "name": "Muro",
-          "persistentUuid": "9e5eed8b-8450-4039-8ce8-f0facdcaf899",
-          "width": 1,
-          "x": 84,
-          "y": 72,
-          "zOrder": 108,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -1739,6 +1731,22 @@
           "x": -1360,
           "y": -16,
           "zOrder": 110,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 8,
+          "layer": "",
+          "name": "Test_muro",
+          "persistentUuid": "9dba083a-9647-47dc-bdfc-e83563d19b74",
+          "width": 1,
+          "x": 85,
+          "y": 71,
+          "zOrder": 111,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4309,6 +4317,67 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Test_muro",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite9",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 8,
+                            "y": 8
+                          },
+                          {
+                            "x": 0,
+                            "y": 8
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -4328,6 +4397,9 @@
               },
               {
                 "objectName": "Muro"
+              },
+              {
+                "objectName": "Test_muro"
               },
               {
                 "objectName": "Grid"
@@ -4764,9 +4836,7 @@
                 "const mincamY = camY - 120;",
                 "const maxcamY = camY + 120;",
                 "",
-                "alert(mincamX);",
-                "",
-                "",
+                "//alert(mincamX);",
                 "",
                 "const mx = runtimeScene.getGame().getInputManager().getMouseX();",
                 "const my = runtimeScene.getGame().getInputManager().getMouseY();",
@@ -4779,21 +4849,10 @@
                 "target.setZOrder(100000);",
                 "target.setPosition(mincamX + (clickedCell[0] * cellSize), clickedCell[1] * cellSize);",
                 "",
-                "//alert(mincamX + \" - \" + (clickedCell[0] * cellSize));",
+                "alert(mincamX + \" - \" + (clickedCell[0] * cellSize));",
                 "",
-                "// TEMP grid object for bounds (you can skip creating a visible Grid object if not needed)",
-                "/*const map = runtimeScene.createObject(\"Grid\");",
-                "map.setPosition(0, 72);",
-                "map.setHeight(96);",
-                "map.setWidth(320);",
-                "map.setZOrder(1);",
                 "",
-                "const mapX = map.getX();",
-                "const mapY = map.getY();",
-                "const mapWidth = map.getWidth();",
-                "const mapHeight = map.getHeight();*/",
-                "",
-                "const mapX = 0;",
+                "const mapX = mincamX;",
                 "const mapY = 72;",
                 "const mapWidth = 320;",
                 "const mapHeight = 96;",
@@ -4810,7 +4869,7 @@
                 "}",
                 "",
                 "// mark walls (0-indexed grid)",
-                "const walls = runtimeScene.getObjects(\"Muro\");",
+                "const walls = runtimeScene.getObjects(\"Test_muro\");",
                 "if (!walls) {",
                 "  map.deleteFromScene();",
                 "  runtimeScene.getObjects(\"SegnaPosto\")[0].getVariables().get(\"pathJson\").setString(\"[]\");",
@@ -4823,6 +4882,8 @@
                 "  const wy = wall.getY();",
                 "  const wWidth = wall.getWidth();",
                 "  const wHeight = wall.getHeight();",
+                "",
+                "  alert(mapY + ' - ' + wy);",
                 "",
                 "  // skip fully outside",
                 "  if (wx + wWidth < mapX || wy + wHeight < mapY || wx > mapX + mapWidth || wy > mapY + mapHeight) continue;",
