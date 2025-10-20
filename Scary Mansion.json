@@ -12,16 +12,16 @@
     "antialisingEnabledOnMobile": false,
     "folderProject": false,
     "orientation": "landscape",
-    "packageName": "com.example.gamename",
+    "packageName": "it.fedbiagi",
     "pixelsRounding": false,
     "projectUuid": "12ac5e82-f02a-4da8-a274-f73508aa8593",
-    "scaleMode": "linear",
+    "scaleMode": "nearest",
     "sizeOnStartupMode": "",
     "templateSlug": "",
     "version": "1.0.0",
     "name": "Scary Mansion",
     "description": "",
-    "author": "",
+    "author": "Federico Biagini",
     "windowWidth": 320,
     "windowHeight": 240,
     "latestCompilationDirectory": "",
@@ -971,8 +971,8 @@
     {
       "b": 0,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Untitled_32scene",
-      "name": "Untitled scene",
+      "mangledName": "Schema1",
+      "name": "Schema1",
       "r": 0,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -6056,7 +6056,24 @@
       ]
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "associatedLayout": "Schema1",
+      "name": "PathFinding",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "runtimeScene.setBackgroundColor(100,100,240);",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
+        }
+      ]
+    }
+  ],
   "eventsFunctionsExtensions": [],
   "externalLayouts": []
 }
