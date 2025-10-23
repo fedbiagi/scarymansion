@@ -957,6 +957,91 @@
         "name": "NewSprite9",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "paura_fonts_sha.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "paura_fonts_sha.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "paura_fonts_sha.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "paura_fonts_sha.fnt",
+        "userAdded": false
+      },
+      {
+        "file": "paura_fonts_sha2.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "paura_fonts_sha2.fnt",
+        "userAdded": false
+      },
+      {
+        "file": "paura_fonts_sha2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "paura_fonts_sha2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/paura_fonts_sha.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "paura_fonts_sha.png2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "paura_fonts_sel.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "paura_fonts_sel.fnt",
+        "userAdded": false
+      },
+      {
+        "file": "paura_fonts_sel.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"paura_fonts_sel.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "paura_fonts_sel.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/IdleRight3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/IdleRight3.png\"}",
+        "name": "IdleRight3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/IdleLeft3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/IdleLeft3.png\"}",
+        "name": "IdleLeft3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite11",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -988,7 +1073,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 2.0606244074639055,
+        "zoomFactor": 4,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -1052,8 +1137,8 @@
           "layer": "Collisioni",
           "name": "Muro",
           "persistentUuid": "2bb9219b-8f60-4cdf-b694-f84204186928",
-          "width": 246,
-          "x": -799,
+          "width": 260,
+          "x": -813,
           "y": 168,
           "zOrder": 7,
           "numberProperties": [],
@@ -1234,11 +1319,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 20,
+          "height": 12,
           "layer": "Collisioni",
           "name": "Muro",
           "persistentUuid": "8e649b19-05bd-4b78-8217-95a99ec09c44",
-          "width": 880,
+          "width": 881,
           "x": -561,
           "y": 156,
           "zOrder": 20,
@@ -1270,7 +1355,7 @@
           "layer": "Collisioni",
           "name": "Muro",
           "persistentUuid": "b4f7a62b-6609-4a45-ab00-dedc4541bb37",
-          "width": 319,
+          "width": 320,
           "x": 0,
           "y": 79,
           "zOrder": 22,
@@ -1367,7 +1452,7 @@
           "layer": "Collisioni",
           "name": "Muro",
           "persistentUuid": "dee3b4fb-1997-411f-8ea1-e45307848c8a",
-          "width": 545,
+          "width": 531,
           "x": -1344,
           "y": 156,
           "zOrder": 8,
@@ -1404,7 +1489,7 @@
           "width": 39,
           "x": 17,
           "y": 179,
-          "zOrder": 3,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1474,7 +1559,7 @@
           "width": 0,
           "x": 0,
           "y": 168,
-          "zOrder": 1,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1487,9 +1572,9 @@
           "layer": "Collisioni",
           "name": "Muro_casa",
           "persistentUuid": "525953e3-d824-462e-b37d-984a41d30dca",
-          "width": 240,
+          "width": 248,
           "x": -624,
-          "y": 112,
+          "y": 117,
           "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
@@ -1499,11 +1584,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 56,
-          "layer": "",
+          "height": 64,
+          "layer": "Collisioni",
           "name": "Muro_casa",
           "persistentUuid": "2463e35d-194f-48ef-9826-d9c7cd4a9c83",
-          "width": 8,
+          "width": 16,
           "x": -392,
           "y": 56,
           "zOrder": 102,
@@ -1519,7 +1604,7 @@
           "layer": "Collisioni",
           "name": "Muro_casa",
           "persistentUuid": "653c779d-52f0-4b8f-a7a8-fc9b32878361",
-          "width": 271,
+          "width": 279,
           "x": -655,
           "y": 44,
           "zOrder": 101,
@@ -1532,7 +1617,7 @@
           "customSize": true,
           "depth": 0,
           "height": 12,
-          "layer": "",
+          "layer": "Collisioni",
           "name": "Muro_casa",
           "persistentUuid": "fc6d1f08-b811-4048-bfb9-4ae62fef6d08",
           "width": 224,
@@ -1546,13 +1631,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 8,
-          "layer": "",
+          "depth": 1,
+          "height": 20,
+          "layer": "Collisioni",
           "name": "Muro_casa",
           "persistentUuid": "8b5bfaa3-1b70-42eb-9a75-0cdec4f4497b",
-          "width": 78,
-          "x": -727,
+          "width": 112,
+          "x": -744,
           "y": 36,
           "zOrder": 104,
           "numberProperties": [],
@@ -1578,13 +1663,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
+          "depth": 1,
           "height": 12,
-          "layer": "",
+          "layer": "Collisioni",
           "name": "Muro_casa",
           "persistentUuid": "badc3a09-ae03-4f1f-b07b-3019545613a0",
-          "width": 104,
-          "x": -1088,
+          "width": 112,
+          "x": -1096,
           "y": 44,
           "zOrder": 105,
           "numberProperties": [],
@@ -1594,9 +1679,9 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 8,
-          "layer": "",
+          "depth": 1,
+          "height": 20,
+          "layer": "Collisioni",
           "name": "Muro_casa",
           "persistentUuid": "fb7b8384-4737-4dd8-b73a-0bf190c4972f",
           "width": 56,
@@ -1610,12 +1695,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1.5,
+          "depth": 2,
           "height": 97,
-          "layer": "",
+          "layer": "Collisioni",
           "name": "Muro",
           "persistentUuid": "be43ebdc-778b-40da-af49-014a1867b08e",
-          "width": 16,
+          "width": 40,
           "x": -1360,
           "y": 79,
           "zOrder": 107,
@@ -1631,7 +1716,7 @@
           "layer": "Collisioni",
           "name": "Muro",
           "persistentUuid": "405a88d8-cae5-49c6-8636-209428c15708",
-          "width": 341,
+          "width": 343,
           "x": -1092,
           "y": 83,
           "zOrder": 23,
@@ -1648,7 +1733,7 @@
           "name": "Muro",
           "persistentUuid": "2b0792b4-9d0f-474e-bb1d-5d86d2c0c01d",
           "width": 33,
-          "x": -784,
+          "x": -782,
           "y": 89,
           "zOrder": 8,
           "numberProperties": [],
@@ -1679,9 +1764,9 @@
           "layer": "Collisioni",
           "name": "Muro_casa",
           "persistentUuid": "2ea10c79-b951-4715-b282-9b2a3c6bd55b",
-          "width": 337,
+          "width": 340,
           "x": -1088,
-          "y": 112,
+          "y": 117,
           "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
@@ -1691,12 +1776,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 56,
-          "layer": "",
+          "height": 64,
+          "layer": "Collisioni",
           "name": "Muro_casa",
           "persistentUuid": "7d11dc18-5b75-499b-8998-f821bef0e1e7",
-          "width": 8,
-          "x": -1088,
+          "width": 16,
+          "x": -1096,
           "y": 56,
           "zOrder": 102,
           "numberProperties": [],
@@ -1709,13 +1794,305 @@
           "depth": 1,
           "height": 128,
           "keepRatio": true,
-          "layer": "",
+          "layer": "Collisioni",
           "name": "Grid",
+          "opacity": 0,
           "persistentUuid": "138cb0e2-5644-414e-bbc3-ab0bcf934307",
           "width": 1680,
           "x": -1360,
           "y": 40,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Azioni",
+          "name": "Aprire",
+          "persistentUuid": "c4db79ad-1980-462b-b8df-64ad516af20c",
+          "width": 0,
+          "x": 69,
+          "y": 179,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Azioni",
+          "name": "Tirare",
+          "persistentUuid": "0e6c5a14-0059-4c78-8869-eb036e93b597",
+          "width": 0,
+          "x": 69,
+          "y": 199,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Azioni",
+          "name": "Premere",
+          "persistentUuid": "fdb55448-841c-4cfd-962a-f7d8f23249ae",
+          "width": 0,
+          "x": 69,
+          "y": 217,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Azioni",
+          "name": "Dare_sel",
+          "persistentUuid": "1154bc0c-5668-4c38-8df4-bcf63963e6e3",
+          "width": 0,
+          "x": 17,
+          "y": 179,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Azioni",
+          "name": "Usare_sel",
+          "persistentUuid": "c8f90c6d-133d-49ef-8a6a-fa561c3afeaf",
+          "width": 0,
+          "x": 17,
+          "y": 199,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Azioni",
+          "name": "Andare_sel",
+          "persistentUuid": "3f8c97cb-ede9-4414-8254-33fda7d49fed",
+          "width": 0,
+          "x": 17,
+          "y": 217,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Azioni",
+          "name": "Aprire_sel",
+          "persistentUuid": "05f76069-51ca-4899-9755-1b0ba24057a7",
+          "width": 0,
+          "x": 69,
+          "y": 179,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Azioni",
+          "name": "Tirare_sel",
+          "persistentUuid": "c7d2d291-114d-4e33-ae06-7e5936fd275c",
+          "width": 0,
+          "x": 69,
+          "y": 199,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Azioni",
+          "name": "Premere_sel",
+          "persistentUuid": "2c05a910-8de1-4b25-a1a6-c567a12e9a8e",
+          "width": 0,
+          "x": 69,
+          "y": 217,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 11,
+          "keepRatio": true,
+          "layer": "Azioni",
+          "name": "Dare_hover",
+          "persistentUuid": "5c9dd65e-e370-4702-a51c-1cb93cf31c87",
+          "width": 28,
+          "x": 17,
+          "y": 179,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Azioni",
+          "name": "Usare_hover",
+          "persistentUuid": "3c8c98e2-fa67-48d2-aaf3-68bff512e80b",
+          "width": 0,
+          "x": 17,
+          "y": 199,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Azioni",
+          "name": "Andare_hover",
+          "persistentUuid": "dcbafa77-4ea0-47fc-93a3-4340af9ef87e",
+          "width": 0,
+          "x": 17,
+          "y": 217,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Azioni",
+          "name": "Aprire_hover",
+          "persistentUuid": "2de513e5-20cb-42db-aa86-422c4a3d244a",
+          "width": 0,
+          "x": 69,
+          "y": 179,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Azioni",
+          "name": "Tirare_hover",
+          "persistentUuid": "7357dc8b-66de-4ef4-9386-bccc017a3e18",
+          "width": 0,
+          "x": 69,
+          "y": 199,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Azioni",
+          "name": "Premere_hover",
+          "persistentUuid": "e801896c-c6ac-4311-8daf-db9250666e93",
+          "width": 0,
+          "x": 69,
+          "y": 217,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 8,
+          "keepRatio": true,
+          "layer": "Collisioni",
+          "name": "NascondiCasa",
+          "persistentUuid": "e4bb7480-3c73-4f2b-a326-c8d9f4869355",
+          "width": 152,
+          "x": -760,
+          "y": 160,
+          "zOrder": 108,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1.0333333333333332,
+          "height": 16.53333333333333,
+          "keepRatio": true,
+          "layer": "Collisioni",
+          "name": "MostraCasa",
+          "persistentUuid": "c2937ce8-17ff-451a-bae8-7b6f37b303e0",
+          "width": 124,
+          "x": -748,
+          "y": 104,
+          "zOrder": 109,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Secchio",
+          "persistentUuid": "9ba1f58d-94c7-459b-b771-5f3c3cd9a906",
+          "width": 0,
+          "x": -1240,
+          "y": 111,
+          "zOrder": 110,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1758,6 +2135,11 @@
               "name": "isMoving",
               "type": "boolean",
               "value": false
+            },
+            {
+              "name": "Muro",
+              "type": "string",
+              "value": "\"Muro\""
             }
           ],
           "effects": [],
@@ -1957,7 +2339,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "IdleRight2",
+                      "image": "IdleRight3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2006,7 +2388,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "IdleLeft2",
+                      "image": "IdleLeft3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3430,6 +3812,17 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
             }
           ]
         },
@@ -3805,8 +4198,8 @@
             "scale": 1,
             "fontSize": 20,
             "tint": "255;255;255",
-            "bitmapFontResourceName": "paura_fonts3.fnt",
-            "textureAtlasResourceName": "paura_fonts3.png",
+            "bitmapFontResourceName": "paura_fonts5.fnt",
+            "textureAtlasResourceName": "paura_fonts5.png",
             "align": "left",
             "verticalTextAlignment": "top"
           }
@@ -3824,8 +4217,8 @@
             "scale": 1,
             "fontSize": 20,
             "tint": "255;255;255",
-            "bitmapFontResourceName": "paura_fonts4.fnt",
-            "textureAtlasResourceName": "paura_fonts4.png",
+            "bitmapFontResourceName": "paura_fonts5.fnt",
+            "textureAtlasResourceName": "paura_fonts5.png",
             "align": "left",
             "verticalTextAlignment": "top"
           }
@@ -4124,8 +4517,8 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite6",
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite10",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4347,6 +4740,352 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Aprire",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Aprire",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "paura_fonts5.fnt",
+            "textureAtlasResourceName": "paura_fonts5.png",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Tirare",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Tirare",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "paura_fonts5.fnt",
+            "textureAtlasResourceName": "paura_fonts5.png",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Premere",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Premere",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "paura_fonts5.fnt",
+            "textureAtlasResourceName": "paura_fonts5.png",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Dare_sel",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Dare",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "paura_fonts_sha.fnt",
+            "textureAtlasResourceName": "paura_fonts_sha.png2",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Usare_sel",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Usare",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "paura_fonts_sha.fnt",
+            "textureAtlasResourceName": "paura_fonts_sha.png2",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Andare_sel",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Andare",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "paura_fonts_sha.fnt",
+            "textureAtlasResourceName": "paura_fonts_sha.png2",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Aprire_sel",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Aprire",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "paura_fonts_sha.fnt",
+            "textureAtlasResourceName": "paura_fonts_sha.png2",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Tirare_sel",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Tirare",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "paura_fonts_sha.fnt",
+            "textureAtlasResourceName": "paura_fonts_sha.png2",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Premere_sel",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Premere",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "paura_fonts_sha.fnt",
+            "textureAtlasResourceName": "paura_fonts_sha.png2",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Dare_hover",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Dare",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "paura_fonts_sel.fnt",
+            "textureAtlasResourceName": "paura_fonts_sel.png",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Usare_hover",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Usare",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "paura_fonts5.fnt",
+            "textureAtlasResourceName": "paura_fonts_sel.png",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Andare_hover",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Andare",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "paura_fonts5.fnt",
+            "textureAtlasResourceName": "paura_fonts_sel.png",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Aprire_hover",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Aprire",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "paura_fonts5.fnt",
+            "textureAtlasResourceName": "paura_fonts_sel.png",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Tirare_hover",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Tirare",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "paura_fonts5.fnt",
+            "textureAtlasResourceName": "paura_fonts_sel.png",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Premere_hover",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Premere",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "paura_fonts5.fnt",
+            "textureAtlasResourceName": "paura_fonts_sel.png",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Secchio",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite11",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 17
+                          },
+                          {
+                            "x": 0,
+                            "y": 17
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -4381,6 +5120,9 @@
               },
               {
                 "objectName": "NascondiCasa"
+              },
+              {
+                "objectName": "Target"
               }
             ]
           },
@@ -4389,6 +5131,9 @@
             "children": [
               {
                 "objectName": "Fuoco"
+              },
+              {
+                "objectName": "Secchio"
               },
               {
                 "objectName": "baule"
@@ -4407,9 +5152,6 @@
               },
               {
                 "objectName": "SegnaPosto"
-              },
-              {
-                "objectName": "Target"
               }
             ]
           },
@@ -4424,6 +5166,51 @@
               },
               {
                 "objectName": "Andare"
+              },
+              {
+                "objectName": "Aprire"
+              },
+              {
+                "objectName": "Tirare"
+              },
+              {
+                "objectName": "Premere"
+              },
+              {
+                "objectName": "Dare_sel"
+              },
+              {
+                "objectName": "Usare_sel"
+              },
+              {
+                "objectName": "Andare_sel"
+              },
+              {
+                "objectName": "Aprire_sel"
+              },
+              {
+                "objectName": "Tirare_sel"
+              },
+              {
+                "objectName": "Premere_sel"
+              },
+              {
+                "objectName": "Dare_hover"
+              },
+              {
+                "objectName": "Usare_hover"
+              },
+              {
+                "objectName": "Andare_hover"
+              },
+              {
+                "objectName": "Aprire_hover"
+              },
+              {
+                "objectName": "Tirare_hover"
+              },
+              {
+                "objectName": "Premere_hover"
               }
             ]
           },
@@ -4584,6 +5371,125 @@
                 "\"Casa\"",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "SceneWindowHeight()/2",
+                "",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "SceneWindowHeight()/2",
+                "\"Sfondo\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "SceneWindowHeight()/2",
+                "\"Collisioni\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "SceneWindowHeight()/2",
+                "\"Recinto\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "SceneWindowHeight()/2",
+                "\"Casa\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Premere_sel"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Tirare_sel"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Aprire_sel"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Dare_sel"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Usare_sel"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "SegnaPosto"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "SegnaPosto",
+                "Muro",
+                "=",
+                "\"Muro\""
+              ]
             }
           ]
         },
@@ -4670,66 +5576,6 @@
           "actions": [
             {
               "type": {
-                "value": "SetCameraCenterY"
-              },
-              "parameters": [
-                "",
-                "=",
-                "SegnaPosto.CenterY()",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterY"
-              },
-              "parameters": [
-                "",
-                "=",
-                "SegnaPosto.CenterY()",
-                "\"Sfondo\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterY"
-              },
-              "parameters": [
-                "",
-                "=",
-                "SegnaPosto.CenterY()",
-                "\"Casa\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterY"
-              },
-              "parameters": [
-                "",
-                "=",
-                "SegnaPosto.CenterY()",
-                "\"Recinto\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetCameraCenterY"
-              },
-              "parameters": [
-                "",
-                "=",
-                "SegnaPosto.CenterY()",
-                "\"Collisioni\"",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "MettreXY"
               },
               "parameters": [
@@ -4738,6 +5584,54 @@
                 "CursorX(\"Azioni\", 0)",
                 "=",
                 "CursorY(\"Azioni\",0)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Premere_hover"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Tirare_hover"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Aprire_hover"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Dare_hover"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Andare_hover"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Usare_hover"
               ]
             }
           ]
@@ -4764,32 +5658,679 @@
           "actions": [],
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Link",
-              "include": {
-                "includeConfig": 0
-              },
-              "target": "PathFinding"
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Azioni",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionPoint"
+                      },
+                      "parameters": [
+                        "Dare",
+                        "CursorX(\"Azioni\", 0)",
+                        "CursorY(\"Azioni\", 0)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "Dare_sel",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Andare_sel"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Aprire_sel"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Premere_sel"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Tirare_sel"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Usare_sel"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionPoint"
+                      },
+                      "parameters": [
+                        "Andare",
+                        "CursorX(\"Azioni\", 0)",
+                        "CursorY(\"Azioni\", 0)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "Andare_sel",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Dare_sel"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Aprire_sel"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Premere_sel"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Tirare_sel"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Usare_sel"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionPoint"
+                      },
+                      "parameters": [
+                        "Aprire",
+                        "CursorX(\"Azioni\", 0)",
+                        "CursorY(\"Azioni\", 0)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "Aprire_sel",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Dare_sel"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Andare_sel"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Premere_sel"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Tirare_sel"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Usare_sel"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionPoint"
+                      },
+                      "parameters": [
+                        "Usare",
+                        "CursorX(\"Azioni\", 0)",
+                        "CursorY(\"Azioni\", 0)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "Usare_sel",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Dare_sel"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Aprire_sel"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Premere_sel"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Tirare_sel"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Andare_sel"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionPoint"
+                      },
+                      "parameters": [
+                        "Tirare",
+                        "CursorX(\"Azioni\", 0)",
+                        "CursorY(\"Azioni\", 0)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "Tirare_sel",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Dare_sel"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Aprire_sel"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Premere_sel"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Usare_sel"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Andare_sel"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionPoint"
+                      },
+                      "parameters": [
+                        "Premere",
+                        "CursorX(\"Azioni\", 0)",
+                        "CursorY(\"Azioni\", 0)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "Premere_sel",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Dare_sel"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Aprire_sel"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Andare_sel"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Tirare_sel"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Usare_sel"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "Grid",
+                    "CursorX(\"Collisioni\", 0)",
+                    "CursorY(\"Collisioni\", 0)"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Visible"
+                      },
+                      "parameters": [
+                        "Andare_sel"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "SegnaPosto",
+                        "isMoving",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Link",
+                      "include": {
+                        "includeConfig": 0
+                      },
+                      "target": "PathFinding"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
         {
-          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "SegnaPosto",
+                "MostraCasa",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "casa",
+                "\"Casa\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "SegnaPosto",
+                "Muro",
+                "=",
+                "\"Muro_casa\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "SegnaPosto",
+                "NascondiCasa",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "casa",
+                "\"Casa\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "SegnaPosto",
+                "Muro",
+                "=",
+                "\"Muro\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "SegnaPosto",
+                "pathJson",
+                "!=",
+                "\"\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "JSONToVariableStructure2"
+              },
+              "parameters": [
+                "SegnaPosto.pathJson",
+                "path"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "SegnaPosto",
+                "pathStep",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "SegnaPosto",
+                "pathJson",
+                "=",
+                "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "SegnaPosto",
+                "isMoving",
+                "True",
+                "\"\""
+              ]
+            }
+          ]
+        },
+        {
           "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "PathfindingBehavior::Speed"
+                "value": "NumberObjectVariable"
               },
               "parameters": [
                 "SegnaPosto",
-                "Pathfinding",
-                ">",
-                "0"
+                "pathStep",
+                "<",
+                "SegnaPosto.pathLength"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "SegnaPosto",
+                "isMoving",
+                "True",
+                ""
               ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "SegnaPosto",
+                "targetX",
+                "=",
+                "path[SegnaPosto.pathStep].x"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "SegnaPosto",
+                "targetY",
+                "=",
+                "path[SegnaPosto.pathStep].y"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "SegnaPosto",
+                "=",
+                "SegnaPosto.targetX",
+                "=",
+                "SegnaPosto.targetY"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "SegnaPosto",
+                "pathStep",
+                "=",
+                "SegnaPosto.pathStep + 1"
+              ]
+            },
             {
               "type": {
                 "value": "MettreAutourPos"
@@ -4867,6 +6408,64 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "SegnaPosto",
+                    ">",
+                    "GiocatoreY"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "GiocatoreY",
+                    "=",
+                    "SegnaPosto.Y()"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                      },
+                      "parameters": [
+                        "Giocatore",
+                        "Animation",
+                        "!=",
+                        "\"Down\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Giocatore",
+                        "Animation",
+                        "=",
+                        "\"Down\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "PosX"
                   },
                   "parameters": [
@@ -4929,64 +6528,6 @@
                   },
                   "parameters": [
                     "SegnaPosto",
-                    ">",
-                    "GiocatoreY"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "GiocatoreY",
-                    "=",
-                    "SegnaPosto.Y()"
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::Name"
-                      },
-                      "parameters": [
-                        "Giocatore",
-                        "Animation",
-                        "!=",
-                        "\"Down\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Giocatore",
-                        "Animation",
-                        "=",
-                        "\"Down\""
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "SegnaPosto",
                     "<",
                     "GiocatoreY"
                   ]
@@ -5039,33 +6580,54 @@
           ]
         },
         {
-          "disabled": true,
           "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "PathfindingBehavior::Speed"
+                "value": "NumberObjectVariable"
               },
               "parameters": [
                 "SegnaPosto",
-                "Pathfinding",
-                "=",
-                "0"
+                "pathStep",
+                ">=",
+                "SegnaPosto.pathLength"
               ]
             }
           ],
           "actions": [
             {
               "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "SegnaPosto",
+                "pathStep",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
                 "value": "MettreAutourPos"
               },
               "parameters": [
                 "Giocatore",
-                "SegnaPosto.X() + 11",
-                "SegnaPosto.Y() + 28",
+                "SegnaPosto.X()+11",
+                "SegnaPosto.Y()+28",
                 "0",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "SegnaPosto",
+                "isMoving",
+                "False",
+                "\"\""
               ]
             }
           ],
@@ -5095,35 +6657,6 @@
                     "Animation",
                     "=",
                     "\"IdleRight\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                  },
-                  "parameters": [
-                    "Giocatore",
-                    "Animation",
-                    "=",
-                    "\"Left\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Giocatore",
-                    "Animation",
-                    "=",
-                    "\"IdleLeft\""
                   ]
                 }
               ]
@@ -5185,200 +6718,218 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+            },
             {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "SegnaPosto",
-                "MostraCasa",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ShowLayer"
-              },
-              "parameters": [
-                "casa",
-                "\"Casa\""
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "SegnaPosto",
-                "NascondiCasa",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "casa",
-                "\"Casa\""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Giocatore",
+                    "Animation",
+                    "=",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Giocatore",
+                    "Animation",
+                    "=",
+                    "\"IdleLeft\""
+                  ]
+                }
               ]
             }
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Azioni",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "StringObjectVariable"
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
               },
-              "parameters": [
-                "SegnaPosto",
-                "pathJson",
-                "!=",
-                "\"\""
+              "comment": "Azioni che può scegliere il giocatore"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "Dare",
+                    "CursorX(\"Azioni\", 0)",
+                    "CursorY(\"Azioni\", 0)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Dare_hover",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "Andare",
+                    "CursorX(\"Azioni\", 0)",
+                    "CursorY(\"Azioni\", 0)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Andare_hover",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "Aprire",
+                    "CursorX(\"Azioni\", 0)",
+                    "CursorY(\"Azioni\", 0)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Aprire_hover",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "Usare",
+                    "CursorX(\"Azioni\", 0)",
+                    "CursorY(\"Azioni\", 0)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Usare_hover",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "Tirare",
+                    "CursorX(\"Azioni\", 0)",
+                    "CursorY(\"Azioni\", 0)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Tirare_hover",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "Premere",
+                    "CursorX(\"Azioni\", 0)",
+                    "CursorY(\"Azioni\", 0)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Premere_hover",
+                    ""
+                  ]
+                }
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "JSONToVariableStructure2"
-              },
-              "parameters": [
-                "SegnaPosto.pathJson",
-                "path"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "SegnaPosto",
-                "pathStep",
-                "=",
-                "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetStringObjectVariable"
-              },
-              "parameters": [
-                "SegnaPosto",
-                "pathJson",
-                "=",
-                "\"\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetBooleanObjectVariable"
-              },
-              "parameters": [
-                "SegnaPosto",
-                "isMoving",
-                "True",
-                "\"\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "SegnaPosto",
-                "pathStep",
-                "<",
-                "SegnaPosto.pathLength"
-              ]
-            },
-            {
-              "type": {
-                "value": "BooleanObjectVariable"
-              },
-              "parameters": [
-                "SegnaPosto",
-                "isMoving",
-                "True",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "SegnaPosto",
-                "targetX",
-                "=",
-                "path[SegnaPosto.pathStep].x"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "SegnaPosto",
-                "targetY",
-                "=",
-                "path[SegnaPosto.pathStep].y"
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "SegnaPosto",
-                "=",
-                "SegnaPosto.targetX",
-                "=",
-                "SegnaPosto.targetY"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "SegnaPosto",
-                "pathStep",
-                "=",
-                "SegnaPosto.pathStep + 1"
-              ]
-            }
-          ]
+          "parameters": []
         }
       ],
       "layers": [
@@ -5392,8 +6943,61 @@
           "cameraType": "perspective",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "Sfondo",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Collisioni",
           "renderingType": "",
           "visibility": false,
           "cameras": [],
@@ -5509,7 +7113,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "Casa",
           "renderingType": "",
           "visibility": false,
@@ -5562,61 +7166,8 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "Recinto",
-          "renderingType": "",
-          "visibility": false,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Ambient Hemisphere Light",
-              "doubleParameters": {
-                "elevation": 40,
-                "intensity": 0.33,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Z+"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Scene3D::DirectionalLight",
-              "name": "3D Sun Light",
-              "doubleParameters": {
-                "distanceFromCamera": 1500,
-                "elevation": 40,
-                "frustumSize": 4000,
-                "intensity": 0.75,
-                "minimumShadowBias": 0,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "color": "255;255;255",
-                "shadowQuality": "medium",
-                "top": "Z+"
-              },
-              "booleanParameters": {
-                "isCastingShadow": true
-              }
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Collisioni",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -5668,7 +7219,7 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "Azioni",
           "renderingType": "",
           "visibility": true,
@@ -6043,8 +7594,13 @@
             "",
             "const grid = Array.from({ length: rows }, () => new Array(cols).fill(0));",
             "",
+            "// === Get player and start position ===",
+            "const player = runtimeScene.getObjects(\"SegnaPosto\")[0];",
+            "if (!player) return;",
+            "",
+            "//alert(player.getVariables().get(\"Muro\").getAsString());",
             "// === Mark walls as blocked ===",
-            "const walls = runtimeScene.getObjects(\"Muro\");",
+            "const walls = runtimeScene.getObjects(player.getVariables().get(\"Muro\").getAsString());",
             "if (!walls) return;",
             "",
             "for (const wall of walls) {",
@@ -6074,10 +7630,6 @@
             "    }",
             "  }",
             "}",
-            "",
-            "// === Get player and start position ===",
-            "const player = runtimeScene.getObjects(\"SegnaPosto\")[0];",
-            "if (!player) return;",
             "",
             "const playerWidth = player.getWidth();",
             "const playerHeight = player.getHeight();",
