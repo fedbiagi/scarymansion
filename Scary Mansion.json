@@ -1042,15 +1042,759 @@
         "name": "NewSprite11",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite12.png\"}",
+        "name": "NewSprite12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite15",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
   },
-  "objects": [],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "Leggere_sel",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Leggere",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "paura_fonts_sha.fnt",
+        "textureAtlasResourceName": "paura_fonts_sha.png2",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Leggere_hover",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Leggere",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "paura_fonts5.fnt",
+        "textureAtlasResourceName": "paura_fonts_sel.png",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Leggere",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Leggere",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "paura_fonts5.fnt",
+        "textureAtlasResourceName": "paura_fonts5.png",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Chiudere_sel",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Chiudere",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "paura_fonts_sha.fnt",
+        "textureAtlasResourceName": "paura_fonts_sha.png2",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Chiudere_hover",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Chiudere",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "paura_fonts5.fnt",
+        "textureAtlasResourceName": "paura_fonts_sel.png",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Chiudere",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Chiudere",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "paura_fonts5.fnt",
+        "textureAtlasResourceName": "paura_fonts5.png",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Prendere_sel",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Prendere",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "paura_fonts_sha.fnt",
+        "textureAtlasResourceName": "paura_fonts_sha.png2",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Prendere_hover",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Prendere",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "paura_fonts5.fnt",
+        "textureAtlasResourceName": "paura_fonts_sel.png",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Prendere",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Prendere",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "paura_fonts5.fnt",
+        "textureAtlasResourceName": "paura_fonts5.png",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Premere_hover",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Premere",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "paura_fonts5.fnt",
+        "textureAtlasResourceName": "paura_fonts_sel.png",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Premere_sel",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Premere",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "paura_fonts_sha.fnt",
+        "textureAtlasResourceName": "paura_fonts_sha.png2",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Premere",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Premere",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "paura_fonts5.fnt",
+        "textureAtlasResourceName": "paura_fonts5.png",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Tirare_hover",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Tirare",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "paura_fonts5.fnt",
+        "textureAtlasResourceName": "paura_fonts_sel.png",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Tirare_sel",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Tirare",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "paura_fonts_sha.fnt",
+        "textureAtlasResourceName": "paura_fonts_sha.png2",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Tirare",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Tirare",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "paura_fonts5.fnt",
+        "textureAtlasResourceName": "paura_fonts5.png",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Aprire_hover",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Aprire",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "paura_fonts5.fnt",
+        "textureAtlasResourceName": "paura_fonts_sel.png",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Aprire_sel",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Aprire",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "paura_fonts_sha.fnt",
+        "textureAtlasResourceName": "paura_fonts_sha.png2",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Aprire",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Aprire",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "paura_fonts5.fnt",
+        "textureAtlasResourceName": "paura_fonts5.png",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Andare_hover",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Andare",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "paura_fonts5.fnt",
+        "textureAtlasResourceName": "paura_fonts_sel.png",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Andare_sel",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Andare",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "paura_fonts_sha.fnt",
+        "textureAtlasResourceName": "paura_fonts_sha.png2",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Andare",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Andare",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "paura_fonts5.fnt",
+        "textureAtlasResourceName": "paura_fonts5.png",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Usare_hover",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Usare",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "paura_fonts5.fnt",
+        "textureAtlasResourceName": "paura_fonts_sel.png",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Usare_sel",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Usare",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "paura_fonts_sha.fnt",
+        "textureAtlasResourceName": "paura_fonts_sha.png2",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Usare",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Usare",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "paura_fonts5.fnt",
+        "textureAtlasResourceName": "paura_fonts5.png",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Dare_hover",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Dare",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "paura_fonts_sel.fnt",
+        "textureAtlasResourceName": "paura_fonts_sel.png",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Dare_sel",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Dare",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "paura_fonts_sha.fnt",
+        "textureAtlasResourceName": "paura_fonts_sha.png2",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Dare",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "text": "Dare",
+        "opacity": 255,
+        "scale": 1,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "paura_fonts5.fnt",
+        "textureAtlasResourceName": "paura_fonts5.png",
+        "align": "left",
+        "verticalTextAlignment": "top"
+      }
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "folderName": "Azioni",
+        "children": [
+          {
+            "folderName": "Leggere",
+            "children": [
+              {
+                "objectName": "Leggere"
+              },
+              {
+                "objectName": "Leggere_hover"
+              },
+              {
+                "objectName": "Leggere_sel"
+              }
+            ]
+          },
+          {
+            "folderName": "Chiudere",
+            "children": [
+              {
+                "objectName": "Chiudere"
+              },
+              {
+                "objectName": "Chiudere_hover"
+              },
+              {
+                "objectName": "Chiudere_sel"
+              }
+            ]
+          },
+          {
+            "folderName": "Prendere",
+            "children": [
+              {
+                "objectName": "Prendere"
+              },
+              {
+                "objectName": "Prendere_hover"
+              },
+              {
+                "objectName": "Prendere_sel"
+              }
+            ]
+          },
+          {
+            "folderName": "Premere",
+            "children": [
+              {
+                "objectName": "Premere"
+              },
+              {
+                "objectName": "Premere_sel"
+              },
+              {
+                "objectName": "Premere_hover"
+              }
+            ]
+          },
+          {
+            "folderName": "Tirare",
+            "children": [
+              {
+                "objectName": "Tirare"
+              },
+              {
+                "objectName": "Tirare_sel"
+              },
+              {
+                "objectName": "Tirare_hover"
+              }
+            ]
+          },
+          {
+            "folderName": "Aprire",
+            "children": [
+              {
+                "objectName": "Aprire"
+              },
+              {
+                "objectName": "Aprire_sel"
+              },
+              {
+                "objectName": "Aprire_hover"
+              }
+            ]
+          },
+          {
+            "folderName": "Andare",
+            "children": [
+              {
+                "objectName": "Andare"
+              },
+              {
+                "objectName": "Andare_sel"
+              },
+              {
+                "objectName": "Andare_hover"
+              }
+            ]
+          },
+          {
+            "folderName": "Usare",
+            "children": [
+              {
+                "objectName": "Usare"
+              },
+              {
+                "objectName": "Usare_sel"
+              },
+              {
+                "objectName": "Usare_hover"
+              }
+            ]
+          },
+          {
+            "folderName": "Dare",
+            "children": [
+              {
+                "objectName": "Dare"
+              },
+              {
+                "objectName": "Dare_sel"
+              },
+              {
+                "objectName": "Dare_hover"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "Azioni_sel",
+      "objects": [
+        {
+          "name": "Leggere_sel"
+        },
+        {
+          "name": "Chiudere_sel"
+        },
+        {
+          "name": "Prendere_sel"
+        },
+        {
+          "name": "Premere_sel"
+        },
+        {
+          "name": "Tirare_sel"
+        },
+        {
+          "name": "Aprire_sel"
+        },
+        {
+          "name": "Andare_sel"
+        },
+        {
+          "name": "Usare_sel"
+        },
+        {
+          "name": "Dare_sel"
+        }
+      ]
+    },
+    {
+      "name": "Azioni_hover",
+      "objects": [
+        {
+          "name": "Leggere_hover"
+        },
+        {
+          "name": "Dare_hover"
+        },
+        {
+          "name": "Prendere_hover"
+        },
+        {
+          "name": "Premere_hover"
+        },
+        {
+          "name": "Tirare_hover"
+        },
+        {
+          "name": "Chiudere_hover"
+        },
+        {
+          "name": "Andare_hover"
+        },
+        {
+          "name": "Usare_hover"
+        },
+        {
+          "name": "Aprire_hover"
+        }
+      ]
+    }
+  ],
   "variables": [],
   "layouts": [
     {
@@ -1075,7 +1819,7 @@
         "snap": true,
         "zoomFactor": 4,
         "windowMask": false,
-        "selectedLayer": ""
+        "selectedLayer": "Sfondo"
       },
       "objectsGroups": [],
       "variables": [
@@ -1188,7 +1932,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "Sfondo",
+          "layer": "Cielo",
           "name": "cielo",
           "persistentUuid": "f0fbcfad-ec6c-493d-b5e9-c9e6d999a826",
           "width": 0,
@@ -1267,7 +2011,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "Sfondo",
+          "layer": "Alberi",
           "name": "alberi",
           "persistentUuid": "e4b6f488-0580-43bc-9d17-f310ce70da21",
           "width": 0,
@@ -2090,9 +2834,169 @@
           "name": "Secchio",
           "persistentUuid": "9ba1f58d-94c7-459b-b771-5f3c3cd9a906",
           "width": 0,
-          "x": -1240,
-          "y": 111,
-          "zOrder": 110,
+          "x": -1170,
+          "y": 108,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Azioni",
+          "name": "Prendere",
+          "persistentUuid": "fbfac650-101f-4920-a558-487609496d09",
+          "width": 0,
+          "x": 129,
+          "y": 179,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Azioni",
+          "name": "Chiudere",
+          "persistentUuid": "79712f23-b305-430a-9e31-068a7e88fa1e",
+          "width": 0,
+          "x": 129,
+          "y": 199,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Azioni",
+          "name": "Leggere",
+          "persistentUuid": "e4bf8b26-20b0-4cea-bcd6-10493ac0f015",
+          "width": 0,
+          "x": 129,
+          "y": 217,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Azioni",
+          "name": "Prendere_hover",
+          "persistentUuid": "5cc84d9a-ac5d-45e8-9c25-8c481d6c5ee7",
+          "width": 0,
+          "x": 129,
+          "y": 179,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Azioni",
+          "name": "Chiudere_hover",
+          "persistentUuid": "f33662ec-b6eb-4315-92a1-e72ba2f96115",
+          "width": 0,
+          "x": 129,
+          "y": 199,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Azioni",
+          "name": "Leggere_hover",
+          "persistentUuid": "9fd3b91e-ebb8-4bb0-ac91-2398a86bfa1b",
+          "width": 0,
+          "x": 129,
+          "y": 217,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Azioni",
+          "name": "Prendere_sel",
+          "persistentUuid": "9e81fc0e-d243-4c67-9c4d-57eb88fadc45",
+          "width": 0,
+          "x": 129,
+          "y": 179,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Azioni",
+          "name": "Chiudere_sel",
+          "persistentUuid": "c6d2d9c6-bd4d-4ae8-898d-a23bb9223a47",
+          "width": 0,
+          "x": 129,
+          "y": 199,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Azioni",
+          "name": "Leggere_sel",
+          "persistentUuid": "96f0b37f-c06c-47c5-8681-6f4ac033a580",
+          "width": 0,
+          "x": 129,
+          "y": 217,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 168,
+          "layer": "Collisioni",
+          "name": "CameraLimiteDestra",
+          "persistentUuid": "ec09c527-f130-4008-8905-a42799de41d7",
+          "width": 2,
+          "x": 160,
+          "y": 0,
+          "zOrder": 111,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4186,63 +5090,6 @@
           ]
         },
         {
-          "assetStoreId": "",
-          "name": "Dare",
-          "type": "BitmapText::BitmapTextObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "Dare",
-            "opacity": 255,
-            "scale": 1,
-            "fontSize": 20,
-            "tint": "255;255;255",
-            "bitmapFontResourceName": "paura_fonts5.fnt",
-            "textureAtlasResourceName": "paura_fonts5.png",
-            "align": "left",
-            "verticalTextAlignment": "top"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "Usare",
-          "type": "BitmapText::BitmapTextObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "Usare",
-            "opacity": 255,
-            "scale": 1,
-            "fontSize": 20,
-            "tint": "255;255;255",
-            "bitmapFontResourceName": "paura_fonts5.fnt",
-            "textureAtlasResourceName": "paura_fonts5.png",
-            "align": "left",
-            "verticalTextAlignment": "top"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "Andare",
-          "type": "BitmapText::BitmapTextObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "Andare",
-            "opacity": 255,
-            "scale": 1,
-            "fontSize": 20,
-            "tint": "255;255;255",
-            "bitmapFontResourceName": "paura_fonts5.fnt",
-            "textureAtlasResourceName": "paura_fonts5.png",
-            "align": "left",
-            "verticalTextAlignment": "top"
-          }
-        },
-        {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "sfondo_azioni",
@@ -4579,7 +5426,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite7",
+                      "image": "NewSprite15",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4599,16 +5446,16 @@
                             "y": 0
                           },
                           {
-                            "x": 64,
+                            "x": 2,
                             "y": 0
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 2,
+                            "y": 2
                           },
                           {
                             "x": 0,
-                            "y": 64
+                            "y": 2
                           }
                         ]
                       ]
@@ -4742,291 +5589,6 @@
           ]
         },
         {
-          "assetStoreId": "",
-          "name": "Aprire",
-          "type": "BitmapText::BitmapTextObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "Aprire",
-            "opacity": 255,
-            "scale": 1,
-            "fontSize": 20,
-            "tint": "255;255;255",
-            "bitmapFontResourceName": "paura_fonts5.fnt",
-            "textureAtlasResourceName": "paura_fonts5.png",
-            "align": "left",
-            "verticalTextAlignment": "top"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "Tirare",
-          "type": "BitmapText::BitmapTextObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "Tirare",
-            "opacity": 255,
-            "scale": 1,
-            "fontSize": 20,
-            "tint": "255;255;255",
-            "bitmapFontResourceName": "paura_fonts5.fnt",
-            "textureAtlasResourceName": "paura_fonts5.png",
-            "align": "left",
-            "verticalTextAlignment": "top"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "Premere",
-          "type": "BitmapText::BitmapTextObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "Premere",
-            "opacity": 255,
-            "scale": 1,
-            "fontSize": 20,
-            "tint": "255;255;255",
-            "bitmapFontResourceName": "paura_fonts5.fnt",
-            "textureAtlasResourceName": "paura_fonts5.png",
-            "align": "left",
-            "verticalTextAlignment": "top"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "Dare_sel",
-          "type": "BitmapText::BitmapTextObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "Dare",
-            "opacity": 255,
-            "scale": 1,
-            "fontSize": 20,
-            "tint": "255;255;255",
-            "bitmapFontResourceName": "paura_fonts_sha.fnt",
-            "textureAtlasResourceName": "paura_fonts_sha.png2",
-            "align": "left",
-            "verticalTextAlignment": "top"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "Usare_sel",
-          "type": "BitmapText::BitmapTextObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "Usare",
-            "opacity": 255,
-            "scale": 1,
-            "fontSize": 20,
-            "tint": "255;255;255",
-            "bitmapFontResourceName": "paura_fonts_sha.fnt",
-            "textureAtlasResourceName": "paura_fonts_sha.png2",
-            "align": "left",
-            "verticalTextAlignment": "top"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "Andare_sel",
-          "type": "BitmapText::BitmapTextObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "Andare",
-            "opacity": 255,
-            "scale": 1,
-            "fontSize": 20,
-            "tint": "255;255;255",
-            "bitmapFontResourceName": "paura_fonts_sha.fnt",
-            "textureAtlasResourceName": "paura_fonts_sha.png2",
-            "align": "left",
-            "verticalTextAlignment": "top"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "Aprire_sel",
-          "type": "BitmapText::BitmapTextObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "Aprire",
-            "opacity": 255,
-            "scale": 1,
-            "fontSize": 20,
-            "tint": "255;255;255",
-            "bitmapFontResourceName": "paura_fonts_sha.fnt",
-            "textureAtlasResourceName": "paura_fonts_sha.png2",
-            "align": "left",
-            "verticalTextAlignment": "top"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "Tirare_sel",
-          "type": "BitmapText::BitmapTextObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "Tirare",
-            "opacity": 255,
-            "scale": 1,
-            "fontSize": 20,
-            "tint": "255;255;255",
-            "bitmapFontResourceName": "paura_fonts_sha.fnt",
-            "textureAtlasResourceName": "paura_fonts_sha.png2",
-            "align": "left",
-            "verticalTextAlignment": "top"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "Premere_sel",
-          "type": "BitmapText::BitmapTextObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "Premere",
-            "opacity": 255,
-            "scale": 1,
-            "fontSize": 20,
-            "tint": "255;255;255",
-            "bitmapFontResourceName": "paura_fonts_sha.fnt",
-            "textureAtlasResourceName": "paura_fonts_sha.png2",
-            "align": "left",
-            "verticalTextAlignment": "top"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "Dare_hover",
-          "type": "BitmapText::BitmapTextObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "Dare",
-            "opacity": 255,
-            "scale": 1,
-            "fontSize": 20,
-            "tint": "255;255;255",
-            "bitmapFontResourceName": "paura_fonts_sel.fnt",
-            "textureAtlasResourceName": "paura_fonts_sel.png",
-            "align": "left",
-            "verticalTextAlignment": "top"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "Usare_hover",
-          "type": "BitmapText::BitmapTextObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "Usare",
-            "opacity": 255,
-            "scale": 1,
-            "fontSize": 20,
-            "tint": "255;255;255",
-            "bitmapFontResourceName": "paura_fonts5.fnt",
-            "textureAtlasResourceName": "paura_fonts_sel.png",
-            "align": "left",
-            "verticalTextAlignment": "top"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "Andare_hover",
-          "type": "BitmapText::BitmapTextObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "Andare",
-            "opacity": 255,
-            "scale": 1,
-            "fontSize": 20,
-            "tint": "255;255;255",
-            "bitmapFontResourceName": "paura_fonts5.fnt",
-            "textureAtlasResourceName": "paura_fonts_sel.png",
-            "align": "left",
-            "verticalTextAlignment": "top"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "Aprire_hover",
-          "type": "BitmapText::BitmapTextObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "Aprire",
-            "opacity": 255,
-            "scale": 1,
-            "fontSize": 20,
-            "tint": "255;255;255",
-            "bitmapFontResourceName": "paura_fonts5.fnt",
-            "textureAtlasResourceName": "paura_fonts_sel.png",
-            "align": "left",
-            "verticalTextAlignment": "top"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "Tirare_hover",
-          "type": "BitmapText::BitmapTextObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "Tirare",
-            "opacity": 255,
-            "scale": 1,
-            "fontSize": 20,
-            "tint": "255;255;255",
-            "bitmapFontResourceName": "paura_fonts5.fnt",
-            "textureAtlasResourceName": "paura_fonts_sel.png",
-            "align": "left",
-            "verticalTextAlignment": "top"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "Premere_hover",
-          "type": "BitmapText::BitmapTextObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "Premere",
-            "opacity": 255,
-            "scale": 1,
-            "fontSize": 20,
-            "tint": "255;255;255",
-            "bitmapFontResourceName": "paura_fonts5.fnt",
-            "textureAtlasResourceName": "paura_fonts_sel.png",
-            "align": "left",
-            "verticalTextAlignment": "top"
-          }
-        },
-        {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Secchio",
@@ -5047,7 +5609,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite11",
+                      "image": "NewSprite14",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5067,16 +5629,16 @@
                             "y": 0
                           },
                           {
-                            "x": 16,
+                            "x": 19,
                             "y": 0
                           },
                           {
-                            "x": 16,
-                            "y": 17
+                            "x": 19,
+                            "y": 27
                           },
                           {
                             "x": 0,
-                            "y": 17
+                            "y": 27
                           }
                         ]
                       ]
@@ -5152,65 +5714,6 @@
               },
               {
                 "objectName": "SegnaPosto"
-              }
-            ]
-          },
-          {
-            "folderName": "Azioni",
-            "children": [
-              {
-                "objectName": "Dare"
-              },
-              {
-                "objectName": "Usare"
-              },
-              {
-                "objectName": "Andare"
-              },
-              {
-                "objectName": "Aprire"
-              },
-              {
-                "objectName": "Tirare"
-              },
-              {
-                "objectName": "Premere"
-              },
-              {
-                "objectName": "Dare_sel"
-              },
-              {
-                "objectName": "Usare_sel"
-              },
-              {
-                "objectName": "Andare_sel"
-              },
-              {
-                "objectName": "Aprire_sel"
-              },
-              {
-                "objectName": "Tirare_sel"
-              },
-              {
-                "objectName": "Premere_sel"
-              },
-              {
-                "objectName": "Dare_hover"
-              },
-              {
-                "objectName": "Usare_hover"
-              },
-              {
-                "objectName": "Andare_hover"
-              },
-              {
-                "objectName": "Aprire_hover"
-              },
-              {
-                "objectName": "Tirare_hover"
-              },
-              {
-                "objectName": "Premere_hover"
               }
             ]
           },
@@ -5331,7 +5834,7 @@
               "parameters": [
                 "",
                 "=",
-                "SceneWindowWidth()/2",
+                "CameraLimiteDestra.CenterX()",
                 "\"Sfondo\"",
                 "0"
               ]
@@ -5374,6 +5877,30 @@
             },
             {
               "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "SceneWindowWidth()/2",
+                "\"Cielo\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "SceneWindowWidth()/2",
+                "\"Alberi\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
                 "value": "SetCameraCenterY"
               },
               "parameters": [
@@ -5434,10 +5961,26 @@
             },
             {
               "type": {
-                "value": "Cache"
+                "value": "SetCameraCenterY"
               },
               "parameters": [
-                "Premere_sel"
+                "",
+                "=",
+                "SceneWindowHeight()/2",
+                "\"Cielo\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "SceneWindowHeight()/2",
+                "\"Alberi\"",
+                "0"
               ]
             },
             {
@@ -5445,31 +5988,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Tirare_sel"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Aprire_sel"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Dare_sel"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Usare_sel"
+                "Azioni_sel"
               ]
             },
             {
@@ -5478,6 +5997,15 @@
               },
               "parameters": [
                 "SegnaPosto"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Andare_sel",
+                ""
               ]
             },
             {
@@ -5498,12 +6026,12 @@
           "conditions": [
             {
               "type": {
-                "value": "PosX"
+                "value": "CenterX"
               },
               "parameters": [
                 "SegnaPosto",
                 "<",
-                "(SceneWindowWidth() / 2) - (SegnaPosto.Width()/2)"
+                "CameraLimiteDestra.X()"
               ]
             }
           ],
@@ -5551,7 +6079,7 @@
               "parameters": [
                 "",
                 "=",
-                "SegnaPosto.CenterX()",
+                "SegnaPosto.CenterX()*1.3",
                 "\"Recinto\"",
                 ""
               ]
@@ -5565,6 +6093,131 @@
                 "=",
                 "SegnaPosto.CenterX()",
                 "\"Collisioni\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "SegnaPosto.CenterX()*0.6",
+                "\"Alberi\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "SegnaPosto.CenterX()*0.3",
+                "\"Cielo\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CenterX"
+              },
+              "parameters": [
+                "SegnaPosto",
+                ">=",
+                "CameraLimiteDestra.X()"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraLimiteDestra.CenterX()",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraLimiteDestra.CenterX()",
+                "\"Sfondo\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraLimiteDestra.CenterX()",
+                "\"Casa\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraLimiteDestra.CenterX()",
+                "\"Recinto\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraLimiteDestra.CenterX()",
+                "\"Collisioni\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraLimiteDestra.CenterX()*0.6",
+                "\"Alberi\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraLimiteDestra.CenterX()*0.3",
+                "\"Cielo\"",
                 ""
               ]
             }
@@ -5591,47 +6244,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Premere_hover"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Tirare_hover"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Aprire_hover"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Dare_hover"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Andare_hover"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Usare_hover"
+                "Azioni_hover"
               ]
             }
           ]
@@ -5684,51 +6297,19 @@
                   "actions": [
                     {
                       "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Azioni_sel"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Montre"
                       },
                       "parameters": [
                         "Dare_sel",
                         ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Andare_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Aprire_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Premere_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Tirare_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Usare_sel"
                       ]
                     }
                   ]
@@ -5750,51 +6331,19 @@
                   "actions": [
                     {
                       "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Azioni_sel"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Montre"
                       },
                       "parameters": [
                         "Andare_sel",
                         ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Dare_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Aprire_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Premere_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Tirare_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Usare_sel"
                       ]
                     }
                   ]
@@ -5816,51 +6365,19 @@
                   "actions": [
                     {
                       "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Azioni_sel"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Montre"
                       },
                       "parameters": [
                         "Aprire_sel",
                         ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Dare_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Andare_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Premere_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Tirare_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Usare_sel"
                       ]
                     }
                   ]
@@ -5882,51 +6399,19 @@
                   "actions": [
                     {
                       "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Azioni_sel"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Montre"
                       },
                       "parameters": [
                         "Usare_sel",
                         ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Dare_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Aprire_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Premere_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Tirare_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Andare_sel"
                       ]
                     }
                   ]
@@ -5948,51 +6433,87 @@
                   "actions": [
                     {
                       "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Azioni_sel"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Montre"
                       },
                       "parameters": [
                         "Tirare_sel",
                         ""
                       ]
-                    },
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionPoint"
+                      },
+                      "parameters": [
+                        "Prendere",
+                        "CursorX(\"Azioni\", 0)",
+                        "CursorY(\"Azioni\", 0)"
+                      ]
+                    }
+                  ],
+                  "actions": [
                     {
                       "type": {
                         "value": "Cache"
                       },
                       "parameters": [
-                        "Dare_sel"
+                        "Azioni_sel"
                       ]
                     },
                     {
                       "type": {
-                        "value": "Cache"
+                        "value": "Montre"
                       },
                       "parameters": [
-                        "Aprire_sel"
+                        "Prendere_sel",
+                        ""
                       ]
-                    },
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionPoint"
+                      },
+                      "parameters": [
+                        "Chiudere",
+                        "CursorX(\"Azioni\", 0)",
+                        "CursorY(\"Azioni\", 0)"
+                      ]
+                    }
+                  ],
+                  "actions": [
                     {
                       "type": {
                         "value": "Cache"
                       },
                       "parameters": [
-                        "Premere_sel"
+                        "Azioni_sel"
                       ]
                     },
                     {
                       "type": {
-                        "value": "Cache"
+                        "value": "Montre"
                       },
                       "parameters": [
-                        "Usare_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Andare_sel"
+                        "Chiudere_sel",
+                        ""
                       ]
                     }
                   ]
@@ -6014,51 +6535,53 @@
                   "actions": [
                     {
                       "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Azioni_sel"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Montre"
                       },
                       "parameters": [
                         "Premere_sel",
                         ""
                       ]
-                    },
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CollisionPoint"
+                      },
+                      "parameters": [
+                        "Leggere",
+                        "CursorX(\"Azioni\", 0)",
+                        "CursorY(\"Azioni\", 0)"
+                      ]
+                    }
+                  ],
+                  "actions": [
                     {
                       "type": {
                         "value": "Cache"
                       },
                       "parameters": [
-                        "Dare_sel"
+                        "Azioni_sel"
                       ]
                     },
                     {
                       "type": {
-                        "value": "Cache"
+                        "value": "Montre"
                       },
                       "parameters": [
-                        "Aprire_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Andare_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Tirare_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Usare_sel"
+                        "Leggere_sel",
+                        ""
                       ]
                     }
                   ]
@@ -6067,6 +6590,7 @@
               "parameters": []
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -6910,6 +7434,58 @@
                     "value": "CollisionPoint"
                   },
                   "parameters": [
+                    "Prendere",
+                    "CursorX(\"Azioni\", 0)",
+                    "CursorY(\"Azioni\", 0)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Prendere_hover",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "Chiudere",
+                    "CursorX(\"Azioni\", 0)",
+                    "CursorY(\"Azioni\", 0)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Chiudere_hover",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
                     "Premere",
                     "CursorX(\"Azioni\", 0)",
                     "CursorY(\"Azioni\", 0)"
@@ -6927,12 +7503,144 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "Leggere",
+                    "CursorX(\"Azioni\", 0)",
+                    "CursorY(\"Azioni\", 0)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Leggere_hover",
+                    ""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
         }
       ],
       "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Cielo",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Alberi",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
         {
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
@@ -6999,7 +7707,7 @@
           "isLocked": false,
           "name": "Collisioni",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -7116,7 +7824,7 @@
           "isLocked": true,
           "name": "Casa",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
