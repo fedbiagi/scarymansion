@@ -1759,11 +1759,296 @@
         "align": "left",
         "verticalTextAlignment": "top"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Selezione",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "nome_oggetto_contenuto",
+          "type": "string",
+          "value": "\"\""
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite24",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 20,
+                        "y": 0
+                      },
+                      {
+                        "x": 20,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Selezione2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "nome_oggetto_contenuto",
+          "type": "string",
+          "value": "\"\""
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite24",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 20,
+                        "y": 0
+                      },
+                      {
+                        "x": 20,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Selezione3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "nome_oggetto_contenuto",
+          "type": "string",
+          "value": "\"\""
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite24",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 20,
+                        "y": 0
+                      },
+                      {
+                        "x": 20,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Selezione4",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "nome_oggetto_contenuto",
+          "type": "string",
+          "value": "\"\""
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite24",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 20,
+                        "y": 0
+                      },
+                      {
+                        "x": 20,
+                        "y": 20
+                      },
+                      {
+                        "x": 0,
+                        "y": 20
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
+      {
+        "folderName": "Inventario",
+        "children": [
+          {
+            "objectName": "Selezione"
+          },
+          {
+            "objectName": "Selezione2"
+          },
+          {
+            "objectName": "Selezione3"
+          },
+          {
+            "objectName": "Selezione4"
+          }
+        ]
+      },
       {
         "folderName": "Azioni",
         "children": [
@@ -1982,22 +2267,7 @@
   ],
   "variables": [
     {
-      "name": "Inventario4",
-      "type": "string",
-      "value": "\"\""
-    },
-    {
-      "name": "Inventario3",
-      "type": "string",
-      "value": "\"\""
-    },
-    {
-      "name": "Inventario2",
-      "type": "string",
-      "value": "\"\""
-    },
-    {
-      "name": "Inventario1",
+      "name": "nome_oggetto_raccolto",
       "type": "string",
       "value": "\"\""
     }
@@ -2029,10 +2299,10 @@
       },
       "objectsGroups": [
         {
-          "name": "Oggetti_sel",
+          "name": "Oggetti_da_raccogliere",
           "objects": [
             {
-              "name": "Secchio_sel"
+              "name": "Secchio"
             }
           ]
         }
@@ -2052,6 +2322,37 @@
           "name": "path",
           "type": "array",
           "children": []
+        },
+        {
+          "name": "Inventario",
+          "type": "structure",
+          "children": [
+            {
+              "name": "Contatore",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "Selezione1",
+              "type": "string",
+              "value": "\"\""
+            },
+            {
+              "name": "Selezione2",
+              "type": "string",
+              "value": "\"\""
+            },
+            {
+              "name": "Selezione3",
+              "type": "string",
+              "value": "\"\""
+            },
+            {
+              "name": "Selezione4",
+              "type": "string",
+              "value": "\"\""
+            }
+          ]
         }
       ],
       "instances": [
@@ -3303,7 +3604,7 @@
           "keepRatio": true,
           "layer": "Azioni",
           "name": "Selezione2",
-          "persistentUuid": "ec6f041b-fb99-425d-866c-cc8b4475eac0",
+          "persistentUuid": "0128cb67-52da-4090-b025-91a7f6ac4ea1",
           "width": 0,
           "x": 285,
           "y": 184,
@@ -3314,13 +3615,13 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 20,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
           "layer": "Azioni",
           "name": "Selezione3",
-          "persistentUuid": "25b2c923-ab7c-47fb-a033-831ed9dde438",
-          "width": 20,
+          "persistentUuid": "c173065f-e9a0-43fa-a44a-666509d81e25",
+          "width": 0,
           "x": 264,
           "y": 205,
           "zOrder": 30,
@@ -3335,11 +3636,27 @@
           "keepRatio": true,
           "layer": "Azioni",
           "name": "Selezione4",
-          "persistentUuid": "3a8d1807-5e71-4cc1-b719-b59605b33510",
+          "persistentUuid": "1612f043-c026-4b20-a571-f67b05ffa548",
           "width": 0,
           "x": 285,
           "y": 205,
           "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Sfondo",
+          "name": "Secchio",
+          "persistentUuid": "bbaa6fd7-370f-4965-9e66-d082fdb2e7c7",
+          "width": 0,
+          "x": 184,
+          "y": 104,
+          "zOrder": 201,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6734,250 +7051,6 @@
               ]
             }
           ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Selezione",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite24",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 20,
-                            "y": 0
-                          },
-                          {
-                            "x": 20,
-                            "y": 20
-                          },
-                          {
-                            "x": 0,
-                            "y": 20
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Selezione2",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite24",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 20,
-                            "y": 0
-                          },
-                          {
-                            "x": 20,
-                            "y": 20
-                          },
-                          {
-                            "x": 0,
-                            "y": 20
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Selezione3",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite24",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 20,
-                            "y": 0
-                          },
-                          {
-                            "x": 20,
-                            "y": 20
-                          },
-                          {
-                            "x": 0,
-                            "y": 20
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Selezione4",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite24",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 20,
-                            "y": 0
-                          },
-                          {
-                            "x": 20,
-                            "y": 20
-                          },
-                          {
-                            "x": 0,
-                            "y": 20
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "objectsFolderStructure": {
@@ -7022,22 +7095,13 @@
             "folderName": "Sprite",
             "children": [
               {
-                "folderName": "Azioni",
+                "folderName": "Inventario",
                 "children": [
                   {
+                    "objectName": "Secchio"
+                  },
+                  {
                     "objectName": "Secchio_sel"
-                  },
-                  {
-                    "objectName": "Selezione"
-                  },
-                  {
-                    "objectName": "Selezione2"
-                  },
-                  {
-                    "objectName": "Selezione3"
-                  },
-                  {
-                    "objectName": "Selezione4"
                   }
                 ]
               },
@@ -7052,9 +7116,6 @@
               },
               {
                 "objectName": "Fuoco"
-              },
-              {
-                "objectName": "Secchio"
               },
               {
                 "objectName": "baule"
@@ -7133,28 +7194,6 @@
                 "GiocatoreY",
                 "=",
                 "SegnaPosto.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Giocatore",
-                "Animation",
-                "=",
-                "\"IdleDown\""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "fontana",
-                "Animation",
-                "=",
-                "\"cascata\""
               ]
             },
             {
@@ -7355,14 +7394,6 @@
                 "value": "Cache"
               },
               "parameters": [
-                "Oggetti_sel"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
                 "Selezioni"
               ]
             },
@@ -7392,6 +7423,28 @@
                 "Muro",
                 "=",
                 "\"Muro\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Giocatore",
+                "Animation",
+                "=",
+                "\"IdleDown\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "fontana",
+                "Animation",
+                "=",
+                "\"cascata\""
               ]
             },
             {
@@ -7440,13 +7493,12 @@
             },
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "Secchio_sel",
-                "Animation",
+                "Inventario.Contatore",
                 "=",
-                "\"Selezione\""
+                "0"
               ]
             }
           ]
@@ -7621,6 +7673,18 @@
                 "",
                 "=",
                 "CameraLimiteDestra.CenterX()",
+                "\"Collisioni\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraLimiteDestra.CenterX()*1.3",
                 "\"Recinto\"",
                 ""
               ]
@@ -7632,8 +7696,20 @@
               "parameters": [
                 "",
                 "=",
-                "CameraLimiteDestra.CenterX()",
-                "\"Collisioni\"",
+                "CameraLimiteDestra.CenterX()*0.6",
+                "\"Alberi\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraLimiteDestra.CenterX()*0.3",
+                "\"Cielo\"",
                 ""
               ]
             }
@@ -7698,6 +7774,18 @@
                 "",
                 "=",
                 "CameraLimiteSinistro.CenterX()",
+                "\"Collisioni\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraLimiteSinistro.CenterX()*1.3",
                 "\"Recinto\"",
                 ""
               ]
@@ -7709,8 +7797,20 @@
               "parameters": [
                 "",
                 "=",
-                "CameraLimiteSinistro.CenterX()",
-                "\"Collisioni\"",
+                "CameraLimiteSinistro.CenterX()*0.6",
+                "\"Alberi\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "CameraLimiteSinistro.CenterX()*0.3",
+                "\"Cielo\"",
                 ""
               ]
             }
@@ -8155,334 +8255,87 @@
                   "parameters": [
                     "Prendere_sel"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Inventario.Contatore",
+                    "<",
+                    "4"
+                  ]
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Secchio"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Inventario.Contatore",
+                    "=",
+                    "Inventario.Contatore+1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Secchio_sel",
+                    "Selezione.Y()+1",
+                    "Selezione.X()+3",
+                    "\"Azioni\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "Secchio_sel",
+                    "Resizable",
+                    "14",
+                    "18"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Secchio_sel",
+                    "Animation",
+                    "=",
+                    "\"Selezione\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Secchio_sel",
+                    "=",
+                    "29"
+                  ]
+                }
+              ],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "Inventario1",
-                        "=",
-                        "\"\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Secchio"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "Inventario2",
-                        "=",
-                        "\"\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "Selezione2",
-                        "!=",
-                        "\"SECCHIO\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "Selezione3",
-                        "!=",
-                        "\"SECCHIO\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "Oggetti_disponibili.Selezione4",
-                        "!=",
-                        "\"SECCHIO\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Secchio"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetStringVariable"
-                      },
-                      "parameters": [
-                        "Oggetti_disponibili.Selezione2",
-                        "=",
-                        "\"SECCHIO\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CreateByName"
-                      },
-                      "parameters": [
-                        "",
-                        "Secchio_sel",
-                        "\"Secchio_sel\"",
-                        "Selezione2.X()+3",
-                        "Selezione2.Y()+1",
-                        "\"Azioni\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ResizableCapability::ResizableBehavior::SetSize"
-                      },
-                      "parameters": [
-                        "Secchio_sel",
-                        "Resizable",
-                        "14",
-                        "18"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Secchio_sel",
-                        "Animation",
-                        "=",
-                        "\"Selezione\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "Oggetti_disponibili.Selezione3",
-                        "=",
-                        "\"\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "Oggetti_disponibili.Selezione",
-                        "!=",
-                        "\"SECCHIO\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "Oggetti_disponibili.Selezione2",
-                        "!=",
-                        "\"SECCHIO\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "Oggetti_disponibili.Selezione4",
-                        "!=",
-                        "\"SECCHIO\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Secchio"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetStringVariable"
-                      },
-                      "parameters": [
-                        "Oggetti_disponibili.Selezione3",
-                        "=",
-                        "\"SECCHIO\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CreateByName"
-                      },
-                      "parameters": [
-                        "",
-                        "Secchio_sel",
-                        "\"Secchio_sel\"",
-                        "Selezione3.X()+3",
-                        "Selezione3.Y()+1",
-                        "\"Azioni\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ResizableCapability::ResizableBehavior::SetSize"
-                      },
-                      "parameters": [
-                        "Secchio_sel",
-                        "Resizable",
-                        "14",
-                        "18"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Secchio_sel",
-                        "Animation",
-                        "=",
-                        "\"Selezione\""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "Oggetti_disponibili.Selezione4",
-                        "=",
-                        "\"\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "Oggetti_disponibili.Selezione",
-                        "!=",
-                        "\"SECCHIO\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "Oggetti_disponibili.Selezione2",
-                        "!=",
-                        "\"SECCHIO\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "StringVariable"
-                      },
-                      "parameters": [
-                        "Oggetti_disponibili.Selezione3",
-                        "!=",
-                        "\"SECCHIO\""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Secchio"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetStringVariable"
-                      },
-                      "parameters": [
-                        "Oggetti_disponibili.Selezione4",
-                        "=",
-                        "\"SECCHIO\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "CreateByName"
-                      },
-                      "parameters": [
-                        "",
-                        "Secchio_sel",
-                        "\"Secchio_sel\"",
-                        "Selezione4.X()+3",
-                        "Selezione4.Y()+1",
-                        "\"Azioni\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ResizableCapability::ResizableBehavior::SetSize"
-                      },
-                      "parameters": [
-                        "Secchio_sel",
-                        "Resizable",
-                        "14",
-                        "18"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Secchio_sel",
-                        "Animation",
-                        "=",
-                        "\"Selezione\""
-                      ]
-                    }
-                  ]
+                  "conditions": [],
+                  "actions": []
                 }
               ]
             },
@@ -8505,16 +8358,6 @@
                   },
                   "parameters": [
                     "Usare_sel"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "Oggetti_disponibili.Selezione",
-                    "!=",
-                    "\"\""
                   ]
                 },
                 {
@@ -8570,16 +8413,6 @@
                 },
                 {
                   "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "Oggetti_disponibili.Selezione2",
-                    "!=",
-                    "\"\""
-                  ]
-                },
-                {
-                  "type": {
                     "inverted": true,
                     "value": "Visible"
                   },
@@ -8631,16 +8464,6 @@
                 },
                 {
                   "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "Oggetti_disponibili.Selezione3",
-                    "!=",
-                    "\"\""
-                  ]
-                },
-                {
-                  "type": {
                     "inverted": true,
                     "value": "Visible"
                   },
@@ -8688,16 +8511,6 @@
                   },
                   "parameters": [
                     "Usare_sel"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "StringVariable"
-                  },
-                  "parameters": [
-                    "Oggetti_disponibili.Selezione4",
-                    "!=",
-                    "\"\""
                   ]
                 },
                 {
@@ -9624,6 +9437,24 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "Selezione",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Selezione",
+                "nome_oggetto_contenuto",
+                "=",
+                "\"\""
+              ]
+            }
+          ],
           "actions": []
         }
       ],
