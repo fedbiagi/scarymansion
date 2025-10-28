@@ -1206,7 +1206,7 @@
       {
         "file": "assets/Selezione.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Selezione.png\"}",
         "name": "Selezione",
         "smoothed": false,
         "userAdded": false
@@ -1256,6 +1256,70 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite26",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Acqua.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Acqua",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Secchio.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Secchio.png\"}",
+        "name": "Secchio",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Secchio2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Secchio2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Oggetto.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Oggetto",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Selezione3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Selezione3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Acqua2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Acqua2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage2",
         "smoothed": false,
         "userAdded": false
       }
@@ -2087,7 +2151,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": true,
-        "zoomFactor": 3.743293465753727,
+        "zoomFactor": 2.9677852569189116,
         "windowMask": false,
         "selectedLayer": "Sfondo"
       },
@@ -2097,6 +2161,9 @@
           "objects": [
             {
               "name": "Secchio"
+            },
+            {
+              "name": "SecchioPieno"
             }
           ]
         }
@@ -2118,7 +2185,7 @@
           "children": []
         },
         {
-          "name": "Inventario",
+          "name": "tmp",
           "type": "number",
           "value": 0
         }
@@ -2130,7 +2197,7 @@
           "depth": 13.5,
           "height": 56,
           "layer": "",
-          "name": "SegnaPosto",
+          "name": "Player",
           "persistentUuid": "1b257b7f-f5e0-44d5-b4fa-a80497f87ff6",
           "width": 22,
           "x": 233,
@@ -3367,23 +3434,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 24,
-          "keepRatio": true,
-          "layer": "Azioni",
-          "name": "NewText",
-          "persistentUuid": "8de6e9cf-2797-4a98-bc2b-ff0d1a3297ee",
-          "width": 48,
-          "x": 200,
-          "y": 200,
-          "zOrder": 202,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -3488,13 +3538,46 @@
               "value": "\"\""
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 12,
+          "keepRatio": true,
+          "layer": "Azioni",
+          "name": "NewText",
+          "persistentUuid": "b0c0ebac-0b7c-4efe-a088-eb08278c35f3",
+          "width": 40,
+          "x": 200,
+          "y": 192,
+          "zOrder": 202,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "SecchioPieno",
+          "persistentUuid": "9db458c3-453c-4128-8826-5753583e0e73",
+          "width": 0,
+          "x": -59,
+          "y": 116,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "SegnaPosto",
+          "name": "Player",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -3532,6 +3615,11 @@
               "name": "Muro",
               "type": "string",
               "value": "\"Muro\""
+            },
+            {
+              "name": "equipaggiamento",
+              "type": "string",
+              "value": "\"\""
             }
           ],
           "effects": [],
@@ -4527,7 +4615,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "vuota",
+              "name": "Vuota",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -4576,7 +4664,7 @@
               ]
             },
             {
-              "name": "piena",
+              "name": "Piena",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -4625,7 +4713,7 @@
               ]
             },
             {
-              "name": "cascata",
+              "name": "Cascata",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -5396,7 +5484,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "acceso",
+              "name": "Acceso",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -6131,7 +6219,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "Oggetto",
+              "name": "Stage",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -6141,7 +6229,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite14",
+                      "image": "Oggetto",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6157,19 +6245,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
+                            "x": 4,
                             "y": 0
                           },
                           {
-                            "x": 19,
+                            "x": 23,
                             "y": 0
                           },
                           {
-                            "x": 19,
+                            "x": 23,
                             "y": 27
                           },
                           {
-                            "x": 0,
+                            "x": 4,
                             "y": 27
                           }
                         ]
@@ -6190,7 +6278,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Selezione",
+                      "image": "Selezione3",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6206,19 +6294,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
+                            "x": 4,
                             "y": 0
                           },
                           {
-                            "x": 19,
+                            "x": 23,
                             "y": 0
                           },
                           {
-                            "x": 19,
+                            "x": 23,
                             "y": 27
                           },
                           {
-                            "x": 0,
+                            "x": 4,
                             "y": 27
                           }
                         ]
@@ -6790,7 +6878,7 @@
           "string": "Text",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 20,
+          "characterSize": 9,
           "color": {
             "b": 255,
             "g": 255,
@@ -6814,10 +6902,126 @@
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 20,
+            "characterSize": 9,
             "lineHeight": 0,
             "color": "255;255;255"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "SecchioPieno",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "inventariato",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Stage",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 23,
+                            "y": 0
+                          },
+                          {
+                            "x": 23,
+                            "y": 26
+                          },
+                          {
+                            "x": 4,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Selezione",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Acqua2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 23,
+                            "y": 0
+                          },
+                          {
+                            "x": 23,
+                            "y": 26
+                          },
+                          {
+                            "x": 4,
+                            "y": 26
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -6866,6 +7070,9 @@
                 "children": [
                   {
                     "objectName": "Secchio"
+                  },
+                  {
+                    "objectName": "SecchioPieno"
                   }
                 ]
               },
@@ -6897,7 +7104,10 @@
                 "objectName": "puntatore"
               },
               {
-                "objectName": "SegnaPosto"
+                "objectName": "Player"
+              },
+              {
+                "objectName": "NewText"
               }
             ]
           },
@@ -6923,9 +7133,6 @@
                 "objectName": "sfondo_azioni"
               }
             ]
-          },
-          {
-            "objectName": "NewText"
           }
         ]
       },
@@ -6943,148 +7150,174 @@
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "GiocatoreX",
-                "=",
-                "SegnaPosto.X()"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "GiocatoreY",
-                "=",
-                "SegnaPosto.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "CacheSouris"
-              },
-              "parameters": [
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "casa",
-                "\"Casa\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Azioni_sel"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "SegnaPosto"
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "Andare_sel",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetStringObjectVariable"
-              },
-              "parameters": [
-                "SegnaPosto",
-                "Muro",
-                "=",
-                "\"Muro\""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Giocatore",
-                "Animation",
-                "=",
-                "\"IdleDown\""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "fontana",
-                "Animation",
-                "=",
-                "\"cascata\""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Porta1",
-                "Animation",
-                "=",
-                "\"Chiusa\""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "Porta2",
-                "Animation",
-                "=",
-                "\"Chiusa\""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "PortaPiccola",
-                "Animation",
-                "=",
-                "\"Chiusa\""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "baule",
-                "Animation",
-                "=",
-                "\"Chiuso\""
-              ]
-            }
-          ],
+          "actions": [],
           "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Modifiche iniziali alla grafica del gioco",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "GiocatoreX",
+                        "=",
+                        "Player.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "GiocatoreY",
+                        "=",
+                        "Player.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Azioni_sel"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Player"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "SecchioPieno"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "Andare_sel",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetStringObjectVariable"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Muro",
+                        "=",
+                        "\"Muro\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CacheSouris"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "casa",
+                        "\"Casa\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Giocatore",
+                        "Animation",
+                        "=",
+                        "\"IdleDown\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "PortaPiccola",
+                        "Animation",
+                        "=",
+                        "\"Chiusa\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "fontana",
+                        "Animation",
+                        "=",
+                        "\"Cascata\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "baule",
+                        "Animation",
+                        "=",
+                        "\"Chiuso\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Porta1",
+                        "Animation",
+                        "=",
+                        "\"Chiusa\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Porta2",
+                        "Animation",
+                        "=",
+                        "\"Chiusa\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
             {
               "colorB": 228,
               "colorG": 176,
@@ -7291,7 +7524,7 @@
                         "value": "SetNumberVariable"
                       },
                       "parameters": [
-                        "Inventario.Contatore",
+                        "tmp.Contatore",
                         "=",
                         "0"
                       ]
@@ -7301,7 +7534,7 @@
                         "value": "SetStringVariable"
                       },
                       "parameters": [
-                        "Inventario.Selezione1",
+                        "tmp.Selezione1",
                         "=",
                         "\"\""
                       ]
@@ -7311,7 +7544,7 @@
                         "value": "SetStringVariable"
                       },
                       "parameters": [
-                        "Inventario.Selezione2",
+                        "tmp.Selezione2",
                         "=",
                         "\"\""
                       ]
@@ -7321,7 +7554,7 @@
                         "value": "SetStringVariable"
                       },
                       "parameters": [
-                        "Inventario.Selezione3",
+                        "tmp.Selezione3",
                         "=",
                         "\"\""
                       ]
@@ -7331,7 +7564,7 @@
                         "value": "SetStringVariable"
                       },
                       "parameters": [
-                        "Inventario.Selezione4",
+                        "tmp.Selezione4",
                         "=",
                         "\"\""
                       ]
@@ -7387,7 +7620,7 @@
                     "value": "CenterX"
                   },
                   "parameters": [
-                    "SegnaPosto",
+                    "Player",
                     "<=",
                     "CameraLimiteDestra.CenterX()"
                   ]
@@ -7397,7 +7630,7 @@
                     "value": "CenterX"
                   },
                   "parameters": [
-                    "SegnaPosto",
+                    "Player",
                     ">",
                     "CameraLimiteSinistro.CenterX()"
                   ]
@@ -7411,7 +7644,7 @@
                   "parameters": [
                     "",
                     "=",
-                    "SegnaPosto.CenterX()",
+                    "Player.CenterX()",
                     "",
                     ""
                   ]
@@ -7423,7 +7656,7 @@
                   "parameters": [
                     "",
                     "=",
-                    "SegnaPosto.CenterX()",
+                    "Player.CenterX()",
                     "\"Sfondo\"",
                     ""
                   ]
@@ -7435,7 +7668,7 @@
                   "parameters": [
                     "",
                     "=",
-                    "SegnaPosto.CenterX()",
+                    "Player.CenterX()",
                     "\"Casa\"",
                     ""
                   ]
@@ -7447,7 +7680,7 @@
                   "parameters": [
                     "",
                     "=",
-                    "SegnaPosto.CenterX()",
+                    "Player.CenterX()",
                     "\"Collisioni\"",
                     ""
                   ]
@@ -7459,7 +7692,7 @@
                   "parameters": [
                     "",
                     "=",
-                    "SegnaPosto.CenterX()*1.3",
+                    "Player.CenterX() * 1.3",
                     "\"Recinto\"",
                     ""
                   ]
@@ -7471,7 +7704,7 @@
                   "parameters": [
                     "",
                     "=",
-                    "SegnaPosto.CenterX()*0.6",
+                    "Player.CenterX() * 0.6",
                     "\"Alberi\"",
                     ""
                   ]
@@ -7483,7 +7716,7 @@
                   "parameters": [
                     "",
                     "=",
-                    "SegnaPosto.CenterX()*0.3",
+                    "Player.CenterX() * 0.3",
                     "\"Cielo\"",
                     ""
                   ]
@@ -7498,7 +7731,7 @@
                     "value": "CenterX"
                   },
                   "parameters": [
-                    "SegnaPosto",
+                    "Player",
                     ">",
                     "CameraLimiteDestra.CenterX()"
                   ]
@@ -7599,7 +7832,7 @@
                     "value": "CenterX"
                   },
                   "parameters": [
-                    "SegnaPosto",
+                    "Player",
                     "<=",
                     "CameraLimiteSinistro.CenterX()"
                   ]
@@ -7696,466 +7929,40 @@
           "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "puntatore",
-                "=",
-                "CursorX(\"Azioni\", 0)",
-                "=",
-                "CursorY(\"Azioni\",0)"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Azioni_hover"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonFromTextPressed"
-              },
-              "parameters": [
-                "",
-                "\"Left\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [],
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Gestione del mouse",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "folded": true,
-              "name": "Azioni",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionPoint"
-                      },
-                      "parameters": [
-                        "Dare",
-                        "CursorX(\"Azioni\", 0)",
-                        "CursorY(\"Azioni\", 0)"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Azioni_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "Dare_sel",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionPoint"
-                      },
-                      "parameters": [
-                        "Andare",
-                        "CursorX(\"Azioni\", 0)",
-                        "CursorY(\"Azioni\", 0)"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Azioni_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "Andare_sel",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionPoint"
-                      },
-                      "parameters": [
-                        "Aprire",
-                        "CursorX(\"Azioni\", 0)",
-                        "CursorY(\"Azioni\", 0)"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Azioni_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "Aprire_sel",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionPoint"
-                      },
-                      "parameters": [
-                        "Usare",
-                        "CursorX(\"Azioni\", 0)",
-                        "CursorY(\"Azioni\", 0)"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Azioni_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "Usare_sel",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionPoint"
-                      },
-                      "parameters": [
-                        "Tirare",
-                        "CursorX(\"Azioni\", 0)",
-                        "CursorY(\"Azioni\", 0)"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Azioni_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "Tirare_sel",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionPoint"
-                      },
-                      "parameters": [
-                        "Prendere",
-                        "CursorX(\"Azioni\", 0)",
-                        "CursorY(\"Azioni\", 0)"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Azioni_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "Prendere_sel",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionPoint"
-                      },
-                      "parameters": [
-                        "Chiudere",
-                        "CursorX(\"Azioni\", 0)",
-                        "CursorY(\"Azioni\", 0)"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Azioni_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "Chiudere_sel",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionPoint"
-                      },
-                      "parameters": [
-                        "Premere",
-                        "CursorX(\"Azioni\", 0)",
-                        "CursorY(\"Azioni\", 0)"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Azioni_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "Premere_sel",
-                        ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionPoint"
-                      },
-                      "parameters": [
-                        "Leggere",
-                        "CursorX(\"Azioni\", 0)",
-                        "CursorY(\"Azioni\", 0)"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Cache"
-                      },
-                      "parameters": [
-                        "Azioni_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "Leggere_sel",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": []
-            },
-            {
-              "folded": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionPoint"
-                  },
-                  "parameters": [
-                    "Grid",
-                    "CursorX(\"Collisioni\", 0)",
-                    "CursorY(\"Collisioni\", 0)"
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "Visible"
-                      },
-                      "parameters": [
-                        "Andare_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BooleanObjectVariable"
-                      },
-                      "parameters": [
-                        "SegnaPosto",
-                        "isMoving",
-                        "False",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Link",
-                      "include": {
-                        "includeConfig": 0
-                      },
-                      "target": "PathFinding"
-                    }
-                  ]
-                }
-              ]
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "La mano si muove con il movimento del mouse"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionPoint"
-                  },
-                  "parameters": [
-                    "Oggetti_da_raccogliere",
-                    "CursorX(\"\", 0)",
-                    "CursorY(\"\", 0)"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Visible"
-                  },
-                  "parameters": [
-                    "Prendere_sel"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "BooleanObjectVariable"
-                  },
-                  "parameters": [
-                    "Oggetti_da_raccogliere",
-                    "inventariato",
-                    "False",
-                    ""
-                  ]
-                }
-              ],
+              "conditions": [],
               "actions": [
                 {
                   "type": {
-                    "value": "SetNumberVariable"
+                    "value": "MettreXY"
                   },
                   "parameters": [
-                    "Inventario",
+                    "puntatore",
                     "=",
-                    "0"
+                    "CursorX(\"Azioni\", 0)",
+                    "=",
+                    "CursorY(\"Azioni\",0)"
                   ]
                 },
                 {
@@ -8163,282 +7970,1073 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "Secchio"
+                    "Azioni_hover"
                   ]
                 }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Click sinistro del mouse"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
               ],
+              "actions": [],
               "events": [
                 {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "Selezione",
-                  "conditions": [],
-                  "actions": [],
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "folded": true,
+                  "name": "Scelta azione",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
                   "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Quando un'azione viene scelta la scritta diventa bianca"
+                    },
                     {
                       "type": "BuiltinCommonInstructions::Standard",
                       "conditions": [
                         {
                           "type": {
-                            "value": "StringObjectVariable"
+                            "value": "CollisionPoint"
                           },
                           "parameters": [
-                            "Selezione",
-                            "oggetto_contenuto",
-                            "=",
-                            "\"\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "NumberVariable"
-                          },
-                          "parameters": [
-                            "Inventario",
-                            "=",
-                            "0"
+                            "Dare",
+                            "CursorX(\"Azioni\", 0)",
+                            "CursorY(\"Azioni\", 0)"
                           ]
                         }
                       ],
                       "actions": [
                         {
                           "type": {
-                            "value": "Create"
+                            "value": "Cache"
                           },
                           "parameters": [
-                            "",
-                            "Oggetti_da_raccogliere",
-                            "Selezione.X()+3",
-                            "Selezione.Y()+1",
-                            "\"Azioni\""
+                            "Azioni_sel"
                           ]
                         },
-                        {
-                          "type": {
-                            "value": "ResizableCapability::ResizableBehavior::SetSize"
-                          },
-                          "parameters": [
-                            "Oggetti_da_raccogliere",
-                            "Resizable",
-                            "14",
-                            "18"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "Oggetti_da_raccogliere",
-                            "Animation",
-                            "=",
-                            "\"Selezione\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "ChangePlan"
-                          },
-                          "parameters": [
-                            "Oggetti_da_raccogliere",
-                            "=",
-                            "29"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetStringObjectVariable"
-                          },
-                          "parameters": [
-                            "Selezione",
-                            "oggetto_contenuto",
-                            "=",
-                            "Oggetti_da_raccogliere.ObjectName()"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetBooleanObjectVariable"
-                          },
-                          "parameters": [
-                            "Oggetti_da_raccogliere",
-                            "inventariato",
-                            "True",
-                            "Oggetti_da_raccogliere.ObjectName()"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "SetNumberVariable"
-                          },
-                          "parameters": [
-                            "Inventario",
-                            "=",
-                            "Inventario+1"
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Selezione",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "Selezione"
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionPoint"
-                      },
-                      "parameters": [
-                        "Selezione",
-                        "CursorX(\"\", 0)",
-                        "CursorY(\"Collisioni\", 0)"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Visible"
-                      },
-                      "parameters": [
-                        "Usare_sel"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "Visible"
-                      },
-                      "parameters": [
-                        "Selezione"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "StringObjectVariable"
-                      },
-                      "parameters": [
-                        "Selezione",
-                        "oggetto_contenuto",
-                        "!=",
-                        "\"\""
-                      ]
-                    }
-                  ],
-                  "actions": [],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
                         {
                           "type": {
                             "value": "Montre"
                           },
                           "parameters": [
-                            "Selezione",
+                            "Dare_sel",
                             ""
                           ]
                         }
                       ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Andare",
+                            "CursorX(\"Azioni\", 0)",
+                            "CursorY(\"Azioni\", 0)"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "Azioni_sel"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "Andare_sel",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Aprire",
+                            "CursorX(\"Azioni\", 0)",
+                            "CursorY(\"Azioni\", 0)"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "Azioni_sel"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "Aprire_sel",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Usare",
+                            "CursorX(\"Azioni\", 0)",
+                            "CursorY(\"Azioni\", 0)"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "Azioni_sel"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "Usare_sel",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Tirare",
+                            "CursorX(\"Azioni\", 0)",
+                            "CursorY(\"Azioni\", 0)"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "Azioni_sel"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "Tirare_sel",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Prendere",
+                            "CursorX(\"Azioni\", 0)",
+                            "CursorY(\"Azioni\", 0)"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "Azioni_sel"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "Prendere_sel",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Chiudere",
+                            "CursorX(\"Azioni\", 0)",
+                            "CursorY(\"Azioni\", 0)"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "Azioni_sel"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "Chiudere_sel",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Premere",
+                            "CursorX(\"Azioni\", 0)",
+                            "CursorY(\"Azioni\", 0)"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "Azioni_sel"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "Premere_sel",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Leggere",
+                            "CursorX(\"Azioni\", 0)",
+                            "CursorY(\"Azioni\", 0)"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "Azioni_sel"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Montre"
+                          },
+                          "parameters": [
+                            "Leggere_sel",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Quando viene scelta un'azione tolgo la selezione dall'inventario"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Selezione",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Cache"
+                          },
+                          "parameters": [
+                            "Selezione"
+                          ]
+                        }
+                      ]
                     }
-                  ]
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Click del mouse sullo stage",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "Grid",
+                            "CursorX(\"Collisioni\", 0)",
+                            "CursorY(\"Collisioni\", 0)"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "name": "Click del mouse su un oggetto da raccogliere",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "folded": true,
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "SourisSurObjet"
+                                  },
+                                  "parameters": [
+                                    "Oggetti_da_raccogliere",
+                                    "CursorX(\"\", 0)",
+                                    "yes",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Visible"
+                                  },
+                                  "parameters": [
+                                    "Prendere_sel"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BooleanObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Oggetti_da_raccogliere",
+                                    "inventariato",
+                                    "False",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "Cache"
+                                  },
+                                  "parameters": [
+                                    "Oggetti_da_raccogliere"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SetStringVariable"
+                                  },
+                                  "parameters": [
+                                    "nomeOggetto",
+                                    "=",
+                                    "Oggetti_da_raccogliere.ObjectName()"
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::ForEach",
+                                  "object": "Selezione",
+                                  "conditions": [],
+                                  "actions": [],
+                                  "events": [
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "StringObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "Selezione",
+                                            "oggetto_contenuto",
+                                            "=",
+                                            "\"\""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "NumberVariable"
+                                          },
+                                          "parameters": [
+                                            "tmp",
+                                            "=",
+                                            "0"
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "CreateByName"
+                                          },
+                                          "parameters": [
+                                            "",
+                                            "Oggetti_da_raccogliere",
+                                            "nomeOggetto",
+                                            "Selezione.X()+1",
+                                            "Selezione.Y()+1",
+                                            "\"Azioni\""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "ResizableCapability::ResizableBehavior::SetSize"
+                                          },
+                                          "parameters": [
+                                            "Oggetti_da_raccogliere",
+                                            "Resizable",
+                                            "20",
+                                            "20"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                          },
+                                          "parameters": [
+                                            "Oggetti_da_raccogliere",
+                                            "Animation",
+                                            "=",
+                                            "\"Selezione\""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "ChangePlan"
+                                          },
+                                          "parameters": [
+                                            "Oggetti_da_raccogliere",
+                                            "=",
+                                            "29"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetBooleanObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "Oggetti_da_raccogliere",
+                                            "inventariato",
+                                            "True",
+                                            "Oggetti_da_raccogliere.ObjectName()"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetStringObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "Selezione",
+                                            "oggetto_contenuto",
+                                            "=",
+                                            "Oggetti_da_raccogliere.ObjectName()"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetNumberVariable"
+                                          },
+                                          "parameters": [
+                                            "tmp",
+                                            "=",
+                                            "tmp + 1"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "variables": [
+                                {
+                                  "name": "tmp",
+                                  "type": "number",
+                                  "value": 0
+                                },
+                                {
+                                  "name": "nomeOggetto",
+                                  "type": "string",
+                                  "value": "\"\""
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
+                        },
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "name": "Click del mouse per usare l'oggetto selezionato dall'inventario",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "SourisSurObjet"
+                                  },
+                                  "parameters": [
+                                    "fontana",
+                                    "CursorX(\"\", 0)",
+                                    "yes",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Visible"
+                                  },
+                                  "parameters": [
+                                    "Usare_sel"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "fontana",
+                                    "Animation",
+                                    "=",
+                                    "\"Cascata\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "StringObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "equipaggiamento",
+                                    "=",
+                                    "Secchio.ObjectName()"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                                  },
+                                  "parameters": [
+                                    "NewText",
+                                    "Text",
+                                    "=",
+                                    "Player.equipaggiamento"
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetStringObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Selezione",
+                                        "oggetto_contenuto",
+                                        "=",
+                                        "\"\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "SetStringObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "equipaggiamento",
+                                        "=",
+                                        "\"\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "Cache"
+                                      },
+                                      "parameters": [
+                                        "Secchio"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "Montre"
+                                      },
+                                      "parameters": [
+                                        "SecchioPieno",
+                                        ""
+                                      ]
+                                    }
+                                  ],
+                                  "events": [
+                                    {
+                                      "type": "BuiltinCommonInstructions::ForEach",
+                                      "object": "Selezione",
+                                      "conditions": [],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "Cache"
+                                          },
+                                          "parameters": [
+                                            "Selezione"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "SourisSurObjet"
+                                  },
+                                  "parameters": [
+                                    "Fuoco",
+                                    "CursorX(\"\", 0)",
+                                    "yes",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Visible"
+                                  },
+                                  "parameters": [
+                                    "Usare_sel"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "Fuoco",
+                                    "Animation",
+                                    "=",
+                                    "\"Acceso\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "StringObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "equipaggiamento",
+                                    "=",
+                                    "SecchioPieno.ObjectName()"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                                  },
+                                  "parameters": [
+                                    "NewText",
+                                    "Text",
+                                    "=",
+                                    "Player.equipaggiamento"
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetStringObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Selezione",
+                                        "oggetto_contenuto",
+                                        "=",
+                                        "\"\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "SetStringObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "equipaggiamento",
+                                        "=",
+                                        "\"\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "Cache"
+                                      },
+                                      "parameters": [
+                                        "SecchioPieno"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "Cache"
+                                      },
+                                      "parameters": [
+                                        "Fuoco"
+                                      ]
+                                    }
+                                  ],
+                                  "events": [
+                                    {
+                                      "type": "BuiltinCommonInstructions::ForEach",
+                                      "object": "Selezione",
+                                      "conditions": [],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "Cache"
+                                          },
+                                          "parameters": [
+                                            "Selezione"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
+                        },
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "folded": true,
+                          "name": "Scelta del target dove si vuol far muovere il giocatore (PathFinding)",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "Visible"
+                                  },
+                                  "parameters": [
+                                    "Andare_sel"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "BooleanObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "isMoving",
+                                    "False",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "actions": [],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Link",
+                                  "include": {
+                                    "includeConfig": 0
+                                  },
+                                  "target": "PathFinding"
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Scelta oggetto dall'inventario",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Selezione",
+                      "conditions": [],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "Selezione",
+                                "CursorX(\"Azioni\", 0)",
+                                "CursorY(\"Azioni\", 0)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Visible"
+                              },
+                              "parameters": [
+                                "Usare_sel"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "Visible"
+                              },
+                              "parameters": [
+                                "Selezione"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "StringObjectVariable"
+                              },
+                              "parameters": [
+                                "Selezione",
+                                "oggetto_contenuto",
+                                "!=",
+                                "\"\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Montre"
+                              },
+                              "parameters": [
+                                "Selezione",
+                                ""
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "equipaggiamento",
+                                "=",
+                                "Selezione.oggetto_contenuto"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": true,
+                                "value": "CollisionPoint"
+                              },
+                              "parameters": [
+                                "Selezione",
+                                "CursorX(\"Azioni\", 0)",
+                                "CursorY(\"Azioni\", 0)"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Visible"
+                              },
+                              "parameters": [
+                                "Usare_sel"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "Visible"
+                              },
+                              "parameters": [
+                                "Selezione"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "Cache"
+                              },
+                              "parameters": [
+                                "Selezione"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetStringObjectVariable"
+                              },
+                              "parameters": [
+                                "Player",
+                                "equipaggiamento",
+                                "=",
+                                "\"\""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
                 }
               ]
             }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "SegnaPosto",
-                "MostraCasa",
-                "",
-                "",
-                ""
-              ]
-            }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "ShowLayer"
-              },
-              "parameters": [
-                "casa",
-                "\"Casa\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetStringObjectVariable"
-              },
-              "parameters": [
-                "SegnaPosto",
-                "Muro",
-                "=",
-                "\"Muro_casa\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "SegnaPosto",
-                "NascondiCasa",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "casa",
-                "\"Casa\""
-              ]
-            },
-            {
-              "type": {
-                "value": "SetStringObjectVariable"
-              },
-              "parameters": [
-                "SegnaPosto",
-                "Muro",
-                "=",
-                "\"Muro\""
-              ]
-            }
-          ]
+          "parameters": []
         },
         {
           "colorB": 228,
@@ -8458,7 +9056,7 @@
                     "value": "StringObjectVariable"
                   },
                   "parameters": [
-                    "SegnaPosto",
+                    "Player",
                     "pathJson",
                     "!=",
                     "\"\""
@@ -8471,7 +9069,7 @@
                     "value": "JSONToVariableStructure2"
                   },
                   "parameters": [
-                    "SegnaPosto.pathJson",
+                    "Player.pathJson",
                     "path"
                   ]
                 },
@@ -8480,7 +9078,7 @@
                     "value": "SetNumberObjectVariable"
                   },
                   "parameters": [
-                    "SegnaPosto",
+                    "Player",
                     "pathStep",
                     "=",
                     "0"
@@ -8491,7 +9089,7 @@
                     "value": "SetStringObjectVariable"
                   },
                   "parameters": [
-                    "SegnaPosto",
+                    "Player",
                     "pathJson",
                     "=",
                     "\"\""
@@ -8502,7 +9100,7 @@
                     "value": "SetBooleanObjectVariable"
                   },
                   "parameters": [
-                    "SegnaPosto",
+                    "Player",
                     "isMoving",
                     "True",
                     "\"\""
@@ -8519,10 +9117,10 @@
                     "value": "NumberObjectVariable"
                   },
                   "parameters": [
-                    "SegnaPosto",
+                    "Player",
                     "pathStep",
                     "<",
-                    "SegnaPosto.pathLength"
+                    "Player.pathLength"
                   ]
                 },
                 {
@@ -8530,7 +9128,7 @@
                     "value": "BooleanObjectVariable"
                   },
                   "parameters": [
-                    "SegnaPosto",
+                    "Player",
                     "isMoving",
                     "True",
                     ""
@@ -8543,10 +9141,10 @@
                     "value": "SetNumberObjectVariable"
                   },
                   "parameters": [
-                    "SegnaPosto",
+                    "Player",
                     "targetX",
                     "=",
-                    "path[SegnaPosto.pathStep].x"
+                    "path[Player.pathStep].x"
                   ]
                 },
                 {
@@ -8554,10 +9152,10 @@
                     "value": "SetNumberObjectVariable"
                   },
                   "parameters": [
-                    "SegnaPosto",
+                    "Player",
                     "targetY",
                     "=",
-                    "path[SegnaPosto.pathStep].y"
+                    "path[Player.pathStep].y"
                   ]
                 },
                 {
@@ -8565,11 +9163,11 @@
                     "value": "MettreXY"
                   },
                   "parameters": [
-                    "SegnaPosto",
+                    "Player",
                     "=",
-                    "SegnaPosto.targetX",
+                    "Player.targetX",
                     "=",
-                    "SegnaPosto.targetY"
+                    "Player.targetY"
                   ]
                 },
                 {
@@ -8577,10 +9175,10 @@
                     "value": "SetNumberObjectVariable"
                   },
                   "parameters": [
-                    "SegnaPosto",
+                    "Player",
                     "pathStep",
                     "=",
-                    "SegnaPosto.pathStep + 1"
+                    "Player.pathStep + 1"
                   ]
                 },
                 {
@@ -8589,8 +9187,8 @@
                   },
                   "parameters": [
                     "Giocatore",
-                    "SegnaPosto.X()+11",
-                    "SegnaPosto.Y()+28",
+                    "Player.X() + 11",
+                    "Player.Y() + 28",
                     "0",
                     "0"
                   ]
@@ -8605,7 +9203,7 @@
                         "value": "PosX"
                       },
                       "parameters": [
-                        "SegnaPosto",
+                        "Player",
                         ">",
                         "GiocatoreX"
                       ]
@@ -8619,7 +9217,7 @@
                       "parameters": [
                         "GiocatoreX",
                         "=",
-                        "SegnaPosto.X()"
+                        "Player.X()"
                       ]
                     }
                   ],
@@ -8663,7 +9261,7 @@
                         "value": "PosY"
                       },
                       "parameters": [
-                        "SegnaPosto",
+                        "Player",
                         ">",
                         "GiocatoreY"
                       ]
@@ -8677,7 +9275,7 @@
                       "parameters": [
                         "GiocatoreY",
                         "=",
-                        "SegnaPosto.Y()"
+                        "Player.Y()"
                       ]
                     }
                   ],
@@ -8721,7 +9319,7 @@
                         "value": "PosX"
                       },
                       "parameters": [
-                        "SegnaPosto",
+                        "Player",
                         "<",
                         "GiocatoreX"
                       ]
@@ -8735,7 +9333,7 @@
                       "parameters": [
                         "GiocatoreX",
                         "=",
-                        "SegnaPosto.X()"
+                        "Player.X()"
                       ]
                     }
                   ],
@@ -8779,7 +9377,7 @@
                         "value": "PosY"
                       },
                       "parameters": [
-                        "SegnaPosto",
+                        "Player",
                         "<",
                         "GiocatoreY"
                       ]
@@ -8793,7 +9391,7 @@
                       "parameters": [
                         "GiocatoreY",
                         "=",
-                        "SegnaPosto.Y()"
+                        "Player.Y()"
                       ]
                     }
                   ],
@@ -8840,10 +9438,10 @@
                     "value": "NumberObjectVariable"
                   },
                   "parameters": [
-                    "SegnaPosto",
+                    "Player",
                     "pathStep",
                     ">=",
-                    "SegnaPosto.pathLength"
+                    "Player.pathLength"
                   ]
                 }
               ],
@@ -8853,7 +9451,7 @@
                     "value": "SetNumberObjectVariable"
                   },
                   "parameters": [
-                    "SegnaPosto",
+                    "Player",
                     "pathStep",
                     "=",
                     "0"
@@ -8865,8 +9463,8 @@
                   },
                   "parameters": [
                     "Giocatore",
-                    "SegnaPosto.X()+11",
-                    "SegnaPosto.Y()+28",
+                    "Player.X() + 11",
+                    "Player.Y() + 28",
                     "0",
                     "0"
                   ]
@@ -8876,7 +9474,7 @@
                     "value": "SetBooleanObjectVariable"
                   },
                   "parameters": [
-                    "SegnaPosto",
+                    "Player",
                     "isMoving",
                     "False",
                     "\"\""
@@ -9001,6 +9599,84 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "NascondiCasa",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "casa",
+                    "\"Casa\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Muro",
+                    "=",
+                    "\"Muro\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "MostraCasa",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "casa",
+                    "\"Casa\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Muro",
+                    "=",
+                    "\"Muro_casa\""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -9010,7 +9686,8 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "name": "Azioni",
+          "folded": true,
+          "name": "Effetto Hover sulle azioni",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
@@ -9024,7 +9701,7 @@
                 "textG": 0,
                 "textR": 0
               },
-              "comment": "Azioni che può scegliere il giocatore"
+              "comment": "Gestione dell'effetto hover sulle scritte delle azioni"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -10033,7 +10710,7 @@
             "const grid = Array.from({ length: rows }, () => new Array(cols).fill(0));",
             "",
             "// === Get player and start position ===",
-            "const player = runtimeScene.getObjects(\"SegnaPosto\")[0];",
+            "const player = runtimeScene.getObjects(\"Player\")[0];",
             "if (!player) return;",
             "",
             "//alert(player.getVariables().get(\"Muro\").getAsString());",
