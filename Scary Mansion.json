@@ -1554,6 +1554,782 @@
         "name": "Stage31",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Stage32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage32.png\"}",
+        "name": "Stage32",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage33.png\"}",
+        "name": "Stage33",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage34.png\"}",
+        "name": "Stage34",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage35.png\"}",
+        "name": "Stage35",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage36.png\"}",
+        "name": "Stage36",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage37.png\"}",
+        "name": "Stage37",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage38.png\"}",
+        "name": "Stage38",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage39.png\"}",
+        "name": "Stage39",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage40.png\"}",
+        "name": "Stage40",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage41.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage41.png\"}",
+        "name": "Stage41",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage42.png\"}",
+        "name": "Stage42",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage43.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage43.png\"}",
+        "name": "Stage43",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage44.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage44.png\"}",
+        "name": "Stage44",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage45.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage45.png\"}",
+        "name": "Stage45",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage46.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage46.png\"}",
+        "name": "Stage46",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage47.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage47.png\"}",
+        "name": "Stage47",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage48.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage48.png\"}",
+        "name": "Stage48",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage49.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage49.png\"}",
+        "name": "Stage49",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage50.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage50.png\"}",
+        "name": "Stage50",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage51.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage51.png\"}",
+        "name": "Stage51",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage52.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage52.png\"}",
+        "name": "Stage52",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage53.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage53.png\"}",
+        "name": "Stage53",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage54.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage54.png\"}",
+        "name": "Stage54",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage55.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage55.png\"}",
+        "name": "Stage55",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite27.png\"}",
+        "name": "NewSprite27",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite28.png\"}",
+        "name": "NewSprite28",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite29.png\"}",
+        "name": "NewSprite29",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite30.png\"}",
+        "name": "NewSprite30",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite31.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite31.png\"}",
+        "name": "NewSprite31",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite32.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite32.png\"}",
+        "name": "NewSprite32",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite33.png\"}",
+        "name": "NewSprite33",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite34.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite34.png\"}",
+        "name": "NewSprite34",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite35.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite35.png\"}",
+        "name": "NewSprite35",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite36.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite36.png\"}",
+        "name": "NewSprite36",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite37.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite37.png\"}",
+        "name": "NewSprite37",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite38.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite38.png\"}",
+        "name": "NewSprite38",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage56.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage56.png\"}",
+        "name": "Stage56",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage57.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage57.png\"}",
+        "name": "Stage57",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage58.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage58.png\"}",
+        "name": "Stage58",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage59.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage59.png\"}",
+        "name": "Stage59",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage60.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage60.png\"}",
+        "name": "Stage60",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage61.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage61.png\"}",
+        "name": "Stage61",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage62.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage62.png\"}",
+        "name": "Stage62",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage63.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage63.png\"}",
+        "name": "Stage63",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage64.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage64.png\"}",
+        "name": "Stage64",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage65.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage65.png\"}",
+        "name": "Stage65",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage66.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage66.png\"}",
+        "name": "Stage66",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage67.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage67.png\"}",
+        "name": "Stage67",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage68.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage68",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage69.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage69",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage70.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage70",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage71.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage71",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage72.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage72",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage73.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage73",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage74.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage74",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage75.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage75",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage76.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage76",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage77.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage77",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage78.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage78",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage79.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage79",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage80.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage80",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage81.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage81",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage82.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage82",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage83.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage83",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage84.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage84",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage85.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage85",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage86.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage86",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage87.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage87",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage88.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage88",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage89.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage89",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage90.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage90",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage91.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage91",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage92.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage92",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage93.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage93",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage94.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage94",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage95.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage95",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage96.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage96",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage97.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage97",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage98.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage98",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage99.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage99",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage100.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage100",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage101.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage101",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage102.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage102",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage103.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage103",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage104.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage104",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage105.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage105",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage106.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage106",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage107.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage107",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage108.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage108",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage109.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage109",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage110.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage110",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage111.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage111",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage112.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage112",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage113.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage113",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage114.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage114",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage115.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage115",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage116.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage116",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -7276,7 +8052,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage23",
+                      "image": "Stage44",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7292,19 +8068,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
-                            "y": 0
+                            "x": 4,
+                            "y": 1
                           },
                           {
                             "x": 52,
-                            "y": 0
+                            "y": 1
                           },
                           {
                             "x": 52,
                             "y": 56
                           },
                           {
-                            "x": 6,
+                            "x": 4,
                             "y": 56
                           }
                         ]
@@ -7312,7 +8088,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage24",
+                      "image": "Stage45",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7328,19 +8104,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
-                            "y": 0
+                            "x": 4,
+                            "y": 1
                           },
                           {
                             "x": 52,
-                            "y": 0
+                            "y": 1
                           },
                           {
                             "x": 52,
                             "y": 56
                           },
                           {
-                            "x": 6,
+                            "x": 4,
                             "y": 56
                           }
                         ]
@@ -7348,7 +8124,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage25",
+                      "image": "Stage46",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7364,19 +8140,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
-                            "y": 0
+                            "x": 4,
+                            "y": 1
                           },
                           {
                             "x": 52,
-                            "y": 0
+                            "y": 1
                           },
                           {
                             "x": 52,
                             "y": 56
                           },
                           {
-                            "x": 6,
+                            "x": 4,
                             "y": 56
                           }
                         ]
@@ -7384,7 +8160,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage26",
+                      "image": "Stage47",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7400,19 +8176,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
-                            "y": 0
+                            "x": 4,
+                            "y": 1
                           },
                           {
                             "x": 52,
-                            "y": 0
+                            "y": 1
                           },
                           {
                             "x": 52,
                             "y": 56
                           },
                           {
-                            "x": 6,
+                            "x": 4,
                             "y": 56
                           }
                         ]
@@ -7420,7 +8196,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage27",
+                      "image": "Stage48",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7436,19 +8212,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
-                            "y": 0
+                            "x": 4,
+                            "y": 1
                           },
                           {
                             "x": 52,
-                            "y": 0
+                            "y": 1
                           },
                           {
                             "x": 52,
                             "y": 56
                           },
                           {
-                            "x": 6,
+                            "x": 4,
                             "y": 56
                           }
                         ]
@@ -7456,7 +8232,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage28",
+                      "image": "Stage49",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7472,19 +8248,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
-                            "y": 0
+                            "x": 4,
+                            "y": 1
                           },
                           {
                             "x": 52,
-                            "y": 0
+                            "y": 1
                           },
                           {
                             "x": 52,
                             "y": 56
                           },
                           {
-                            "x": 6,
+                            "x": 4,
                             "y": 56
                           }
                         ]
@@ -7492,7 +8268,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage29",
+                      "image": "Stage50",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7508,19 +8284,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
-                            "y": 0
+                            "x": 4,
+                            "y": 1
                           },
                           {
                             "x": 52,
-                            "y": 0
+                            "y": 1
                           },
                           {
                             "x": 52,
                             "y": 56
                           },
                           {
-                            "x": 6,
+                            "x": 4,
                             "y": 56
                           }
                         ]
@@ -7528,7 +8304,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage30",
+                      "image": "Stage51",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7544,19 +8320,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
-                            "y": 0
+                            "x": 4,
+                            "y": 1
                           },
                           {
                             "x": 52,
-                            "y": 0
+                            "y": 1
                           },
                           {
                             "x": 52,
                             "y": 56
                           },
                           {
-                            "x": 6,
+                            "x": 4,
                             "y": 56
                           }
                         ]
@@ -7564,7 +8340,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage31",
+                      "image": "Stage52",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7580,19 +8356,127 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
-                            "y": 0
+                            "x": 4,
+                            "y": 1
                           },
                           {
                             "x": 52,
-                            "y": 0
+                            "y": 1
                           },
                           {
                             "x": 52,
                             "y": 56
                           },
                           {
-                            "x": 6,
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage53",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 1
+                          },
+                          {
+                            "x": 52,
+                            "y": 1
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage54",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 1
+                          },
+                          {
+                            "x": 52,
+                            "y": 1
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage55",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 1
+                          },
+                          {
+                            "x": 52,
+                            "y": 1
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
                             "y": 56
                           }
                         ]
@@ -7625,7 +8509,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage23",
+                      "image": "Stage81",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7641,7 +8525,7 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
+                            "x": 4,
                             "y": 0
                           },
                           {
@@ -7653,7 +8537,7 @@
                             "y": 56
                           },
                           {
-                            "x": 6,
+                            "x": 4,
                             "y": 56
                           }
                         ]
@@ -7661,7 +8545,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage24",
+                      "image": "Stage82",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7677,7 +8561,7 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
+                            "x": 4,
                             "y": 0
                           },
                           {
@@ -7689,7 +8573,7 @@
                             "y": 56
                           },
                           {
-                            "x": 6,
+                            "x": 4,
                             "y": 56
                           }
                         ]
@@ -7697,7 +8581,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage25",
+                      "image": "Stage83",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7713,7 +8597,7 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
+                            "x": 4,
                             "y": 0
                           },
                           {
@@ -7725,7 +8609,7 @@
                             "y": 56
                           },
                           {
-                            "x": 6,
+                            "x": 4,
                             "y": 56
                           }
                         ]
@@ -7733,7 +8617,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage26",
+                      "image": "Stage84",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7749,7 +8633,7 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
+                            "x": 4,
                             "y": 0
                           },
                           {
@@ -7761,7 +8645,7 @@
                             "y": 56
                           },
                           {
-                            "x": 6,
+                            "x": 4,
                             "y": 56
                           }
                         ]
@@ -7769,7 +8653,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage27",
+                      "image": "Stage85",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7785,7 +8669,7 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
+                            "x": 4,
                             "y": 0
                           },
                           {
@@ -7797,7 +8681,7 @@
                             "y": 56
                           },
                           {
-                            "x": 6,
+                            "x": 4,
                             "y": 56
                           }
                         ]
@@ -7805,7 +8689,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage28",
+                      "image": "Stage86",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7821,7 +8705,7 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
+                            "x": 4,
                             "y": 0
                           },
                           {
@@ -7833,7 +8717,7 @@
                             "y": 56
                           },
                           {
-                            "x": 6,
+                            "x": 4,
                             "y": 56
                           }
                         ]
@@ -7841,7 +8725,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage29",
+                      "image": "Stage87",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7857,7 +8741,7 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
+                            "x": 4,
                             "y": 0
                           },
                           {
@@ -7869,7 +8753,7 @@
                             "y": 56
                           },
                           {
-                            "x": 6,
+                            "x": 4,
                             "y": 56
                           }
                         ]
@@ -7877,7 +8761,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage30",
+                      "image": "Stage88",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7893,7 +8777,7 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
+                            "x": 4,
                             "y": 0
                           },
                           {
@@ -7905,7 +8789,7 @@
                             "y": 56
                           },
                           {
-                            "x": 6,
+                            "x": 4,
                             "y": 56
                           }
                         ]
@@ -7913,7 +8797,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage31",
+                      "image": "Stage89",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -7929,7 +8813,7 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 6,
+                            "x": 4,
                             "y": 0
                           },
                           {
@@ -7941,7 +8825,1029 @@
                             "y": 56
                           },
                           {
-                            "x": 6,
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage90",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage91",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage92",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "ChiavePicche",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Stage",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage105",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage106",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage107",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage108",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage109",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage110",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage111",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage112",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage113",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage114",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage115",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage116",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "ChiaveCuori",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Stage",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage93",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage94",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage95",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage96",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage97",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage98",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage99",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage100",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage101",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage102",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage103",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage104",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
                             "y": 56
                           }
                         ]
@@ -7999,16 +9905,22 @@
                 "folderName": "Inventario",
                 "children": [
                   {
-                    "objectName": "Secchio"
+                    "objectName": "ChiaveMattoni"
                   },
                   {
-                    "objectName": "SecchioPieno"
+                    "objectName": "ChiavePicche"
+                  },
+                  {
+                    "objectName": "ChiaveCuori"
                   },
                   {
                     "objectName": "ChiaveFiori"
                   },
                   {
-                    "objectName": "ChiaveMattoni"
+                    "objectName": "Secchio"
+                  },
+                  {
+                    "objectName": "SecchioPieno"
                   }
                 ]
               },
