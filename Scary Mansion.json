@@ -2654,7 +2654,7 @@
       {
         "file": "assets/ChiaveMattoni.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/ChiaveMattoni.png\"}",
         "name": "ChiaveMattoni",
         "smoothed": false,
         "userAdded": false
@@ -2768,6 +2768,510 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Stage144",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage145.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage145.png\"}",
+        "name": "Stage145",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage146.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage146.png\"}",
+        "name": "Stage146",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage147.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage147.png\"}",
+        "name": "Stage147",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage148.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage148.png\"}",
+        "name": "Stage148",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage149.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage149.png\"}",
+        "name": "Stage149",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage150.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage150.png\"}",
+        "name": "Stage150",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage151.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage151.png\"}",
+        "name": "Stage151",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage152.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage152.png\"}",
+        "name": "Stage152",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage153.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage153.png\"}",
+        "name": "Stage153",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage154.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage154.png\"}",
+        "name": "Stage154",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage155.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage155.png\"}",
+        "name": "Stage155",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage156.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage156.png\"}",
+        "name": "Stage156",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Selezione5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Selezione5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Selezione6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Selezione6.png\"}",
+        "name": "Selezione6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Selezione7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Selezione7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Selezione8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Selezione8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Selezione9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Selezione9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage157.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage157.png\"}",
+        "name": "Stage157",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage158.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage158.png\"}",
+        "name": "Stage158",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage159.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage159.png\"}",
+        "name": "Stage159",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage160.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage160.png\"}",
+        "name": "Stage160",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage161.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage161.png\"}",
+        "name": "Stage161",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage162.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage162.png\"}",
+        "name": "Stage162",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage163.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage163.png\"}",
+        "name": "Stage163",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage164.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage164.png\"}",
+        "name": "Stage164",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage165.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage165.png\"}",
+        "name": "Stage165",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage166.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage166.png\"}",
+        "name": "Stage166",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage167.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage167.png\"}",
+        "name": "Stage167",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage168.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage168.png\"}",
+        "name": "Stage168",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage169.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage169",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage170.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage170",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage171.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage171",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage172.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage172",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage173.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage173",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage174.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage174",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage175.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage175",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage176.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage176",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage177.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage177",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage178.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage178",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage179.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage179",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage180.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage180",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage181.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage181",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage182.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage182",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage183.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage183",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage184.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage184",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage185.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage185",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage186.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage186",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage187.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage187",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage188.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage188",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage189.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage189",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage190.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage190",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage191.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage191",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage192.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Stage192",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Stage193.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage193.png\"}",
+        "name": "Stage193",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Selezione10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Selezione10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite39.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite39",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite40.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite40",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite41.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite41",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Completo.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Completo",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tubo.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tubo",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Completo2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Completo2.png\"}",
+        "name": "Completo2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tubo2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tubo2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tubo3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tubo3",
         "smoothed": false,
         "userAdded": false
       }
@@ -5031,16 +5535,33 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 23.692307692307686,
+          "depth": 1,
+          "height": 16,
           "keepRatio": true,
           "layer": "",
-          "name": "ChiaveMattoni",
-          "persistentUuid": "56c4f982-6bd1-4227-bcd7-8ca517696b48",
-          "width": 22,
-          "x": -1350,
-          "y": 104,
+          "name": "Rubinetto",
+          "persistentUuid": "7ff11118-adbd-49c2-9a08-d3aad6e9d2aa",
+          "width": 16,
+          "x": -1346,
+          "y": 114,
           "zOrder": 204,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 37.320512820512825,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Tubo",
+          "persistentUuid": "c8ccf28e-cc05-4568-aca6-65ce03c2ae37",
+          "width": 71,
+          "x": 238,
+          "y": 98,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -9035,7 +9556,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage81",
+                      "image": "Stage181",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9071,7 +9592,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage82",
+                      "image": "Stage182",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9107,7 +9628,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage83",
+                      "image": "Stage183",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9143,7 +9664,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage84",
+                      "image": "Stage184",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9179,7 +9700,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage85",
+                      "image": "Stage185",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9215,7 +9736,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage86",
+                      "image": "Stage186",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9251,7 +9772,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage87",
+                      "image": "Stage187",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9287,7 +9808,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage88",
+                      "image": "Stage188",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9323,7 +9844,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage89",
+                      "image": "Stage189",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9359,7 +9880,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage90",
+                      "image": "Stage190",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9395,7 +9916,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage91",
+                      "image": "Stage191",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9431,7 +9952,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage92",
+                      "image": "Stage192",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9547,7 +10068,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage131",
+                      "image": "Stage145",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9583,7 +10104,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage132",
+                      "image": "Stage146",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9619,7 +10140,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage133",
+                      "image": "Stage147",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9655,7 +10176,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage134",
+                      "image": "Stage148",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9691,7 +10212,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage135",
+                      "image": "Stage149",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9727,7 +10248,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage136",
+                      "image": "Stage150",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9763,7 +10284,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage137",
+                      "image": "Stage151",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9799,7 +10320,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage138",
+                      "image": "Stage152",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9835,7 +10356,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage139",
+                      "image": "Stage153",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9871,7 +10392,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage140",
+                      "image": "Stage154",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9907,7 +10428,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage141",
+                      "image": "Stage155",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9943,7 +10464,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage142",
+                      "image": "Stage156",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9976,46 +10497,23 @@
                           }
                         ]
                       ]
-                    },
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Selezione",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage143",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 0
-                          },
-                          {
-                            "x": 52,
-                            "y": 0
-                          },
-                          {
-                            "x": 52,
-                            "y": 56
-                          },
-                          {
-                            "x": 4,
-                            "y": 56
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Stage144",
+                      "image": "Selezione6",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10064,7 +10562,6 @@
           "variables": [
             {
               "name": "inventariato",
-              "persistentUuid": "f80b7b95-993a-4805-b93f-fa499ea121a4",
               "type": "boolean",
               "value": false
             }
@@ -10083,7 +10580,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage93",
+                      "image": "Stage157",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10119,7 +10616,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage94",
+                      "image": "Stage158",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10155,7 +10652,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage95",
+                      "image": "Stage159",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10191,7 +10688,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage96",
+                      "image": "Stage160",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10227,7 +10724,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage97",
+                      "image": "Stage161",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10263,7 +10760,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage98",
+                      "image": "Stage162",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10299,7 +10796,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage99",
+                      "image": "Stage163",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10335,7 +10832,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage100",
+                      "image": "Stage164",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10371,7 +10868,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage101",
+                      "image": "Stage165",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10407,7 +10904,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage102",
+                      "image": "Stage166",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10443,7 +10940,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage103",
+                      "image": "Stage167",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10479,7 +10976,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stage104",
+                      "image": "Stage168",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10509,6 +11006,275 @@
                           {
                             "x": 4,
                             "y": 56
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Selezione",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Selezione9",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 0
+                          },
+                          {
+                            "x": 52,
+                            "y": 56
+                          },
+                          {
+                            "x": 4,
+                            "y": 56
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Rubinetto",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Stage",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Stage193",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 29,
+                            "y": 0
+                          },
+                          {
+                            "x": 29,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Selezione",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Selezione10",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 29,
+                            "y": 0
+                          },
+                          {
+                            "x": 29,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Tubo",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Completo",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Completo2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 78,
+                            "y": 0
+                          },
+                          {
+                            "x": 78,
+                            "y": 41
+                          },
+                          {
+                            "x": 0,
+                            "y": 41
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Tubo",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Tubo3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 78,
+                            "y": 0
+                          },
+                          {
+                            "x": 78,
+                            "y": 41
+                          },
+                          {
+                            "x": 0,
+                            "y": 41
                           }
                         ]
                       ]
@@ -10581,6 +11347,9 @@
                   },
                   {
                     "objectName": "SecchioPieno"
+                  },
+                  {
+                    "objectName": "Rubinetto"
                   }
                 ]
               },
@@ -10616,6 +11385,9 @@
               },
               {
                 "objectName": "NewText"
+              },
+              {
+                "objectName": "Tubo"
               }
             ]
           },
@@ -10721,7 +11493,23 @@
                         "value": "Cache"
                       },
                       "parameters": [
+                        "ChiaveMattoni"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
                         "ChiaveFiori"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Rubinetto"
                       ]
                     },
                     {
@@ -10803,6 +11591,17 @@
                         "Animation",
                         "=",
                         "\"Chiuso\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Tubo",
+                        "Animation",
+                        "=",
+                        "\"Tubo\""
                       ]
                     },
                     {
