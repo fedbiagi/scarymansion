@@ -3322,6 +3322,38 @@
         "name": "Completo4",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Completo5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Completo5.png\"}",
+        "name": "Completo5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Selezione11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Selezione11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Completo6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Completo6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite42.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite42",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4142,7 +4174,7 @@
       "title": "",
       "v": 0,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 8,
         "gridHeight": 8,
@@ -4150,8 +4182,8 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.2,
-        "snap": true,
-        "zoomFactor": 2.9677852569189116,
+        "snap": false,
+        "zoomFactor": 2.3529411764705923,
         "windowMask": false,
         "selectedLayer": "Sfondo"
       },
@@ -4503,22 +4535,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1.03125,
-          "height": 12,
-          "layer": "Collisioni",
-          "name": "Porta",
-          "persistentUuid": "fe40193c-85fc-4245-a2b2-79fd27fc4688",
-          "width": 65,
-          "x": -720,
-          "y": 44,
-          "zOrder": 37,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 0,
           "height": 14.3,
           "keepRatio": true,
@@ -4674,7 +4690,7 @@
           "customSize": true,
           "depth": 7,
           "height": 8,
-          "layer": "Collisioni",
+          "layer": "Collisioni2",
           "name": "Muro_casa",
           "persistentUuid": "525953e3-d824-462e-b37d-984a41d30dca",
           "width": 248,
@@ -4690,7 +4706,7 @@
           "customSize": true,
           "depth": 1,
           "height": 64,
-          "layer": "Collisioni",
+          "layer": "Collisioni2",
           "name": "Muro_casa",
           "persistentUuid": "2463e35d-194f-48ef-9826-d9c7cd4a9c83",
           "width": 16,
@@ -4706,7 +4722,7 @@
           "customSize": true,
           "depth": 7,
           "height": 12,
-          "layer": "Collisioni",
+          "layer": "Collisioni2",
           "name": "Muro_casa",
           "persistentUuid": "653c779d-52f0-4b8f-a7a8-fc9b32878361",
           "width": 279,
@@ -4722,7 +4738,7 @@
           "customSize": true,
           "depth": 0,
           "height": 12,
-          "layer": "Collisioni",
+          "layer": "Collisioni2",
           "name": "Muro_casa",
           "persistentUuid": "fc6d1f08-b811-4048-bfb9-4ae62fef6d08",
           "width": 224,
@@ -4737,13 +4753,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 20,
-          "layer": "Collisioni",
+          "height": 12,
+          "layer": "Collisioni2",
           "name": "Muro_casa",
           "persistentUuid": "8b5bfaa3-1b70-42eb-9a75-0cdec4f4497b",
           "width": 112,
           "x": -744,
-          "y": 36,
+          "y": 44,
           "zOrder": 104,
           "numberProperties": [],
           "stringProperties": [],
@@ -4754,23 +4770,7 @@
           "customSize": true,
           "depth": 1,
           "height": 12,
-          "layer": "Collisioni",
-          "name": "Porta",
-          "persistentUuid": "cac39ae9-d09f-4e10-8ab8-762fa7d7894b",
-          "width": 40,
-          "x": -984,
-          "y": 44,
-          "zOrder": 37,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 12,
-          "layer": "Collisioni",
+          "layer": "Collisioni2",
           "name": "Muro_casa",
           "persistentUuid": "badc3a09-ae03-4f1f-b07b-3019545613a0",
           "width": 112,
@@ -4785,13 +4785,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 20,
-          "layer": "Collisioni",
+          "height": 12,
+          "layer": "Collisioni2",
           "name": "Muro_casa",
           "persistentUuid": "fb7b8384-4737-4dd8-b73a-0bf190c4972f",
           "width": 56,
           "x": -992,
-          "y": 36,
+          "y": 44,
           "zOrder": 106,
           "numberProperties": [],
           "stringProperties": [],
@@ -4866,7 +4866,7 @@
           "customSize": true,
           "depth": 7,
           "height": 8,
-          "layer": "Collisioni",
+          "layer": "Collisioni2",
           "name": "Muro_casa",
           "persistentUuid": "2ea10c79-b951-4715-b282-9b2a3c6bd55b",
           "width": 340,
@@ -4881,8 +4881,8 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 64,
-          "layer": "Collisioni",
+          "height": 69,
+          "layer": "Collisioni2",
           "name": "Muro_casa",
           "persistentUuid": "7d11dc18-5b75-499b-8998-f821bef0e1e7",
           "width": 16,
@@ -5605,13 +5605,13 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "Sfondo",
+          "layer": "",
           "name": "Tubo",
           "persistentUuid": "8427faa1-be66-4de4-a4df-486950d7fb85",
           "width": 0,
-          "x": 217,
+          "x": -198,
           "y": 96,
-          "zOrder": 205,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5629,6 +5629,40 @@
           "x": -57,
           "y": 88,
           "zOrder": 206,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 38,
+          "keepRatio": true,
+          "layer": "Collisioni2",
+          "name": "Goal1",
+          "persistentUuid": "2726f541-e9e0-4ba1-9003-4679a502be3f",
+          "width": 63,
+          "x": -718,
+          "y": 24,
+          "zOrder": 207,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1.0857142857142856,
+          "height": 38,
+          "keepRatio": true,
+          "layer": "Collisioni2",
+          "name": "Goal2",
+          "persistentUuid": "ee1e41cd-4027-4cad-a8d1-f6f643155c81",
+          "width": 33.65714285714285,
+          "x": -981,
+          "y": 24,
+          "zOrder": 208,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7518,7 +7552,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Porta",
+          "name": "Goal1",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -7533,7 +7567,7 @@
           ],
           "animations": [
             {
-              "name": "Porta",
+              "name": "Stage",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -11306,7 +11340,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Selezione10",
+                      "image": "Selezione11",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11367,7 +11401,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Completo4",
+                      "image": "Completo6",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11392,11 +11426,11 @@
                           },
                           {
                             "x": 101,
-                            "y": 36
+                            "y": 37
                           },
                           {
                             "x": 0,
-                            "y": 36
+                            "y": 37
                           }
                         ]
                       ]
@@ -11441,11 +11475,72 @@
                           },
                           {
                             "x": 101,
-                            "y": 36
+                            "y": 37
                           },
                           {
                             "x": 0,
-                            "y": 36
+                            "y": 37
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Goal2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Stage",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite42",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
                           }
                         ]
                       ]
@@ -11470,7 +11565,10 @@
                 "objectName": "CameraLimiteSinistro"
               },
               {
-                "objectName": "Porta"
+                "objectName": "Goal1"
+              },
+              {
+                "objectName": "Goal2"
               },
               {
                 "objectName": "Muro"
@@ -11607,7 +11705,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Modifiche iniziali alla grafica del gioco",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -15028,7 +15125,7 @@
           "isLocked": false,
           "name": "Cielo",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -15081,7 +15178,7 @@
           "isLocked": false,
           "name": "Alberi",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -15134,7 +15231,7 @@
           "isLocked": true,
           "name": "Sfondo",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -15251,7 +15348,7 @@
           "isLocked": true,
           "name": "Casa",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -15354,8 +15451,8 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": true,
-          "name": "Recinto",
+          "isLocked": false,
+          "name": "Collisioni2",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -15408,9 +15505,62 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": true,
+          "name": "Recinto",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": true,
           "name": "Azioni",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
