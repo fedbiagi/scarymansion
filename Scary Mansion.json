@@ -897,7 +897,7 @@
       {
         "file": "assets/NewSprite5.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite5.png\"}",
         "name": "NewSprite5",
         "smoothed": true,
         "userAdded": false
@@ -3286,7 +3286,7 @@
       {
         "file": "assets/Tubo4.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Tubo4.png\"}",
         "name": "Tubo4",
         "smoothed": false,
         "userAdded": false
@@ -3352,6 +3352,166 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite42",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite43.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite43",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fontana.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/fontana.png\"}",
+        "name": "fontana",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fontana2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/fontana2.png\"}",
+        "name": "fontana2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fontana3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/fontana3.png\"}",
+        "name": "fontana3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fontana4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/fontana4.png\"}",
+        "name": "fontana4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fontana5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/fontana5.png\"}",
+        "name": "fontana5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fontana6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/fontana6.png\"}",
+        "name": "fontana6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fontana7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fontana7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fontana8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fontana8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fontana9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fontana9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fontana10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fontana10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fontana11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fontana11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fontana12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fontana12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fontana13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fontana13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fontana14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fontana14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fontana15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fontana15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fontana16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fontana16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fontana17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fontana17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/fontana18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "fontana18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SenzaRubinetto.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "SenzaRubinetto",
         "smoothed": false,
         "userAdded": false
       }
@@ -4183,7 +4343,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 2.3529411764705923,
+        "zoomFactor": 0.5,
         "windowMask": false,
         "selectedLayer": "Sfondo"
       },
@@ -5666,6 +5826,264 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 80,
+          "keepRatio": true,
+          "layer": "Collisioni2",
+          "name": "RaggiodiAzione",
+          "persistentUuid": "fe96b531-80ff-4b68-93bf-f79d6cb710f1",
+          "width": 76,
+          "x": -1195,
+          "y": 79,
+          "zOrder": 209,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Oggetto",
+              "type": "string",
+              "value": "Secchio"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 63,
+          "keepRatio": true,
+          "layer": "Collisioni2",
+          "name": "RaggiodiAzione",
+          "persistentUuid": "d0ba3618-889c-4a4d-8315-903780dc2981",
+          "width": 97,
+          "x": -194,
+          "y": 95,
+          "zOrder": 210,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Oggetto",
+              "type": "string",
+              "value": "Tubo"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 57,
+          "keepRatio": true,
+          "layer": "Collisioni2",
+          "name": "RaggiodiAzione",
+          "persistentUuid": "79c5f921-d718-4d37-a449-18fb050408b0",
+          "width": 57,
+          "x": -71,
+          "y": 101,
+          "zOrder": 211,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Oggetto",
+              "type": "string",
+              "value": "Fontana"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "Collisioni2",
+          "name": "RaggiodiAzione",
+          "persistentUuid": "c97e9611-b17e-4475-841c-827c62965563",
+          "width": 40,
+          "x": -435,
+          "y": 56,
+          "zOrder": 212,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Oggetto",
+              "type": "string",
+              "value": "Fuoco"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "Collisioni2",
+          "name": "RaggiodiAzione",
+          "persistentUuid": "a40b94c7-998a-4882-b0dc-c5fd38d6e53f",
+          "width": 52,
+          "x": -992,
+          "y": 65,
+          "zOrder": 213,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Oggetto",
+              "type": "string",
+              "value": "PortaPiccola"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 47,
+          "keepRatio": true,
+          "layer": "Collisioni2",
+          "name": "RaggiodiAzione",
+          "persistentUuid": "3365981c-99e7-4b3e-a9b3-85491d549a0d",
+          "width": 107,
+          "x": -740,
+          "y": 63,
+          "zOrder": 214,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Oggetto",
+              "type": "string",
+              "value": "Porta2"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "keepRatio": true,
+          "layer": "Collisioni2",
+          "name": "RaggiodiAzione",
+          "persistentUuid": "ba8bd990-44d4-4090-872d-095977b5bc07",
+          "width": 60,
+          "x": -1360,
+          "y": 118,
+          "zOrder": 215,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Oggetto",
+              "type": "string",
+              "value": "Baule"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "Collisioni2",
+          "name": "RaggiodiAzione",
+          "persistentUuid": "4da00906-b46b-4f88-a1f8-7be1e113dd08",
+          "width": 40,
+          "x": -435,
+          "y": 55,
+          "zOrder": 212,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Oggetto",
+              "type": "string",
+              "value": "ChiaveFiori"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 57,
+          "keepRatio": true,
+          "layer": "Collisioni2",
+          "name": "RaggiodiAzione",
+          "persistentUuid": "e596d4f2-a9e6-4071-9af7-68075442f5d1",
+          "width": 57,
+          "x": -71,
+          "y": 101,
+          "zOrder": 211,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Oggetto",
+              "type": "string",
+              "value": "SecchioPieno"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 57,
+          "keepRatio": true,
+          "layer": "Collisioni2",
+          "name": "RaggiodiAzione",
+          "persistentUuid": "637d8bb5-a472-42e0-a652-070979f81a20",
+          "width": 57,
+          "x": -71,
+          "y": 101,
+          "zOrder": 211,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Oggetto",
+              "type": "string",
+              "value": "ChiaveCuori"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 46,
+          "keepRatio": true,
+          "layer": "Collisioni2",
+          "name": "RaggiodiAzione",
+          "persistentUuid": "408fe508-4f83-4877-8e8b-64254d387937",
+          "width": 60,
+          "x": -1361,
+          "y": 118,
+          "zOrder": 215,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Oggetto",
+              "type": "string",
+              "value": "Rubinetto"
+            }
+          ]
         }
       ],
       "objects": [
@@ -7035,6 +7453,415 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "Chiusura",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "fontana8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 36,
+                            "y": 1
+                          },
+                          {
+                            "x": 36,
+                            "y": 65
+                          },
+                          {
+                            "x": 0,
+                            "y": 65
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "fontana9",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 36,
+                            "y": 1
+                          },
+                          {
+                            "x": 36,
+                            "y": 65
+                          },
+                          {
+                            "x": 0,
+                            "y": 65
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "fontana10",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 36,
+                            "y": 1
+                          },
+                          {
+                            "x": 36,
+                            "y": 65
+                          },
+                          {
+                            "x": 0,
+                            "y": 65
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "fontana11",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 36,
+                            "y": 1
+                          },
+                          {
+                            "x": 36,
+                            "y": 65
+                          },
+                          {
+                            "x": 0,
+                            "y": 65
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "fontana12",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 36,
+                            "y": 1
+                          },
+                          {
+                            "x": 36,
+                            "y": 65
+                          },
+                          {
+                            "x": 0,
+                            "y": 65
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "fontana13",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 36,
+                            "y": 1
+                          },
+                          {
+                            "x": 36,
+                            "y": 65
+                          },
+                          {
+                            "x": 0,
+                            "y": 65
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "fontana14",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 36,
+                            "y": 1
+                          },
+                          {
+                            "x": 36,
+                            "y": 65
+                          },
+                          {
+                            "x": 0,
+                            "y": 65
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "fontana15",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 36,
+                            "y": 1
+                          },
+                          {
+                            "x": 36,
+                            "y": 65
+                          },
+                          {
+                            "x": 0,
+                            "y": 65
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "fontana16",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 36,
+                            "y": 1
+                          },
+                          {
+                            "x": 36,
+                            "y": 65
+                          },
+                          {
+                            "x": 0,
+                            "y": 65
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "fontana17",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 36,
+                            "y": 1
+                          },
+                          {
+                            "x": 36,
+                            "y": 65
+                          },
+                          {
+                            "x": 0,
+                            "y": 65
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "fontana18",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 36,
+                            "y": 1
+                          },
+                          {
+                            "x": 36,
+                            "y": 65
+                          },
+                          {
+                            "x": 0,
+                            "y": 65
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -8275,67 +9102,6 @@
                           {
                             "x": 0,
                             "y": 2
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Test_muro",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite9",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 8,
-                            "y": 0
-                          },
-                          {
-                            "x": 8,
-                            "y": 8
-                          },
-                          {
-                            "x": 0,
-                            "y": 8
                           }
                         ]
                       ]
@@ -9749,7 +10515,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
@@ -10261,7 +11027,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
@@ -10773,7 +11539,7 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
@@ -11450,7 +12216,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Tubo4",
+                      "image": "SenzaRubinetto",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11550,6 +12316,73 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "RaggiodiAzione",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "Oggetto",
+              "type": "string",
+              "value": "0"
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite43",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -11574,9 +12407,6 @@
                 "objectName": "Muro"
               },
               {
-                "objectName": "Test_muro"
-              },
-              {
                 "objectName": "Grid"
               },
               {
@@ -11590,6 +12420,9 @@
               },
               {
                 "objectName": "Target"
+              },
+              {
+                "objectName": "RaggiodiAzione"
               }
             ]
           },
@@ -11705,6 +12538,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Modifiche iniziali alla grafica del gioco",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -12481,7 +13315,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Gestione del mouse",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12950,7 +13783,6 @@
                           "type": "BuiltinCommonInstructions::Group",
                           "events": [
                             {
-                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -12981,6 +13813,29 @@
                                     "inventariato",
                                     "False",
                                     ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "CollisionNP"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "RaggiodiAzione",
+                                    "",
+                                    "",
+                                    "no"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "StringObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "RaggiodiAzione",
+                                    "Oggetto",
+                                    "=",
+                                    "Oggetti_da_raccogliere.ObjectName()"
                                   ]
                                 }
                               ],
@@ -13200,9 +14055,44 @@
                                     "=",
                                     "Secchio.ObjectName()"
                                   ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "CollisionNP"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "RaggiodiAzione",
+                                    "",
+                                    "",
+                                    "no"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "StringObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "RaggiodiAzione",
+                                    "Oggetto",
+                                    "=",
+                                    "\"Fontana\""
+                                  ]
                                 }
                               ],
-                              "actions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                                  },
+                                  "parameters": [
+                                    "NewText",
+                                    "Text",
+                                    "=",
+                                    "RaggiodiAzione.Oggetto"
+                                  ]
+                                }
+                              ],
                               "events": [
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -13323,6 +14213,29 @@
                                     "equipaggiamento",
                                     "=",
                                     "SecchioPieno.ObjectName()"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "CollisionNP"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "RaggiodiAzione",
+                                    "",
+                                    "",
+                                    "no"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "StringObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "RaggiodiAzione",
+                                    "Oggetto",
+                                    "=",
+                                    "\"Fuoco\""
                                   ]
                                 }
                               ],
@@ -13456,6 +14369,29 @@
                                     "=",
                                     "ChiaveFiori.ObjectName()"
                                   ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "CollisionNP"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "RaggiodiAzione",
+                                    "",
+                                    "",
+                                    "no"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "StringObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "RaggiodiAzione",
+                                    "Oggetto",
+                                    "=",
+                                    "\"Baule\""
+                                  ]
                                 }
                               ],
                               "actions": [],
@@ -13571,6 +14507,29 @@
                                     "=",
                                     "\"Aperto\""
                                   ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "CollisionNP"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "RaggiodiAzione",
+                                    "",
+                                    "",
+                                    "no"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "StringObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "RaggiodiAzione",
+                                    "Oggetto",
+                                    "=",
+                                    "\"Baule\""
+                                  ]
                                 }
                               ],
                               "actions": [],
@@ -13658,6 +14617,29 @@
                                     "equipaggiamento",
                                     "=",
                                     "Rubinetto.ObjectName()"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "CollisionNP"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "RaggiodiAzione",
+                                    "",
+                                    "",
+                                    "no"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "StringObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "RaggiodiAzione",
+                                    "Oggetto",
+                                    "=",
+                                    "\"Tubo\""
                                   ]
                                 }
                               ],
@@ -13774,6 +14756,29 @@
                                     "=",
                                     "\"Completo\""
                                   ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "CollisionNP"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "RaggiodiAzione",
+                                    "",
+                                    "",
+                                    "no"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "StringObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "RaggiodiAzione",
+                                    "Oggetto",
+                                    "=",
+                                    "\"Tubo\""
+                                  ]
                                 }
                               ],
                               "actions": [],
@@ -13790,7 +14795,7 @@
                                         "fontana",
                                         "Animation",
                                         "=",
-                                        "\"Vuota\""
+                                        "\"Chiusura\""
                                       ]
                                     },
                                     {
@@ -13861,6 +14866,29 @@
                                     "equipaggiamento",
                                     "=",
                                     "ChiaveCuori.ObjectName()"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "CollisionNP"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "RaggiodiAzione",
+                                    "",
+                                    "",
+                                    "no"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "StringObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "RaggiodiAzione",
+                                    "Oggetto",
+                                    "=",
+                                    "\"PortaPiccola\""
                                   ]
                                 }
                               ],
@@ -13945,6 +14973,7 @@
                               "comment": "Apri la porta piccola"
                             },
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -13975,6 +15004,29 @@
                                     "Animation",
                                     "=",
                                     "\"Aperta\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "CollisionNP"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "RaggiodiAzione",
+                                    "",
+                                    "",
+                                    "no"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "StringObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "RaggiodiAzione",
+                                    "Oggetto",
+                                    "=",
+                                    "\"PortaPiccola\""
                                   ]
                                 }
                               ],
@@ -15284,7 +16336,7 @@
           "isLocked": false,
           "name": "",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [
             {
               "defaultSize": true,
