@@ -4343,7 +4343,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 0.5,
+        "zoomFactor": 2.376368083821393,
         "windowMask": false,
         "selectedLayer": "Sfondo"
       },
@@ -4885,8 +4885,8 @@
           "layer": "Collisioni2",
           "name": "Muro_casa",
           "persistentUuid": "653c779d-52f0-4b8f-a7a8-fc9b32878361",
-          "width": 279,
-          "x": -655,
+          "width": 278,
+          "x": -654,
           "y": 44,
           "zOrder": 101,
           "numberProperties": [],
@@ -4896,12 +4896,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
+          "depth": 1,
           "height": 12,
           "layer": "Collisioni2",
           "name": "Muro_casa",
           "persistentUuid": "fc6d1f08-b811-4048-bfb9-4ae62fef6d08",
-          "width": 224,
+          "width": 226,
           "x": -944,
           "y": 44,
           "zOrder": 103,
@@ -4917,13 +4917,19 @@
           "layer": "Collisioni2",
           "name": "Muro_casa",
           "persistentUuid": "8b5bfaa3-1b70-42eb-9a75-0cdec4f4497b",
-          "width": 112,
-          "x": -744,
+          "width": 64,
+          "x": -718,
           "y": 44,
           "zOrder": 104,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Id",
+              "type": "number",
+              "value": 1
+            }
+          ]
         },
         {
           "angle": 0,
@@ -4933,7 +4939,7 @@
           "layer": "Collisioni2",
           "name": "Muro_casa",
           "persistentUuid": "badc3a09-ae03-4f1f-b07b-3019545613a0",
-          "width": 112,
+          "width": 110,
           "x": -1096,
           "y": 44,
           "zOrder": 105,
@@ -4949,13 +4955,19 @@
           "layer": "Collisioni2",
           "name": "Muro_casa",
           "persistentUuid": "fb7b8384-4737-4dd8-b73a-0bf190c4972f",
-          "width": 56,
-          "x": -992,
+          "width": 42,
+          "x": -986,
           "y": 44,
           "zOrder": 106,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "name": "Id",
+              "type": "number",
+              "value": 2
+            }
+          ]
         },
         {
           "angle": 0,
@@ -5802,9 +5814,9 @@
           "layer": "Collisioni2",
           "name": "Goal1",
           "persistentUuid": "2726f541-e9e0-4ba1-9003-4679a502be3f",
-          "width": 63,
+          "width": 64,
           "x": -718,
-          "y": 24,
+          "y": 10,
           "zOrder": 207,
           "numberProperties": [],
           "stringProperties": [],
@@ -5813,15 +5825,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1.0857142857142856,
+          "depth": 1,
           "height": 38,
           "keepRatio": true,
           "layer": "Collisioni2",
           "name": "Goal2",
           "persistentUuid": "ee1e41cd-4027-4cad-a8d1-f6f643155c81",
-          "width": 33.65714285714285,
-          "x": -981,
-          "y": 24,
+          "width": 42,
+          "x": -986,
+          "y": 8,
           "zOrder": 208,
           "numberProperties": [],
           "stringProperties": [],
@@ -6082,6 +6094,50 @@
               "name": "Oggetto",
               "type": "string",
               "value": "Rubinetto"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 12,
+          "layer": "Collisioni2",
+          "name": "Muro_casa",
+          "persistentUuid": "602aab8e-8c9a-4988-8eb6-b499be792015",
+          "width": 42,
+          "x": -986,
+          "y": 32,
+          "zOrder": 106,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Id",
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 12,
+          "layer": "Collisioni2",
+          "name": "Muro_casa",
+          "persistentUuid": "995909a2-4236-4ef2-a15e-407f8555e2eb",
+          "width": 64,
+          "x": -718,
+          "y": 32,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Id",
+              "type": "number",
+              "value": 1
             }
           ]
         }
@@ -8863,7 +8919,13 @@
           "name": "Muro_casa",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Id",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -12520,6 +12582,7 @@
       },
       "events": [
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -13778,6 +13841,7 @@
                           "colorG": 176,
                           "colorR": 74,
                           "creationTime": 0,
+                          "folded": true,
                           "name": "Click del mouse su un oggetto da raccogliere",
                           "source": "",
                           "type": "BuiltinCommonInstructions::Group",
@@ -14080,19 +14144,7 @@
                                   ]
                                 }
                               ],
-                              "actions": [
-                                {
-                                  "type": {
-                                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                                  },
-                                  "parameters": [
-                                    "NewText",
-                                    "Text",
-                                    "=",
-                                    "RaggiodiAzione.Oggetto"
-                                  ]
-                                }
-                              ],
+                              "actions": [],
                               "events": [
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
@@ -14532,23 +14584,34 @@
                                   ]
                                 }
                               ],
-                              "actions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "baule",
+                                    "Animation",
+                                    "=",
+                                    "\"Apertura\""
+                                  ]
+                                }
+                              ],
                               "events": [
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [],
-                                  "actions": [
+                                  "conditions": [
                                     {
                                       "type": {
-                                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
                                       },
                                       "parameters": [
                                         "baule",
-                                        "Animation",
-                                        "=",
-                                        "\"Apertura\""
+                                        "Animation"
                                       ]
-                                    },
+                                    }
+                                  ],
+                                  "actions": [
                                     {
                                       "type": {
                                         "value": "Montre"
@@ -14781,23 +14844,34 @@
                                   ]
                                 }
                               ],
-                              "actions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "fontana",
+                                    "Animation",
+                                    "=",
+                                    "\"Chiusura\""
+                                  ]
+                                }
+                              ],
                               "events": [
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [],
-                                  "actions": [
+                                  "conditions": [
                                     {
                                       "type": {
-                                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
                                       },
                                       "parameters": [
                                         "fontana",
-                                        "Animation",
-                                        "=",
-                                        "\"Chiusura\""
+                                        "Animation"
                                       ]
-                                    },
+                                    }
+                                  ],
+                                  "actions": [
                                     {
                                       "type": {
                                         "value": "Montre"
@@ -15030,21 +15104,216 @@
                                   ]
                                 }
                               ],
-                              "actions": [],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "PortaPiccola",
+                                    "Animation",
+                                    "=",
+                                    "\"Apertura\""
+                                  ]
+                                }
+                              ],
                               "events": [
                                 {
                                   "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [],
-                                  "actions": [
+                                  "conditions": [
                                     {
                                       "type": {
-                                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
                                       },
                                       "parameters": [
                                         "PortaPiccola",
-                                        "Animation",
-                                        "=",
-                                        "\"Apertura\""
+                                        "Animation"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [],
+                                  "events": [
+                                    {
+                                      "type": "BuiltinCommonInstructions::ForEach",
+                                      "object": "Muro_casa",
+                                      "conditions": [],
+                                      "actions": [],
+                                      "events": [
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "NumberObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "Muro_casa",
+                                                "Id",
+                                                "=",
+                                                "2"
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "Delete"
+                                              },
+                                              "parameters": [
+                                                "Muro_casa",
+                                                ""
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Comment",
+                              "color": {
+                                "b": 109,
+                                "g": 230,
+                                "r": 255,
+                                "textB": 0,
+                                "textG": 0,
+                                "textR": 0
+                              },
+                              "comment": "Apri la porta grande"
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "SourisSurObjet"
+                                  },
+                                  "parameters": [
+                                    "Porta2",
+                                    "CursorX(\"\", 0)",
+                                    "yes",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Visible"
+                                  },
+                                  "parameters": [
+                                    "Aprire_sel"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "Porta2",
+                                    "Animation",
+                                    "=",
+                                    "\"Aperta\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "CollisionNP"
+                                  },
+                                  "parameters": [
+                                    "Player",
+                                    "RaggiodiAzione",
+                                    "",
+                                    "",
+                                    "no"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "StringObjectVariable"
+                                  },
+                                  "parameters": [
+                                    "RaggiodiAzione",
+                                    "Oggetto",
+                                    "=",
+                                    "\"Porta2\""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Porta1",
+                                    "Animation",
+                                    "=",
+                                    "\"Apertura\""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                  },
+                                  "parameters": [
+                                    "Porta2",
+                                    "Animation",
+                                    "=",
+                                    "\"Apertura\""
+                                  ]
+                                }
+                              ],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                                      },
+                                      "parameters": [
+                                        "Porta2",
+                                        "Animation"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [],
+                                  "events": [
+                                    {
+                                      "type": "BuiltinCommonInstructions::ForEach",
+                                      "object": "Muro_casa",
+                                      "conditions": [],
+                                      "actions": [],
+                                      "events": [
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "NumberObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "Muro_casa",
+                                                "Id",
+                                                "=",
+                                                "1"
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "Delete"
+                                              },
+                                              "parameters": [
+                                                "Muro_casa",
+                                                ""
+                                              ]
+                                            }
+                                          ]
+                                        }
                                       ]
                                     }
                                   ]
@@ -16177,7 +16446,7 @@
           "isLocked": false,
           "name": "Cielo",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -16230,7 +16499,7 @@
           "isLocked": false,
           "name": "Alberi",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -16283,7 +16552,7 @@
           "isLocked": true,
           "name": "Sfondo",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -16336,7 +16605,7 @@
           "isLocked": false,
           "name": "",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [
             {
               "defaultSize": true,
@@ -16400,7 +16669,7 @@
           "isLocked": true,
           "name": "Casa",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -16453,7 +16722,7 @@
           "isLocked": false,
           "name": "Collisioni",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -16559,7 +16828,7 @@
           "isLocked": true,
           "name": "Recinto",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -16612,7 +16881,7 @@
           "isLocked": true,
           "name": "Azioni",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
