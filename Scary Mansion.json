@@ -726,7 +726,7 @@
       {
         "file": "assets/acceso5.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/acceso5.png\"}",
         "name": "acceso5",
         "smoothed": true,
         "userAdded": false
@@ -734,7 +734,7 @@
       {
         "file": "assets/acceso6.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/acceso6.png\"}",
         "name": "acceso6",
         "smoothed": true,
         "userAdded": false
@@ -742,7 +742,7 @@
       {
         "file": "assets/acceso7.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/acceso7.png\"}",
         "name": "acceso7",
         "smoothed": true,
         "userAdded": false
@@ -750,7 +750,7 @@
       {
         "file": "assets/acceso8.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/acceso8.png\"}",
         "name": "acceso8",
         "smoothed": true,
         "userAdded": false
@@ -3514,6 +3514,310 @@
         "name": "SenzaRubinetto",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Spegnimento.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spegnimento",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spegnimento2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spegnimento2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spegnimento3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spegnimento3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spegnimento4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spegnimento4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spegnimento5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spegnimento5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spegnimento6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spegnimento6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spegnimento7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spegnimento7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spegnimento8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spegnimento8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spegnimento9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spegnimento9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spegnimento10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spegnimento10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spegnimento11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spegnimento11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spegnimento12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spegnimento12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spegnimento13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spegnimento13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spegnimento14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spegnimento14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spegnimento15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spegnimento15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spegnimento16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spegnimento16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spegnimento17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spegnimento17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spegnimento18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spegnimento18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spegnimento19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spegnimento19",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spegnimento20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spegnimento20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spegnimento21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spegnimento21",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spegnimento22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spegnimento22",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spegnimento23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spegnimento23",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spegnimento24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spegnimento24",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spegnimento25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spegnimento25",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Spegnimento26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Spegnimento26",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Acceso9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Acceso",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Acceso9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Acceso2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Acceso9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Acceso3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Acceso9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Acceso4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fuoco.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fuoco",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fuoco2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fuoco2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fuoco3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fuoco3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fuoco4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fuoco4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fuoco5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fuoco5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fuoco6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fuoco6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fuoco7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fuoco7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fuoco8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fuoco8",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4694,16 +4998,15 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
+          "customSize": false,
           "height": 14.3,
           "keepRatio": true,
           "layer": "",
           "name": "Fuoco",
           "persistentUuid": "8de35d62-d97a-4ae3-add7-b130051506e9",
           "width": 11,
-          "x": -416,
-          "y": 44,
+          "x": -422,
+          "y": 5,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -8511,6 +8814,487 @@
           "behaviors": [],
           "animations": [
             {
+              "name": "Spegnimento",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Spegnimento14",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 41
+                          },
+                          {
+                            "x": 16,
+                            "y": 41
+                          },
+                          {
+                            "x": 16,
+                            "y": 53
+                          },
+                          {
+                            "x": 8,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Spegnimento15",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 41
+                          },
+                          {
+                            "x": 16,
+                            "y": 41
+                          },
+                          {
+                            "x": 16,
+                            "y": 53
+                          },
+                          {
+                            "x": 8,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Spegnimento16",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 41
+                          },
+                          {
+                            "x": 16,
+                            "y": 41
+                          },
+                          {
+                            "x": 16,
+                            "y": 53
+                          },
+                          {
+                            "x": 8,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Spegnimento17",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 41
+                          },
+                          {
+                            "x": 16,
+                            "y": 41
+                          },
+                          {
+                            "x": 16,
+                            "y": 53
+                          },
+                          {
+                            "x": 8,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Spegnimento18",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 41
+                          },
+                          {
+                            "x": 16,
+                            "y": 41
+                          },
+                          {
+                            "x": 16,
+                            "y": 53
+                          },
+                          {
+                            "x": 8,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Spegnimento19",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 41
+                          },
+                          {
+                            "x": 16,
+                            "y": 41
+                          },
+                          {
+                            "x": 16,
+                            "y": 53
+                          },
+                          {
+                            "x": 8,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Spegnimento20",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 41
+                          },
+                          {
+                            "x": 16,
+                            "y": 41
+                          },
+                          {
+                            "x": 16,
+                            "y": 53
+                          },
+                          {
+                            "x": 8,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Spegnimento21",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 41
+                          },
+                          {
+                            "x": 16,
+                            "y": 41
+                          },
+                          {
+                            "x": 16,
+                            "y": 53
+                          },
+                          {
+                            "x": 8,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Spegnimento22",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 41
+                          },
+                          {
+                            "x": 16,
+                            "y": 41
+                          },
+                          {
+                            "x": 16,
+                            "y": 53
+                          },
+                          {
+                            "x": 8,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Spegnimento23",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 41
+                          },
+                          {
+                            "x": 16,
+                            "y": 41
+                          },
+                          {
+                            "x": 16,
+                            "y": 53
+                          },
+                          {
+                            "x": 8,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Spegnimento24",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 41
+                          },
+                          {
+                            "x": 16,
+                            "y": 41
+                          },
+                          {
+                            "x": 16,
+                            "y": 53
+                          },
+                          {
+                            "x": 8,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Spegnimento25",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 41
+                          },
+                          {
+                            "x": 16,
+                            "y": 41
+                          },
+                          {
+                            "x": 16,
+                            "y": 53
+                          },
+                          {
+                            "x": 8,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Spegnimento26",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 41
+                          },
+                          {
+                            "x": 16,
+                            "y": 41
+                          },
+                          {
+                            "x": 16,
+                            "y": 53
+                          },
+                          {
+                            "x": 8,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "name": "Acceso",
               "useMultipleDirections": false,
               "directions": [
@@ -8521,7 +9305,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "acceso5",
+                      "image": "Fuoco5",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8537,27 +9321,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 8,
+                            "y": 41
                           },
                           {
-                            "x": 10,
-                            "y": 0
+                            "x": 16,
+                            "y": 41
                           },
                           {
-                            "x": 10,
-                            "y": 13
+                            "x": 16,
+                            "y": 53
                           },
                           {
-                            "x": 0,
-                            "y": 13
+                            "x": 8,
+                            "y": 53
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "acceso6",
+                      "image": "Fuoco6",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8573,27 +9357,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 8,
+                            "y": 41
                           },
                           {
-                            "x": 10,
-                            "y": 0
+                            "x": 16,
+                            "y": 41
                           },
                           {
-                            "x": 10,
-                            "y": 13
+                            "x": 16,
+                            "y": 53
                           },
                           {
-                            "x": 0,
-                            "y": 13
+                            "x": 8,
+                            "y": 53
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "acceso7",
+                      "image": "Fuoco7",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8609,27 +9393,27 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 8,
+                            "y": 41
                           },
                           {
-                            "x": 10,
-                            "y": 0
+                            "x": 16,
+                            "y": 41
                           },
                           {
-                            "x": 10,
-                            "y": 13
+                            "x": 16,
+                            "y": 53
                           },
                           {
-                            "x": 0,
-                            "y": 13
+                            "x": 8,
+                            "y": 53
                           }
                         ]
                       ]
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "acceso8",
+                      "image": "Fuoco8",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8645,20 +9429,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 8,
+                            "y": 41
                           },
                           {
-                            "x": 10,
-                            "y": 0
+                            "x": 16,
+                            "y": 41
                           },
                           {
-                            "x": 10,
-                            "y": 13
+                            "x": 16,
+                            "y": 53
                           },
                           {
-                            "x": 0,
-                            "y": 13
+                            "x": 8,
+                            "y": 53
                           }
                         ]
                       ]
@@ -12582,7 +13366,6 @@
       },
       "events": [
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -12601,7 +13384,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Modifiche iniziali alla grafica del gioco",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -12812,6 +13594,17 @@
                         "Animation",
                         "=",
                         "\"Stage\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Fuoco",
+                        "Animation",
+                        "=",
+                        "\"Acceso\""
                       ]
                     }
                   ]
@@ -13378,6 +14171,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Gestione del mouse",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13841,7 +14635,6 @@
                           "colorG": 176,
                           "colorR": 74,
                           "creationTime": 0,
-                          "folded": true,
                           "name": "Click del mouse su un oggetto da raccogliere",
                           "source": "",
                           "type": "BuiltinCommonInstructions::Group",
@@ -13906,10 +14699,11 @@
                               "actions": [
                                 {
                                   "type": {
-                                    "value": "Cache"
+                                    "value": "Delete"
                                   },
                                   "parameters": [
-                                    "Oggetti_da_raccogliere"
+                                    "Oggetti_da_raccogliere",
+                                    ""
                                   ]
                                 },
                                 {
@@ -14527,7 +15321,6 @@
                               "comment": "Apri il baule"
                             },
                             {
-                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -14547,17 +15340,6 @@
                                   },
                                   "parameters": [
                                     "Aprire_sel"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
-                                  },
-                                  "parameters": [
-                                    "baule",
-                                    "Animation",
-                                    "=",
-                                    "\"Aperto\""
                                   ]
                                 },
                                 {
@@ -14594,33 +15376,6 @@
                                     "Animation",
                                     "=",
                                     "\"Apertura\""
-                                  ]
-                                }
-                              ],
-                              "events": [
-                                {
-                                  "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [
-                                    {
-                                      "type": {
-                                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-                                      },
-                                      "parameters": [
-                                        "baule",
-                                        "Animation"
-                                      ]
-                                    }
-                                  ],
-                                  "actions": [
-                                    {
-                                      "type": {
-                                        "value": "Montre"
-                                      },
-                                      "parameters": [
-                                        "Rubinetto",
-                                        ""
-                                      ]
-                                    }
                                   ]
                                 }
                               ]
@@ -15185,6 +15940,7 @@
                               "comment": "Apri la porta grande"
                             },
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -15380,6 +16136,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Scelta oggetto dall'inventario",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -15523,6 +16280,64 @@
                     }
                   ],
                   "parameters": []
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Gestione animazioni",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "baule",
+                    "Animation",
+                    "=",
+                    "\"Apertura\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                  },
+                  "parameters": [
+                    "baule",
+                    "Animation"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "Rubinetto"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Rubinetto",
+                    ""
+                  ]
                 }
               ]
             }
@@ -16722,7 +17537,7 @@
           "isLocked": false,
           "name": "Collisioni",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -16775,7 +17590,7 @@
           "isLocked": false,
           "name": "Collisioni2",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
