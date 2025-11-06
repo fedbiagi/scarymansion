@@ -61,7 +61,7 @@
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
       "backgroundImageResourceName": "",
-      "gdevelopLogoStyle": "light",
+      "gdevelopLogoStyle": "dark",
       "logoAndProgressFadeInDuration": 0.2,
       "logoAndProgressLogoFadeInDelay": 0,
       "minDuration": 1.5,
@@ -91,206 +91,6 @@
   },
   "resources": {
     "resources": [
-      {
-        "file": "sfondo.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sfondo.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Linea.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Linea",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/IdleUp.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "IdleUp",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/IdleDown.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "IdleDown",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/IdleUp2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "IdleUp2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/IdleRight.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "IdleRight",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/IdleLeft.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "IdleLeft",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Right.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Right",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Right2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Right2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Right3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Right3",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Right4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Right4",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Right5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Right5",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Right6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Right6",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Left.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Left",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Left2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Left2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Left3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Left3",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Left4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Left4",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Left5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Left5",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Left6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Left6",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Up.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Up",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Up2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Up2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Down.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Down",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Down2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Down2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Muro.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Muro.png\"}",
-        "name": "Muro",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite",
-        "smoothed": true,
-        "userAdded": false
-      },
       {
         "file": "assets/NewSprite2.png",
         "kind": "image",
@@ -356,38 +156,6 @@
         "userAdded": false
       },
       {
-        "file": "IMG_5654.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "IMG_5654.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "casa1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "casa1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "casa2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "casa2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "../../../Desktop/videogiochi/casa2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "../../../Desktop/videogiochi/casa2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "cielo.png",
         "kind": "image",
         "metadata": "",
@@ -396,34 +164,10 @@
         "userAdded": false
       },
       {
-        "file": "casa3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "casa3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "recinto.png",
         "kind": "image",
         "metadata": "",
         "name": "recinto.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "sfondo2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sfondo2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "casa4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "casa4.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -444,62 +188,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/apertura.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "apertura",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/apertura2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "apertura2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/apertura3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "apertura3",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/apertura4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "apertura4",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/apertura5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "apertura5",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/apertura6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "apertura6",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/apertura7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "apertura7",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/spento.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -516,50 +204,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/Linea2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Linea2.png\"}",
-        "name": "Linea2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/Porta.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Porta",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/acceso.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "acceso",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/acceso2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "acceso2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/acceso3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "acceso3",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/acceso4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "acceso4",
         "smoothed": true,
         "userAdded": false
       },
@@ -576,22 +224,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/IdleDown2.png\"}",
         "name": "IdleDown2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/IdleRight2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "IdleRight2",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/IdleLeft2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "IdleLeft2",
         "smoothed": true,
         "userAdded": false
       },
@@ -724,38 +356,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/acceso5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/acceso5.png\"}",
-        "name": "acceso5",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/acceso6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/acceso6.png\"}",
-        "name": "acceso6",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/acceso7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/acceso7.png\"}",
-        "name": "acceso7",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/acceso8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/acceso8.png\"}",
-        "name": "acceso8",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/indice.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -764,110 +364,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/Linea3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Linea3",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Linea4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Linea4",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "../../../Downloads/haunting_eleanor/Haunting-Eleanor-Font-by-Chad-Savage_SinisterFonts.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "../../../Downloads/haunting_eleanor/Haunting-Eleanor-Font-by-Chad-Savage_SinisterFonts.jpg",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "paura_fonts.fnt",
-        "kind": "bitmapFont",
-        "metadata": "",
-        "name": "paura_fonts.fnt",
-        "userAdded": false
-      },
-      {
-        "file": "paura_fonts.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "paura_fonts.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "sfondo_azioni.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "sfondo_azioni.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/NewSprite3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite3",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/sfondo_azioni.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "sfondo_azioni",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "paura_fonts2.fnt",
-        "kind": "bitmapFont",
-        "metadata": "",
-        "name": "paura_fonts2.fnt",
-        "userAdded": false
-      },
-      {
-        "file": "paura_fonts2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "paura_fonts2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "paura_fonts3.fnt",
-        "kind": "bitmapFont",
-        "metadata": "",
-        "name": "paura_fonts3.fnt",
-        "userAdded": false
-      },
-      {
-        "file": "paura_fonts3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "paura_fonts3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "paura_fonts4.fnt",
-        "kind": "bitmapFont",
-        "metadata": "",
-        "name": "paura_fonts4.fnt",
-        "userAdded": false
-      },
-      {
-        "file": "paura_fonts4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "paura_fonts4.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -883,14 +383,6 @@
         "kind": "image",
         "metadata": "",
         "name": "paura_fonts5.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite4",
         "smoothed": true,
         "userAdded": false
       },
@@ -927,65 +419,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite6",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite7",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite8",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite9",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "paura_fonts_sha.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "paura_fonts_sha.png",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "paura_fonts_sha.fnt",
         "kind": "bitmapFont",
         "metadata": "",
         "name": "paura_fonts_sha.fnt",
-        "userAdded": false
-      },
-      {
-        "file": "paura_fonts_sha2.fnt",
-        "kind": "bitmapFont",
-        "metadata": "",
-        "name": "paura_fonts_sha2.fnt",
-        "userAdded": false
-      },
-      {
-        "file": "paura_fonts_sha2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "paura_fonts_sha2.png",
-        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1032,38 +469,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/IdleLeft3.png\"}",
         "name": "IdleLeft3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite11.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite11",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite12.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite12.png\"}",
-        "name": "NewSprite12",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite13.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite13",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite14.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite14",
         "smoothed": false,
         "userAdded": false
       },
@@ -1172,66 +577,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/baule.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "baule",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/baule2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "baule2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/NewSprite22.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite22",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/sfondo_azioni2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "sfondo_azioni2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Selezione.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Selezione.png\"}",
-        "name": "Selezione",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite23.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite23",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Selezione2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Selezione2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite24.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite24.png\"}",
-        "name": "NewSprite24",
         "smoothed": false,
         "userAdded": false
       },
@@ -1244,42 +593,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite25.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite25",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/NewSprite26.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite26",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Acqua.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Acqua",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Secchio.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Secchio.png\"}",
-        "name": "Secchio",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Secchio2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Secchio2",
         "smoothed": false,
         "userAdded": false
       },
@@ -1308,346 +625,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/Stage.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/Stage2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Stage2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage5",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage6",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage7",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage8",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage9",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage10.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage10",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage11.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage11",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage12.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage12",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage13.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage13",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage14.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage14",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage15.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage15",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage16.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage16",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage17.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage17",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage18.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage18",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage19.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage19",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage20.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage20",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage21.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage21",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage22.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage22",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage23.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage23.png\"}",
-        "name": "Stage23",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage24.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage24.png\"}",
-        "name": "Stage24",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage25.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage25.png\"}",
-        "name": "Stage25",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage26.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage26.png\"}",
-        "name": "Stage26",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage27.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage27.png\"}",
-        "name": "Stage27",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage28.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage28.png\"}",
-        "name": "Stage28",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage29.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage29.png\"}",
-        "name": "Stage29",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage30.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage30.png\"}",
-        "name": "Stage30",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage31.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage31.png\"}",
-        "name": "Stage31",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage32.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage32.png\"}",
-        "name": "Stage32",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage33.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage33.png\"}",
-        "name": "Stage33",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage34.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage34.png\"}",
-        "name": "Stage34",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage35.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage35.png\"}",
-        "name": "Stage35",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage36.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage36.png\"}",
-        "name": "Stage36",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage37.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage37.png\"}",
-        "name": "Stage37",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage38.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage38.png\"}",
-        "name": "Stage38",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage39.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage39.png\"}",
-        "name": "Stage39",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage40.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage40.png\"}",
-        "name": "Stage40",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage41.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage41.png\"}",
-        "name": "Stage41",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage42.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage42.png\"}",
-        "name": "Stage42",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage43.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage43.png\"}",
-        "name": "Stage43",
         "smoothed": false,
         "userAdded": false
       },
@@ -1748,842 +729,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/NewSprite27.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite27.png\"}",
-        "name": "NewSprite27",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite28.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite28.png\"}",
-        "name": "NewSprite28",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite29.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite29.png\"}",
-        "name": "NewSprite29",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite30.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite30.png\"}",
-        "name": "NewSprite30",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite31.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite31.png\"}",
-        "name": "NewSprite31",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite32.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite32.png\"}",
-        "name": "NewSprite32",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite33.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite33.png\"}",
-        "name": "NewSprite33",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite34.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite34.png\"}",
-        "name": "NewSprite34",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite35.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite35.png\"}",
-        "name": "NewSprite35",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite36.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite36.png\"}",
-        "name": "NewSprite36",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite37.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite37.png\"}",
-        "name": "NewSprite37",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite38.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite38.png\"}",
-        "name": "NewSprite38",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage56.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage56.png\"}",
-        "name": "Stage56",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage57.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage57.png\"}",
-        "name": "Stage57",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage58.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage58.png\"}",
-        "name": "Stage58",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage59.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage59.png\"}",
-        "name": "Stage59",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage60.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage60.png\"}",
-        "name": "Stage60",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage61.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage61.png\"}",
-        "name": "Stage61",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage62.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage62.png\"}",
-        "name": "Stage62",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage63.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage63.png\"}",
-        "name": "Stage63",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage64.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage64.png\"}",
-        "name": "Stage64",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage65.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage65.png\"}",
-        "name": "Stage65",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage66.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage66.png\"}",
-        "name": "Stage66",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage67.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Stage67.png\"}",
-        "name": "Stage67",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage68.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage68",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage69.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage69",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage70.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage70",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage71.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage71",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage72.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage72",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage73.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage73",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage74.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage74",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage75.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage75",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage76.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage76",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage77.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage77",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage78.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage78",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage79.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage79",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage80.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage80",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage81.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage81",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage82.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage82",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage83.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage83",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage84.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage84",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage85.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage85",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage86.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage86",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage87.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage87",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage88.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage88",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage89.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage89",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage90.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage90",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage91.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage91",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage92.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage92",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage93.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage93",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage94.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage94",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage95.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage95",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage96.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage96",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage97.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage97",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage98.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage98",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage99.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage99",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage100.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage100",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage101.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage101",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage102.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage102",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage103.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage103",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage104.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage104",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage105.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage105",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage106.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage106",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage107.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage107",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage108.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage108",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage109.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage109",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage110.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage110",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage111.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage111",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage112.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage112",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage113.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage113",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage114.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage114",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage115.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage115",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage116.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage116",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage117.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage117",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage118.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage118",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage119.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage119",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage120.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage120",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage121.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage121",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage122.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage122",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage123.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage123",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage124.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage124",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage125.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage125",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage126.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage126",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage127.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage127",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage128.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage128",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage129.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage129",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage130.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage130",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChiaveFiori.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "ChiaveFiori",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChiaveFiori2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "ChiaveFiori2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/Selezione4.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Selezione4.png\"}",
         "name": "Selezione4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/baule3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "baule3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/baule4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "baule4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/baule5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "baule5",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/baule6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "baule6",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/baule7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "baule7",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/baule8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "baule8",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/baule9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "baule9",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Chiuso.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Chiuso",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Apertura8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Apertura4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Apertura8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Apertura5",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Apertura8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Apertura6",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Apertura8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Apertura7",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Apertura8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Apertura8",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Apertura9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Apertura9",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Apertura10.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Apertura10",
         "smoothed": false,
         "userAdded": false
       },
@@ -2648,126 +797,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "baule10",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/ChiaveMattoni.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/ChiaveMattoni.png\"}",
-        "name": "ChiaveMattoni",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage131.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage131",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage132.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage132",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage133.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage133",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage134.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage134",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage135.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage135",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage136.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage136",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage137.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage137",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage138.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage138",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage139.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage139",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage140.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage140",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage141.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage141",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage142.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage142",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage143.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage143",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage144.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage144",
         "smoothed": false,
         "userAdded": false
       },
@@ -2868,34 +897,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/Selezione5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Selezione5",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/Selezione6.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Selezione6.png\"}",
         "name": "Selezione6",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Selezione7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Selezione7",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Selezione8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Selezione8",
         "smoothed": false,
         "userAdded": false
       },
@@ -3004,102 +1009,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/Stage169.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage169",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage170.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage170",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage171.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage171",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage172.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage172",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage173.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage173",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage174.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage174",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage175.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage175",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage176.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage176",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage177.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage177",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage178.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage178",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage179.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage179",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Stage180.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Stage180",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/Stage181.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -3204,102 +1113,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/Selezione10.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Selezione10",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite39.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite39",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite40.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite40",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/NewSprite41.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite41",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Completo.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Completo",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Tubo.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Tubo",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Completo2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Completo2.png\"}",
-        "name": "Completo2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Tubo2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Tubo2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Tubo3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Tubo3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Completo3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Completo3.png\"}",
-        "name": "Completo3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Tubo4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Tubo4.png\"}",
-        "name": "Tubo4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/baule11.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "baule11",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/baule12.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/baule12.png\"}",
@@ -3312,22 +1125,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/PortaPiccola.png\"}",
         "name": "PortaPiccola",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Completo4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Completo4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Completo5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Completo5.png\"}",
-        "name": "Completo5",
         "smoothed": false,
         "userAdded": false
       },
@@ -3360,62 +1157,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite43",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/fontana.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/fontana.png\"}",
-        "name": "fontana",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/fontana2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/fontana2.png\"}",
-        "name": "fontana2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/fontana3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/fontana3.png\"}",
-        "name": "fontana3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/fontana4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/fontana4.png\"}",
-        "name": "fontana4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/fontana5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/fontana5.png\"}",
-        "name": "fontana5",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/fontana6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/fontana6.png\"}",
-        "name": "fontana6",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/fontana7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "fontana7",
         "smoothed": false,
         "userAdded": false
       },
@@ -3512,110 +1253,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "SenzaRubinetto",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Spegnimento.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Spegnimento",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Spegnimento2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Spegnimento2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Spegnimento3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Spegnimento3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Spegnimento4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Spegnimento4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Spegnimento5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Spegnimento5",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Spegnimento6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Spegnimento6",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Spegnimento7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Spegnimento7",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Spegnimento8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Spegnimento8",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Spegnimento9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Spegnimento9",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Spegnimento10.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Spegnimento10",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Spegnimento11.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Spegnimento11",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Spegnimento12.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Spegnimento12",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Spegnimento13.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Spegnimento13",
         "smoothed": false,
         "userAdded": false
       },
@@ -3724,70 +1361,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/Acceso9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Acceso",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Acceso9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Acceso2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Acceso9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Acceso3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Acceso9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Acceso4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Fuoco.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Fuoco",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Fuoco2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Fuoco2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Fuoco3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Fuoco3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Fuoco4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Fuoco4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
         "file": "assets/Fuoco5.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -3817,6 +1390,26 @@
         "metadata": "{\"extension\":\".png\"}",
         "name": "Fuoco8",
         "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dark 1980s synthwave soundtrack deep analog bass s... (d82eade2a9254bb5bd4bbc221006072c).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Dark 1980s synthwave soundtrack deep analog bass s... (d82eade2a9254bb5bd4bbc221006072c).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "halloween-8-bit-forward-reverse-13-13-13-19741.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "halloween-8-bit-forward-reverse-13-13-13-19741.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
         "userAdded": false
       }
     ],
@@ -13384,6 +10977,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Modifiche iniziali alla grafica del gioco",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -13831,6 +11425,36 @@
                       },
                       "parameters": [
                         "Selezione"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Inizializza la Musica",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlayMusic"
+                      },
+                      "parameters": [
+                        "",
+                        "halloween-8-bit-forward-reverse-13-13-13-19741.mp3",
+                        "yes",
+                        "",
+                        ""
                       ]
                     }
                   ]
