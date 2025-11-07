@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 245,
+    "build": 244,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -1443,6 +1443,39 @@
         "name": "NewSprite7",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Fumetto.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Fumetto",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "ARCADECLASSIC.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "ARCADECLASSIC.ttf",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/YarnDialogue.json.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/YarnDialogue.json.json\"}",
+        "name": "YarnDialogue.json",
+        "userAdded": false
+      },
+      {
+        "file": "rpg text.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "rpg text.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2154,6 +2187,153 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Fumetto",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Fumetto",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Fumetto",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 160,
+                        "y": 0
+                      },
+                      {
+                        "x": 160,
+                        "y": 40
+                      },
+                      {
+                        "x": 0,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "testo_fumetto",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "ARCADECLASSIC.ttf",
+      "textAlignment": "left",
+      "characterSize": 6,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "ARCADECLASSIC.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 6,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "opzioni_fumetto",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "ARCADECLASSIC.ttf",
+      "textAlignment": "left",
+      "characterSize": 6,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "ARCADECLASSIC.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 6,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2303,6 +2483,15 @@
       },
       {
         "objectName": "Dialogo"
+      },
+      {
+        "objectName": "Fumetto"
+      },
+      {
+        "objectName": "testo_fumetto"
+      },
+      {
+        "objectName": "opzioni_fumetto"
       }
     ]
   },
@@ -2400,7 +2589,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 1.5,
+        "zoomFactor": 3.4369063517046405,
         "windowMask": false,
         "selectedLayer": "Sfondo"
       },
@@ -4196,6 +4385,54 @@
               "value": 1
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 35,
+          "keepRatio": true,
+          "layer": "Sfondo",
+          "name": "Fumetto",
+          "persistentUuid": "4f6c699c-a351-4945-bd73-6523ab962d12",
+          "width": 52,
+          "x": 126,
+          "y": 62,
+          "zOrder": 216,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Sfondo",
+          "name": "testo_fumetto",
+          "persistentUuid": "96f1afb9-bacc-4187-b3d0-00d19ae508c0",
+          "width": 0,
+          "x": 130,
+          "y": 63,
+          "zOrder": 217,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Sfondo",
+          "name": "opzioni_fumetto",
+          "persistentUuid": "34c5598a-2b73-4728-ba44-e063ce23eaf9",
+          "width": 0,
+          "x": 130,
+          "y": 92,
+          "zOrder": 218,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -10921,67 +11158,6 @@
               ]
             }
           ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Fumetto",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite7",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 200,
-                            "y": 0
-                          },
-                          {
-                            "x": 200,
-                            "y": 131
-                          },
-                          {
-                            "x": 0,
-                            "y": 131
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "objectsFolderStructure": {
@@ -11111,15 +11287,11 @@
                 "objectName": "alberi"
               }
             ]
-          },
-          {
-            "objectName": "NewSprite"
           }
         ]
       },
       "events": [
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -11602,6 +11774,24 @@
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlayMusic"
+                      },
+                      "parameters": [
+                        "",
+                        "halloween-8-bit-forward-reverse-13-13-13-19741.mp3",
+                        "yes",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
                 {
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
@@ -15036,6 +15226,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Dialogo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15053,7 +15244,6 @@
               "comment": "hides non needed stuff and loads the yarn dialogue"
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -15080,7 +15270,7 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "textface"
+                    "Fumetto"
                   ]
                 },
                 {
@@ -15088,7 +15278,15 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "Dialogo"
+                    "opzioni_fumetto"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "testo_fumetto"
                   ]
                 },
                 {
@@ -15110,15 +15308,6 @@
                     "=",
                     "0"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "SceneBackground"
-                  },
-                  "parameters": [
-                    "",
-                    "\"0;0;0\""
-                  ]
                 }
               ],
               "events": [
@@ -15135,6 +15324,7 @@
                   "comment": "sets up variables and starts the dialogue"
                 },
                 {
+                  "disabled": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -15218,7 +15408,7 @@
                     "value": "TextObject::String"
                   },
                   "parameters": [
-                    "text",
+                    "testo_fumetto",
                     "=",
                     "DialogueTree::ClippedLineText()"
                   ]
@@ -15291,16 +15481,7 @@
                         "value": "Montre"
                       },
                       "parameters": [
-                        "textface",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Montre"
-                      },
-                      "parameters": [
-                        "textbox",
+                        "testo_fumetto",
                         ""
                       ]
                     }
@@ -15444,7 +15625,7 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "options"
+                    "opzioni_fumetto"
                   ]
                 }
               ]
@@ -15480,7 +15661,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "options",
+                    "opzioni_fumetto",
                     ""
                   ]
                 }
@@ -15608,7 +15789,7 @@
                         "value": "TextObject::String"
                       },
                       "parameters": [
-                        "options",
+                        "opzioni_fumetto",
                         "=",
                         "DialogueTree::VerticalOptionsList(\">\")"
                       ]
@@ -15665,14 +15846,6 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "textface"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
                     "Dialogo"
                   ]
                 },
@@ -15701,35 +15874,7 @@
                     "value": "Cache"
                   },
                   "parameters": [
-                    "text"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "changes the text face!"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "textface",
-                    "=",
-                    "Variable(textface)"
+                    "testo_fumetto"
                   ]
                 }
               ]
@@ -15773,11 +15918,6 @@
             }
           ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "layers": [
@@ -16226,8 +16366,8 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": true,
-          "name": "Azioni",
+          "isLocked": false,
+          "name": "Dialogo",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -16279,8 +16419,8 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Dialogo",
+          "isLocked": true,
+          "name": "Azioni",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
