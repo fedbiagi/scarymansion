@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 244,
+    "build": 245,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -6810,7 +6810,7 @@
                 {
                   "looping": false,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.16,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -11770,11 +11770,13 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Inizializza la Musica",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
               "events": [
                 {
+                  "disabled": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -11793,6 +11795,7 @@
                   ]
                 },
                 {
+                  "disabled": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -12646,29 +12649,6 @@
                                     "False",
                                     ""
                                   ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "CollisionNP"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "RaggiodiAzione",
-                                    "",
-                                    "",
-                                    "no"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "StringObjectVariable"
-                                  },
-                                  "parameters": [
-                                    "RaggiodiAzione",
-                                    "Oggetto",
-                                    "=",
-                                    "Oggetti_da_raccogliere.ObjectName()"
-                                  ]
                                 }
                               ],
                               "actions": [
@@ -12694,114 +12674,195 @@
                               ],
                               "events": [
                                 {
-                                  "type": "BuiltinCommonInstructions::ForEach",
-                                  "object": "Selezione",
-                                  "conditions": [],
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "CollisionNP"
+                                      },
+                                      "parameters": [
+                                        "Player",
+                                        "RaggiodiAzione",
+                                        "",
+                                        "",
+                                        "no"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "StringObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "RaggiodiAzione",
+                                        "Oggetto",
+                                        "=",
+                                        "Oggetti_da_raccogliere.ObjectName()"
+                                      ]
+                                    }
+                                  ],
                                   "actions": [],
                                   "events": [
                                     {
-                                      "type": "BuiltinCommonInstructions::Standard",
-                                      "conditions": [
+                                      "folded": true,
+                                      "type": "BuiltinCommonInstructions::ForEach",
+                                      "object": "Selezione",
+                                      "conditions": [],
+                                      "actions": [],
+                                      "events": [
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "StringObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "Selezione",
+                                                "oggetto_contenuto",
+                                                "=",
+                                                "\"\""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "NumberVariable"
+                                              },
+                                              "parameters": [
+                                                "tmp",
+                                                "=",
+                                                "0"
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "CreateByName"
+                                              },
+                                              "parameters": [
+                                                "",
+                                                "Oggetti_da_raccogliere",
+                                                "nomeOggetto",
+                                                "Selezione.X()+1",
+                                                "Selezione.Y()+1",
+                                                "\"Azioni\""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "ResizableCapability::ResizableBehavior::SetSize"
+                                              },
+                                              "parameters": [
+                                                "Oggetti_da_raccogliere",
+                                                "Resizable",
+                                                "20",
+                                                "20"
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                              },
+                                              "parameters": [
+                                                "Oggetti_da_raccogliere",
+                                                "Animation",
+                                                "=",
+                                                "\"Selezione\""
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "ChangePlan"
+                                              },
+                                              "parameters": [
+                                                "Oggetti_da_raccogliere",
+                                                "=",
+                                                "29"
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "SetBooleanObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "Oggetti_da_raccogliere",
+                                                "inventariato",
+                                                "True",
+                                                "Oggetti_da_raccogliere.ObjectName()"
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "SetStringObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "Selezione",
+                                                "oggetto_contenuto",
+                                                "=",
+                                                "Oggetti_da_raccogliere.ObjectName()"
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "SetNumberVariable"
+                                              },
+                                              "parameters": [
+                                                "tmp",
+                                                "=",
+                                                "tmp + 1"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Or"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
                                         {
                                           "type": {
+                                            "inverted": true,
+                                            "value": "CollisionNP"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "RaggiodiAzione",
+                                            "",
+                                            "",
+                                            "no"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "inverted": true,
                                             "value": "StringObjectVariable"
                                           },
                                           "parameters": [
-                                            "Selezione",
-                                            "oggetto_contenuto",
-                                            "=",
-                                            "\"\""
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "NumberVariable"
-                                          },
-                                          "parameters": [
-                                            "tmp",
-                                            "=",
-                                            "0"
-                                          ]
-                                        }
-                                      ],
-                                      "actions": [
-                                        {
-                                          "type": {
-                                            "value": "CreateByName"
-                                          },
-                                          "parameters": [
-                                            "",
-                                            "Oggetti_da_raccogliere",
-                                            "nomeOggetto",
-                                            "Selezione.X()+1",
-                                            "Selezione.Y()+1",
-                                            "\"Azioni\""
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "ResizableCapability::ResizableBehavior::SetSize"
-                                          },
-                                          "parameters": [
-                                            "Oggetti_da_raccogliere",
-                                            "Resizable",
-                                            "20",
-                                            "20"
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                                          },
-                                          "parameters": [
-                                            "Oggetti_da_raccogliere",
-                                            "Animation",
-                                            "=",
-                                            "\"Selezione\""
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "ChangePlan"
-                                          },
-                                          "parameters": [
-                                            "Oggetti_da_raccogliere",
-                                            "=",
-                                            "29"
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "SetBooleanObjectVariable"
-                                          },
-                                          "parameters": [
-                                            "Oggetti_da_raccogliere",
-                                            "inventariato",
-                                            "True",
-                                            "Oggetti_da_raccogliere.ObjectName()"
-                                          ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "SetStringObjectVariable"
-                                          },
-                                          "parameters": [
-                                            "Selezione",
-                                            "oggetto_contenuto",
+                                            "RaggiodiAzione",
+                                            "Oggetto",
                                             "=",
                                             "Oggetti_da_raccogliere.ObjectName()"
                                           ]
-                                        },
-                                        {
-                                          "type": {
-                                            "value": "SetNumberVariable"
-                                          },
-                                          "parameters": [
-                                            "tmp",
-                                            "=",
-                                            "tmp + 1"
-                                          ]
                                         }
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "Montre"
+                                      },
+                                      "parameters": [
+                                        "Fumetto",
+                                        ""
                                       ]
                                     }
                                   ]
@@ -12828,6 +12889,7 @@
                           "colorG": 176,
                           "colorR": 74,
                           "creationTime": 0,
+                          "folded": true,
                           "name": "Click del mouse per usare l'oggetto selezionato dall'inventario",
                           "source": "",
                           "type": "BuiltinCommonInstructions::Group",
@@ -12888,91 +12950,150 @@
                                     "=",
                                     "Secchio.ObjectName()"
                                   ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "CollisionNP"
-                                  },
-                                  "parameters": [
-                                    "Player",
-                                    "RaggiodiAzione",
-                                    "",
-                                    "",
-                                    "no"
-                                  ]
-                                },
-                                {
-                                  "type": {
-                                    "value": "StringObjectVariable"
-                                  },
-                                  "parameters": [
-                                    "RaggiodiAzione",
-                                    "Oggetto",
-                                    "=",
-                                    "\"Fontana\""
-                                  ]
                                 }
                               ],
                               "actions": [],
                               "events": [
                                 {
+                                  "folded": true,
                                   "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [],
-                                  "actions": [
+                                  "conditions": [
                                     {
                                       "type": {
-                                        "value": "SetStringObjectVariable"
-                                      },
-                                      "parameters": [
-                                        "Selezione",
-                                        "oggetto_contenuto",
-                                        "=",
-                                        "\"\""
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "SetStringObjectVariable"
+                                        "value": "CollisionNP"
                                       },
                                       "parameters": [
                                         "Player",
-                                        "equipaggiamento",
+                                        "RaggiodiAzione",
+                                        "",
+                                        "",
+                                        "no"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "StringObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "RaggiodiAzione",
+                                        "Oggetto",
                                         "=",
-                                        "\"\""
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "Cache"
-                                      },
-                                      "parameters": [
-                                        "Secchio"
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "Montre"
-                                      },
-                                      "parameters": [
-                                        "SecchioPieno",
-                                        ""
+                                        "\"Fontana\""
                                       ]
                                     }
                                   ],
+                                  "actions": [],
                                   "events": [
                                     {
-                                      "type": "BuiltinCommonInstructions::ForEach",
-                                      "object": "Selezione",
+                                      "folded": true,
+                                      "type": "BuiltinCommonInstructions::Standard",
                                       "conditions": [],
                                       "actions": [
+                                        {
+                                          "type": {
+                                            "value": "SetStringObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "Selezione",
+                                            "oggetto_contenuto",
+                                            "=",
+                                            "\"\""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetStringObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "equipaggiamento",
+                                            "=",
+                                            "\"\""
+                                          ]
+                                        },
                                         {
                                           "type": {
                                             "value": "Cache"
                                           },
                                           "parameters": [
-                                            "Selezione"
+                                            "Secchio"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "Montre"
+                                          },
+                                          "parameters": [
+                                            "SecchioPieno",
+                                            ""
                                           ]
                                         }
+                                      ],
+                                      "events": [
+                                        {
+                                          "type": "BuiltinCommonInstructions::ForEach",
+                                          "object": "Selezione",
+                                          "conditions": [],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "Cache"
+                                              },
+                                              "parameters": [
+                                                "Selezione"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Or"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "inverted": true,
+                                            "value": "CollisionNP"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "RaggiodiAzione",
+                                            "",
+                                            "",
+                                            "no"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "inverted": true,
+                                            "value": "StringObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "RaggiodiAzione",
+                                            "Oggetto",
+                                            "=",
+                                            "\"Fontana\""
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "Montre"
+                                      },
+                                      "parameters": [
+                                        "Fumetto",
+                                        ""
                                       ]
                                     }
                                   ]
@@ -13098,19 +13219,13 @@
                                     },
                                     {
                                       "type": {
-                                        "value": "Cache"
+                                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
                                       },
                                       "parameters": [
-                                        "Fuoco"
-                                      ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "Montre"
-                                      },
-                                      "parameters": [
-                                        "ChiaveFiori",
-                                        ""
+                                        "Fuoco",
+                                        "Animation",
+                                        "=",
+                                        "\"Spegnimento\""
                                       ]
                                     }
                                   ],
@@ -13339,6 +13454,17 @@
                                     "=",
                                     "\"Baule\""
                                   ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                  },
+                                  "parameters": [
+                                    "baule",
+                                    "Animation",
+                                    "=",
+                                    "\"Aperto\""
+                                  ]
                                 }
                               ],
                               "actions": [
@@ -13517,7 +13643,6 @@
                               "comment": "Chiudi il rubinetto"
                             },
                             {
-                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -13584,33 +13709,6 @@
                                     "Animation",
                                     "=",
                                     "\"Chiusura\""
-                                  ]
-                                }
-                              ],
-                              "events": [
-                                {
-                                  "type": "BuiltinCommonInstructions::Standard",
-                                  "conditions": [
-                                    {
-                                      "type": {
-                                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-                                      },
-                                      "parameters": [
-                                        "fontana",
-                                        "Animation"
-                                      ]
-                                    }
-                                  ],
-                                  "actions": [
-                                    {
-                                      "type": {
-                                        "value": "Montre"
-                                      },
-                                      "parameters": [
-                                        "ChiaveCuori",
-                                        ""
-                                      ]
-                                    }
                                   ]
                                 }
                               ]
@@ -14311,6 +14409,96 @@
                   },
                   "parameters": [
                     "Rubinetto",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "Fuoco",
+                    "Animation",
+                    "=",
+                    "\"Spegnimento\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                  },
+                  "parameters": [
+                    "Fuoco",
+                    "Animation"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "ChiaveFiori"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChiaveFiori",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
+                  },
+                  "parameters": [
+                    "fontana",
+                    "Animation",
+                    "=",
+                    "\"Chiusura\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                  },
+                  "parameters": [
+                    "fontana",
+                    "Animation"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "ChiaveCuori"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "ChiaveCuori",
                     ""
                   ]
                 }
