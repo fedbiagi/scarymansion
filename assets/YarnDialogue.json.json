@@ -1,31 +1,91 @@
 [
 	{
-		"title": "how to play",
+		"title": "TuboSenzaRubinetto",
 		"tags": "",
-		"body": "<<avatar 0>>hello there!(press \"z\" to proceed)\nthis is yarn dialogue tree example!😀\nyou can use \"X\" to make text faster! ⚡\nand also another feature in this that you can make actions!\nfor example see the text face!\n<<avatar 1>>it will change!\n<<avatar 0>>did you love this?\n[[ yes |yes]]\n[[ no |no]]",
+		"body": "Se trovo un rubinetto posso chiudere l'acqua!!",
 		"position": {
-			"x": -12328,
-			"y": 775
-		},
-		"colorID": 3
-	},
-	{
-		"title": "yes",
-		"tags": "",
-		"body": "thanks!\nthats all!",
-		"position": {
-			"x": -12520,
-			"y": 1151
+			"x": -12842,
+			"y": 606
 		},
 		"colorID": 0
 	},
 	{
-		"title": "no",
+		"title": "FuocoAcceso",
 		"tags": "",
-		"body": "why, I took so much time doing it!\n...\nfine!...\nthats all for you...",
+		"body": "Il fuoco nasconde qualcosa al suo interno. Devo trovare il modo per spengerlo!!",
 		"position": {
-			"x": -12045,
-			"y": 1141
+			"x": -12625,
+			"y": 385
+		},
+		"colorID": 0
+	},
+	{
+		"title": "SecchioStage",
+		"tags": "",
+		"body": "Con quel secchio potrei raccogliere dell'acqua!!",
+		"position": {
+			"x": -13061,
+			"y": 383
+		},
+		"colorID": 0
+	},
+	{
+		"title": "BauleChiuso",
+		"tags": "",
+		"body": "Il baule è chiuso a chiave. Serve una chiave a forma di fiori per aprirlo.",
+		"position": {
+			"x": -13061,
+			"y": 605
+		},
+		"colorID": 0
+	},
+	{
+		"title": "PrendereOggettoLontano",
+		"tags": "",
+		"body": "Sei troppo lontano per prendere quell'oggetto!!",
+		"position": {
+			"x": -12623,
+			"y": 607
+		},
+		"colorID": 0
+	},
+	{
+		"title": "UsareOggettoLontano",
+		"tags": "",
+		"body": "Se troppo lontano per usare l'oggetto!!",
+		"position": {
+			"x": -13060,
+			"y": 171
+		},
+		"colorID": 0
+	},
+	{
+		"title": "FontanaCascata",
+		"tags": "",
+		"body": "Quella si che è una fontana da brividi!! Ma dove sono capitato!!??",
+		"position": {
+			"x": -12845,
+			"y": 171
+		},
+		"colorID": 0
+	},
+	{
+		"title": "PortaPiccolaChiusa",
+		"tags": "",
+		"body": "Quella porta è chiusa a chiave. Serve una chiave a forma di cuori.",
+		"position": {
+			"x": -12582,
+			"y": 112
+		},
+		"colorID": 0
+	},
+	{
+		"title": "PortaGrandeChiusa",
+		"tags": "",
+		"body": "Qualla porta è chiusa a chiave. Serve una chiave a forma di picche.",
+		"position": {
+			"x": -12868,
+			"y": 355
 		},
 		"colorID": 0
 	}
