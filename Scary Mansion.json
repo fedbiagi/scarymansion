@@ -2675,8 +2675,8 @@
     {
       "b": 0,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Schema1",
-      "name": "Schema1",
+      "mangledName": "Stanza1",
+      "name": "Stanza1",
       "r": 0,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -2692,7 +2692,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.2,
         "snap": false,
-        "zoomFactor": 2.3763680838213923,
+        "zoomFactor": 0.85,
         "windowMask": false,
         "selectedLayer": "Sfondo"
       },
@@ -3081,8 +3081,8 @@
           "layer": "Collisioni",
           "name": "Muro",
           "persistentUuid": "dee3b4fb-1997-411f-8ea1-e45307848c8a",
-          "width": 531,
-          "x": -1344,
+          "width": 538,
+          "x": -1351,
           "y": 156,
           "zOrder": 8,
           "numberProperties": [],
@@ -3325,7 +3325,7 @@
           "layer": "Collisioni",
           "name": "Muro",
           "persistentUuid": "be43ebdc-778b-40da-af49-014a1867b08e",
-          "width": 40,
+          "width": 9,
           "x": -1360,
           "y": 79,
           "zOrder": 107,
@@ -3373,8 +3373,8 @@
           "layer": "Collisioni",
           "name": "Muro",
           "persistentUuid": "68a9da53-c520-40b1-beec-1f19813dc3b4",
-          "width": 256,
-          "x": -1344,
+          "width": 263,
+          "x": -1351,
           "y": 79,
           "zOrder": 23,
           "numberProperties": [],
@@ -4098,7 +4098,7 @@
           "width": 22,
           "x": -421,
           "y": 34,
-          "zOrder": 203,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4148,7 +4148,7 @@
           "width": 22,
           "x": -57,
           "y": 88,
-          "zOrder": 206,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4339,8 +4339,8 @@
           "layer": "Collisioni2",
           "name": "RaggiodiAzione",
           "persistentUuid": "ba8bd990-44d4-4090-872d-095977b5bc07",
-          "width": 60,
-          "x": -1360,
+          "width": 51,
+          "x": -1351,
           "y": 118,
           "zOrder": 215,
           "numberProperties": [],
@@ -4431,8 +4431,8 @@
           "layer": "Collisioni2",
           "name": "RaggiodiAzione",
           "persistentUuid": "408fe508-4f83-4877-8e8b-64254d387937",
-          "width": 60,
-          "x": -1361,
+          "width": 51,
+          "x": -1351,
           "y": 118,
           "zOrder": 215,
           "numberProperties": [],
@@ -12733,6 +12733,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Gestione del mouse",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13558,6 +13559,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Click del mouse sullo stage",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -13867,6 +13869,7 @@
                           "colorG": 176,
                           "colorR": 74,
                           "creationTime": 0,
+                          "folded": true,
                           "name": "Click del mouse per usare l'oggetto selezionato dall'inventario",
                           "source": "",
                           "type": "BuiltinCommonInstructions::Group",
@@ -17072,6 +17075,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Goal2",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Stanza2\"",
+                    ""
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -17465,6 +17497,7 @@
               "comment": "Mostro il fumetto"
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -17477,9 +17510,60 @@
                     "True",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "alreadytyping",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "DialogueTree::ClearState"
+                  },
+                  "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "DialogueTree::StartDialogueFromBranch"
+                  },
+                  "parameters": [
+                    "Player.fumetto"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "texttyping",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "alreadytyping",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -17604,17 +17688,6 @@
                     },
                     {
                       "type": {
-                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "NewText",
-                        "Text",
-                        "=",
-                        "\"Sinistra\""
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "Montre"
                       },
                       "parameters": [
@@ -17657,7 +17730,7 @@
                       "parameters": [
                         "Fumetto",
                         "=",
-                        "Player.X()+20",
+                        "Player.X()+40",
                         "=",
                         "Player.Y() - 24"
                       ]
@@ -17676,91 +17749,11 @@
                     },
                     {
                       "type": {
-                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "NewText",
-                        "Text",
-                        "=",
-                        "\"Destra\""
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "Montre"
                       },
                       "parameters": [
                         "Fumetto",
                         ""
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Comment",
-                  "color": {
-                    "b": 109,
-                    "g": 230,
-                    "r": 255,
-                    "textB": 0,
-                    "textG": 0,
-                    "textR": 0
-                  },
-                  "comment": "Scelgo il testo da visualizzare"
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "VarScene"
-                      },
-                      "parameters": [
-                        "alreadytyping",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "DialogueTree::ClearState"
-                      },
-                      "parameters": []
-                    },
-                    {
-                      "type": {
-                        "value": "DialogueTree::StartDialogueFromBranch"
-                      },
-                      "parameters": [
-                        "Player.fumetto"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "texttyping",
-                        "=",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "alreadytyping",
-                        "=",
-                        "1"
                       ]
                     }
                   ]
@@ -17854,7 +17847,6 @@
               "comment": "Scrivo il testo nella casella di testo"
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -17932,12 +17924,23 @@
                     },
                     {
                       "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "NewText",
+                        "Text",
+                        "=",
+                        "\"Start\""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "PlaySound"
                       },
                       "parameters": [
                         "",
                         "rpg text.wav",
-                        "",
+                        "1",
                         "20",
                         "1"
                       ]
@@ -17961,24 +17964,51 @@
                       ]
                     }
                   ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "DialogueTree::IsDialogueRunning"
+                  },
+                  "parameters": []
                 },
                 {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "DialogueTree::HasClippedTextScrollingCompleted"
-                      },
-                      "parameters": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "DialogueTree::GoToNextLine"
-                      },
-                      "parameters": []
-                    }
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "parla",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "NewText",
+                    "Text",
+                    "=",
+                    "\"Finito\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "texttyping",
+                    "=",
+                    "0"
                   ]
                 }
               ]
@@ -18277,7 +18307,7 @@
           "isLocked": false,
           "name": "Collisioni",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -18330,7 +18360,7 @@
           "isLocked": false,
           "name": "Collisioni2",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -18568,11 +18598,127 @@
           "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Stanza2",
+      "name": "Stanza2",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
     }
   ],
   "externalEvents": [
     {
-      "associatedLayout": "Schema1",
+      "associatedLayout": "Stanza1",
       "name": "PathFinding",
       "events": [
         {

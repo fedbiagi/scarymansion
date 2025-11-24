@@ -4,8 +4,8 @@
 		"tags": "",
 		"body": "Se trovo un rubinetto posso chiudere l'acqua!!",
 		"position": {
-			"x": -12842,
-			"y": 606
+			"x": -12748,
+			"y": 786
 		},
 		"colorID": 0
 	},
@@ -14,8 +14,8 @@
 		"tags": "",
 		"body": "Il fuoco nasconde qualcosa al suo interno. Devo trovare il modo per spengerlo!!",
 		"position": {
-			"x": -12625,
-			"y": 385
+			"x": -12659,
+			"y": 227
 		},
 		"colorID": 0
 	},
@@ -24,18 +24,18 @@
 		"tags": "",
 		"body": "Con quel secchio potrei raccogliere dell'acqua!!",
 		"position": {
-			"x": -13061,
-			"y": 383
+			"x": -13305,
+			"y": 165
 		},
 		"colorID": 0
 	},
 	{
 		"title": "BauleChiuso",
 		"tags": "",
-		"body": "Il baule è chiuso a chiave. Serve una chiave a forma di fiori per aprirlo.",
+		"body": "Il forziere è chiuso a chiave. Serve una chiave a forma di fiori per aprirlo.",
 		"position": {
-			"x": -13061,
-			"y": 605
+			"x": -13063,
+			"y": 603
 		},
 		"colorID": 0
 	},
@@ -44,18 +44,18 @@
 		"tags": "",
 		"body": "Sei troppo lontano per prendere quell'oggetto!!",
 		"position": {
-			"x": -12623,
-			"y": 607
+			"x": -12582,
+			"y": 471
 		},
 		"colorID": 0
 	},
 	{
 		"title": "UsareOggettoLontano",
 		"tags": "",
-		"body": "Se troppo lontano per usare l'oggetto!!",
+		"body": "Sei troppo lontano per usare l'oggetto!!",
 		"position": {
-			"x": -13060,
-			"y": 171
+			"x": -14144,
+			"y": 316
 		},
 		"colorID": 0
 	},
@@ -64,8 +64,8 @@
 		"tags": "",
 		"body": "Quella si che è una fontana da brividi!! Ma dove sono capitato!!??",
 		"position": {
-			"x": -12845,
-			"y": 171
+			"x": -13584,
+			"y": 313
 		},
 		"colorID": 0
 	},
@@ -74,8 +74,8 @@
 		"tags": "",
 		"body": "Quella porta è chiusa a chiave. Serve una chiave a forma di cuori.",
 		"position": {
-			"x": -12582,
-			"y": 112
+			"x": -12980,
+			"y": 138
 		},
 		"colorID": 0
 	},
@@ -84,8 +84,48 @@
 		"tags": "",
 		"body": "Qualla porta è chiusa a chiave. Serve una chiave a forma di picche.",
 		"position": {
-			"x": -12868,
-			"y": 355
+			"x": -13132,
+			"y": 363
+		},
+		"colorID": 0
+	},
+	{
+		"title": "SecchioPienoStage",
+		"tags": "",
+		"body": "Ho riempito il secchio!! Ora posso spegnere il fuoco.",
+		"position": {
+			"x": -13867,
+			"y": 314
+		},
+		"colorID": 0
+	},
+	{
+		"title": "RubinettoStage",
+		"tags": "",
+		"body": "Con questo rubinetto posso chiudere la tubatura dell'acqua!!",
+		"position": {
+			"x": -13336,
+			"y": 559
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ChiaveFioriStage",
+		"tags": "",
+		"body": "Non vorrei sbagliarmi ma per aprire il forziere serve proprio una chiave a forma di fiori...",
+		"position": {
+			"x": -13524,
+			"y": 884
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ChiaveCuoriStage",
+		"tags": "",
+		"body": "Se la memoria non mi inganna per aprire la porta più piccola serve proprio una chiave a forma di cuori.",
+		"position": {
+			"x": -13956,
+			"y": 658
 		},
 		"colorID": 0
 	}
