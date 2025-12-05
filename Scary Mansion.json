@@ -1596,6 +1596,14 @@
         "name": "NewSprite8",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Rubinetto.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Rubinetto",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -11596,6 +11604,55 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "Chiuso",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Rubinetto",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 29,
+                            "y": 0
+                          },
+                          {
+                            "x": 29,
+                            "y": 29
+                          },
+                          {
+                            "x": 0,
+                            "y": 29
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -12853,7 +12910,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Gestione del mouse",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13679,7 +13735,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Click del mouse sullo stage",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -13705,13 +13760,11 @@
                           "colorG": 176,
                           "colorR": 74,
                           "creationTime": 0,
-                          "folded": true,
                           "name": "Click del mouse su un oggetto da raccogliere",
                           "source": "",
                           "type": "BuiltinCommonInstructions::Group",
                           "events": [
                             {
-                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -13989,7 +14042,6 @@
                           "colorG": 176,
                           "colorR": 74,
                           "creationTime": 0,
-                          "folded": true,
                           "name": "Click del mouse per usare l'oggetto selezionato dall'inventario",
                           "source": "",
                           "type": "BuiltinCommonInstructions::Group",
@@ -14433,7 +14485,6 @@
                                   "comment": "Usa la chiave a fiori sul baule"
                                 },
                                 {
-                                  "folded": true,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [
                                     {
@@ -14457,162 +14508,317 @@
                                         "=",
                                         "\"Chiuso\""
                                       ]
-                                    },
-                                    {
-                                      "type": {
-                                        "value": "StringObjectVariable"
-                                      },
-                                      "parameters": [
-                                        "Player",
-                                        "equipaggiamento",
-                                        "=",
-                                        "ChiaveFiori.ObjectName()"
-                                      ]
                                     }
                                   ],
                                   "actions": [],
                                   "events": [
                                     {
+                                      "folded": true,
                                       "type": "BuiltinCommonInstructions::Standard",
                                       "conditions": [
-                                        {
-                                          "type": {
-                                            "value": "CollisionNP"
-                                          },
-                                          "parameters": [
-                                            "Player",
-                                            "RaggiodiAzione",
-                                            "",
-                                            "",
-                                            "no"
-                                          ]
-                                        },
                                         {
                                           "type": {
                                             "value": "StringObjectVariable"
                                           },
                                           "parameters": [
-                                            "RaggiodiAzione",
-                                            "Oggetto",
+                                            "Player",
+                                            "equipaggiamento",
                                             "=",
-                                            "\"Baule\""
+                                            "ChiaveFiori.ObjectName()"
                                           ]
                                         }
                                       ],
-                                      "actions": [
-                                        {
-                                          "type": {
-                                            "value": "SetBooleanVariable"
-                                          },
-                                          "parameters": [
-                                            "condizione",
-                                            "True",
-                                            "tmp + 1"
-                                          ]
-                                        }
-                                      ],
+                                      "actions": [],
                                       "events": [
-                                        {
-                                          "folded": true,
-                                          "type": "BuiltinCommonInstructions::Standard",
-                                          "conditions": [],
-                                          "actions": [
-                                            {
-                                              "type": {
-                                                "value": "SetStringObjectVariable"
-                                              },
-                                              "parameters": [
-                                                "Selezione",
-                                                "oggetto_contenuto",
-                                                "=",
-                                                "\"\""
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "SetStringObjectVariable"
-                                              },
-                                              "parameters": [
-                                                "Player",
-                                                "equipaggiamento",
-                                                "=",
-                                                "\"\""
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "Delete"
-                                              },
-                                              "parameters": [
-                                                "ChiaveFiori",
-                                                ""
-                                              ]
-                                            },
-                                            {
-                                              "type": {
-                                                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                                              },
-                                              "parameters": [
-                                                "Baule",
-                                                "Animation",
-                                                "=",
-                                                "\"Sbloccato\""
-                                              ]
-                                            }
-                                          ],
-                                          "events": [
-                                            {
-                                              "type": "BuiltinCommonInstructions::ForEach",
-                                              "object": "Selezione",
-                                              "conditions": [],
-                                              "actions": [
-                                                {
-                                                  "type": {
-                                                    "value": "Cache"
-                                                  },
-                                                  "parameters": [
-                                                    "Selezione"
-                                                  ]
-                                                }
-                                              ]
-                                            }
-                                          ]
-                                        },
                                         {
                                           "type": "BuiltinCommonInstructions::Standard",
                                           "conditions": [
                                             {
                                               "type": {
-                                                "value": "BooleanVariable"
+                                                "value": "CollisionNP"
                                               },
                                               "parameters": [
-                                                "condizione",
-                                                "False",
-                                                "0"
+                                                "Player",
+                                                "RaggiodiAzione",
+                                                "",
+                                                "",
+                                                "no"
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "StringObjectVariable"
+                                              },
+                                              "parameters": [
+                                                "RaggiodiAzione",
+                                                "Oggetto",
+                                                "=",
+                                                "\"Baule\""
                                               ]
                                             }
                                           ],
                                           "actions": [
                                             {
                                               "type": {
-                                                "value": "SetBooleanObjectVariable"
+                                                "value": "SetBooleanVariable"
+                                              },
+                                              "parameters": [
+                                                "condizione",
+                                                "True",
+                                                "tmp + 1"
+                                              ]
+                                            }
+                                          ],
+                                          "events": [
+                                            {
+                                              "folded": true,
+                                              "type": "BuiltinCommonInstructions::Standard",
+                                              "conditions": [],
+                                              "actions": [
+                                                {
+                                                  "type": {
+                                                    "value": "SetStringObjectVariable"
+                                                  },
+                                                  "parameters": [
+                                                    "Selezione",
+                                                    "oggetto_contenuto",
+                                                    "=",
+                                                    "\"\""
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "SetStringObjectVariable"
+                                                  },
+                                                  "parameters": [
+                                                    "Player",
+                                                    "equipaggiamento",
+                                                    "=",
+                                                    "\"\""
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "Delete"
+                                                  },
+                                                  "parameters": [
+                                                    "ChiaveFiori",
+                                                    ""
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                                  },
+                                                  "parameters": [
+                                                    "Baule",
+                                                    "Animation",
+                                                    "=",
+                                                    "\"Sbloccato\""
+                                                  ]
+                                                }
+                                              ],
+                                              "events": [
+                                                {
+                                                  "type": "BuiltinCommonInstructions::ForEach",
+                                                  "object": "Selezione",
+                                                  "conditions": [],
+                                                  "actions": [
+                                                    {
+                                                      "type": {
+                                                        "value": "Cache"
+                                                      },
+                                                      "parameters": [
+                                                        "Selezione"
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "BuiltinCommonInstructions::Standard",
+                                              "conditions": [
+                                                {
+                                                  "type": {
+                                                    "value": "BooleanVariable"
+                                                  },
+                                                  "parameters": [
+                                                    "condizione",
+                                                    "False",
+                                                    "0"
+                                                  ]
+                                                }
+                                              ],
+                                              "actions": [
+                                                {
+                                                  "type": {
+                                                    "value": "SetBooleanObjectVariable"
+                                                  },
+                                                  "parameters": [
+                                                    "Player",
+                                                    "parla",
+                                                    "True",
+                                                    "Oggetti_da_raccogliere.ObjectName()"
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "SetStringObjectVariable"
+                                                  },
+                                                  "parameters": [
+                                                    "Player",
+                                                    "fumetto",
+                                                    "=",
+                                                    "\"UsareOggettoLontano\""
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "StringObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "equipaggiamento",
+                                            "=",
+                                            "ChiaveCuori.ObjectName()"
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [],
+                                      "events": [
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "CollisionNP"
                                               },
                                               "parameters": [
                                                 "Player",
-                                                "parla",
-                                                "True",
-                                                "Oggetti_da_raccogliere.ObjectName()"
+                                                "RaggiodiAzione",
+                                                "",
+                                                "",
+                                                "no"
                                               ]
                                             },
                                             {
                                               "type": {
-                                                "value": "SetStringObjectVariable"
+                                                "value": "StringObjectVariable"
                                               },
                                               "parameters": [
-                                                "Player",
-                                                "fumetto",
+                                                "RaggiodiAzione",
+                                                "Oggetto",
                                                 "=",
-                                                "\"UsareOggettoLontano\""
+                                                "\"Baule\""
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "SetBooleanVariable"
+                                              },
+                                              "parameters": [
+                                                "condizione",
+                                                "True",
+                                                "tmp + 1"
+                                              ]
+                                            }
+                                          ],
+                                          "events": [
+                                            {
+                                              "folded": true,
+                                              "type": "BuiltinCommonInstructions::Standard",
+                                              "conditions": [],
+                                              "actions": [
+                                                {
+                                                  "type": {
+                                                    "value": "SetBooleanObjectVariable"
+                                                  },
+                                                  "parameters": [
+                                                    "Player",
+                                                    "parla",
+                                                    "True",
+                                                    "Oggetti_da_raccogliere.ObjectName()"
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "SetStringObjectVariable"
+                                                  },
+                                                  "parameters": [
+                                                    "Player",
+                                                    "fumetto",
+                                                    "=",
+                                                    "\"ChiaveCuoriBaule\""
+                                                  ]
+                                                }
+                                              ],
+                                              "events": [
+                                                {
+                                                  "type": "BuiltinCommonInstructions::ForEach",
+                                                  "object": "Selezione",
+                                                  "conditions": [],
+                                                  "actions": [
+                                                    {
+                                                      "type": {
+                                                        "value": "Cache"
+                                                      },
+                                                      "parameters": [
+                                                        "Selezione"
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "BuiltinCommonInstructions::Standard",
+                                              "conditions": [
+                                                {
+                                                  "type": {
+                                                    "value": "BooleanVariable"
+                                                  },
+                                                  "parameters": [
+                                                    "condizione",
+                                                    "False",
+                                                    "0"
+                                                  ]
+                                                }
+                                              ],
+                                              "actions": [
+                                                {
+                                                  "type": {
+                                                    "value": "SetBooleanObjectVariable"
+                                                  },
+                                                  "parameters": [
+                                                    "Player",
+                                                    "parla",
+                                                    "True",
+                                                    "Oggetti_da_raccogliere.ObjectName()"
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "SetStringObjectVariable"
+                                                  },
+                                                  "parameters": [
+                                                    "Player",
+                                                    "fumetto",
+                                                    "=",
+                                                    "\"UsareOggettoLontano\""
+                                                  ]
+                                                }
                                               ]
                                             }
                                           ]
@@ -14849,7 +15055,6 @@
                                   "comment": "Usa la chiave a cuori sulla porta piccola"
                                 },
                                 {
-                                  "folded": true,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [
                                     {
@@ -15047,7 +15252,6 @@
                               ]
                             },
                             {
-                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -15074,7 +15278,6 @@
                                   "comment": "Chiudi il rubinetto"
                                 },
                                 {
-                                  "folded": true,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [
                                     {
@@ -15178,6 +15381,17 @@
                                             "True",
                                             "Oggetti_da_raccogliere.ObjectName()"
                                           ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetStringObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "fumetto",
+                                            "=",
+                                            "\"UsareOggettoLontano\""
+                                          ]
                                         }
                                       ]
                                     }
@@ -15193,7 +15407,6 @@
                               ]
                             },
                             {
-                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -15220,7 +15433,6 @@
                                   "comment": "Apri il baule"
                                 },
                                 {
-                                  "folded": true,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [
                                     {
@@ -15324,6 +15536,17 @@
                                             "True",
                                             "Oggetti_da_raccogliere.ObjectName()"
                                           ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetStringObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "fumetto",
+                                            "=",
+                                            "\"UsareOggettoLontano\""
+                                          ]
                                         }
                                       ]
                                     }
@@ -15349,7 +15572,6 @@
                                   "comment": "Apri la porta grande"
                                 },
                                 {
-                                  "folded": true,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [
                                     {
@@ -15464,6 +15686,17 @@
                                             "True",
                                             "Oggetti_da_raccogliere.ObjectName()"
                                           ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetStringObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "fumetto",
+                                            "=",
+                                            "\"UsareOggettoLontano\""
+                                          ]
                                         }
                                       ]
                                     }
@@ -15489,7 +15722,6 @@
                                   "comment": "Apri la porta piccola"
                                 },
                                 {
-                                  "folded": true,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [
                                     {
@@ -15592,6 +15824,17 @@
                                             "parla",
                                             "True",
                                             "Oggetti_da_raccogliere.ObjectName()"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetStringObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "fumetto",
+                                            "=",
+                                            "\"UsareOggettoLontano\""
                                           ]
                                         }
                                       ]
@@ -16102,7 +16345,6 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
-                  "folded": true,
                   "name": "Scelta oggetto dall'inventario",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -16351,6 +16593,17 @@
                     "ChiaveFiori",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Fuoco",
+                    "Animation",
+                    "=",
+                    "\"Spento\""
+                  ]
                 }
               ]
             },
@@ -16397,6 +16650,17 @@
                     "Animation",
                     "=",
                     "\"Chiusa\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Rubinetto",
+                    "Animation",
+                    "=",
+                    "\"Chiuso\""
                   ]
                 }
               ]
@@ -18471,7 +18735,7 @@
           "isLocked": false,
           "name": "Collisioni",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -18524,7 +18788,7 @@
           "isLocked": false,
           "name": "Collisioni2",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -34485,7 +34749,7 @@
           "isLocked": false,
           "name": "Collisioni",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -34538,7 +34802,7 @@
           "isLocked": false,
           "name": "Collisioni2",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
