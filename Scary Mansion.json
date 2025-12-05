@@ -1604,6 +1604,14 @@
         "name": "Rubinetto",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Tubo5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Tubo",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -11763,6 +11771,55 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "Chiuso",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Tubo",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 101,
+                            "y": 0
+                          },
+                          {
+                            "x": 101,
+                            "y": 37
+                          },
+                          {
+                            "x": 0,
+                            "y": 37
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -13735,6 +13792,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Click del mouse sullo stage",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -13760,11 +13818,13 @@
                           "colorG": 176,
                           "colorR": 74,
                           "creationTime": 0,
+                          "folded": true,
                           "name": "Click del mouse su un oggetto da raccogliere",
                           "source": "",
                           "type": "BuiltinCommonInstructions::Group",
                           "events": [
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -13795,6 +13855,14 @@
                                     "inventariato",
                                     "False",
                                     ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "Visible"
+                                  },
+                                  "parameters": [
+                                    "Oggetti_da_raccogliere"
                                   ]
                                 }
                               ],
@@ -14042,6 +14110,7 @@
                           "colorG": 176,
                           "colorR": 74,
                           "creationTime": 0,
+                          "folded": true,
                           "name": "Click del mouse per usare l'oggetto selezionato dall'inventario",
                           "source": "",
                           "type": "BuiltinCommonInstructions::Group",
@@ -14485,6 +14554,7 @@
                                   "comment": "Usa la chiave a fiori sul baule"
                                 },
                                 {
+                                  "folded": true,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [
                                     {
@@ -14847,7 +14917,6 @@
                                   "comment": "Usa il rubinetto"
                                 },
                                 {
-                                  "folded": true,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [
                                     {
@@ -15055,6 +15124,7 @@
                                   "comment": "Usa la chiave a cuori sulla porta piccola"
                                 },
                                 {
+                                  "folded": true,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [
                                     {
@@ -15278,6 +15348,7 @@
                                   "comment": "Chiudi il rubinetto"
                                 },
                                 {
+                                  "folded": true,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [
                                     {
@@ -15433,6 +15504,7 @@
                                   "comment": "Apri il baule"
                                 },
                                 {
+                                  "folded": true,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [
                                     {
@@ -15572,6 +15644,7 @@
                                   "comment": "Apri la porta grande"
                                 },
                                 {
+                                  "folded": true,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [
                                     {
@@ -15722,6 +15795,7 @@
                                   "comment": "Apri la porta piccola"
                                 },
                                 {
+                                  "folded": true,
                                   "type": "BuiltinCommonInstructions::Standard",
                                   "conditions": [
                                     {
@@ -15847,10 +15921,162 @@
                                       "value": false
                                     }
                                   ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Comment",
+                                  "color": {
+                                    "b": 109,
+                                    "g": 230,
+                                    "r": 255,
+                                    "textB": 0,
+                                    "textG": 0,
+                                    "textR": 0
+                                  },
+                                  "comment": "Apri la tubatura"
+                                },
+                                {
+                                  "folded": true,
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "SourisSurObjet"
+                                      },
+                                      "parameters": [
+                                        "Tubo",
+                                        "CursorX(\"\", 0)",
+                                        "yes",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                                      },
+                                      "parameters": [
+                                        "Tubo",
+                                        "Animation",
+                                        "=",
+                                        "\"Chiuso\""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [],
+                                  "events": [
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "CollisionNP"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "RaggiodiAzione",
+                                            "",
+                                            "",
+                                            "no"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "StringObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "RaggiodiAzione",
+                                            "Oggetto",
+                                            "=",
+                                            "\"Tubo\""
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                          },
+                                          "parameters": [
+                                            "Tubo",
+                                            "Animation",
+                                            "=",
+                                            "\"Completo\""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                                          },
+                                          "parameters": [
+                                            "Fontana",
+                                            "Animation",
+                                            "=",
+                                            "\"Cascata\""
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetBooleanVariable"
+                                          },
+                                          "parameters": [
+                                            "condizione",
+                                            "True",
+                                            "tmp + 1"
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "BooleanVariable"
+                                          },
+                                          "parameters": [
+                                            "condizione",
+                                            "False",
+                                            "0"
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "SetBooleanObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "parla",
+                                            "True",
+                                            "Oggetti_da_raccogliere.ObjectName()"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "SetStringObjectVariable"
+                                          },
+                                          "parameters": [
+                                            "Player",
+                                            "fumetto",
+                                            "=",
+                                            "\"UsareOggettoLontano\""
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "variables": [
+                                    {
+                                      "name": "condizione",
+                                      "type": "boolean",
+                                      "value": false
+                                    }
+                                  ]
                                 }
                               ]
                             },
                             {
+                              "folded": true,
                               "type": "BuiltinCommonInstructions::Standard",
                               "conditions": [
                                 {
@@ -16345,6 +16571,7 @@
                   "colorG": 176,
                   "colorR": 74,
                   "creationTime": 0,
+                  "folded": true,
                   "name": "Scelta oggetto dall'inventario",
                   "source": "",
                   "type": "BuiltinCommonInstructions::Group",
@@ -16657,7 +16884,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "Rubinetto",
+                    "Tubo",
                     "Animation",
                     "=",
                     "\"Chiuso\""
